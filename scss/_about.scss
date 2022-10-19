@@ -216,33 +216,712 @@
 
 
 @media (min-width:1025px) and (max-width:1200px){
+    .container{
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
     
-}
-
-
-
-
-
-
-
-@media (min-width:641px) and (max-width:1024px){
-   
-}
-
-
-
-
-@media (min-width:481px) and (max-width:640px){
+        //BLOCK HEADER
+        
     
-}
-
-
-
-
-@media (min-width:320px) and (max-width:480px){
+        //BLOCK ABOUT AS
+        #cont_descripcion_foto{
+            width: 100%;
+            //background:$colorAzul;
+            background-size:100% 500px;
+            background-repeat:no-repeat ;
+            position: relative;
+            .contBase{
+                width: 100%;
+                padding: 150px 0px;
+                background:white;
+                display: flex;
+                flex-direction:row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                //align-items: center;
+                .contenedor_izq{
+                    margin-left: 20px;
+                    .contenedorIzq_parrBtn{
+                        width: 500px;
+                        height: 270px;
+                        position: absolute;
+                        left: 20px;
+                        bottom:0px;
+                        .descripcion_acerca{
+                            text-align: justify;
+                            color:$colorAzul;
+                            font-weight: 300;
+                            font-size: 18px;
+                            .formms{
+                                color: $colorAzulOscuro;
+                            }    
+                        }
+                        .btnAcerca{
+                            width: 200px;
+                            padding: 5px;
+                            background: $colorAzul;
+                            color: white;
+                            font-size: 18px;
+                            font-weight: 300;
+                            margin-top: 20px;
+                            margin-left: 10px;
+                            float: right;
+                            border-radius: 10px;
+                            transition-duration: 0.1s;
+                            transition-timing-function: ease;
+                            cursor: pointer;
+                            .iconAB{
+                                margin-left: 5px;
+                                font-size: 25px;
+                                color: $colorVerde;
+                            }
+                        }
+                        
+                    }
+        
+                }
+               
+            }
     
+           
+        }
+    
+        //BLOCK FOOTER
+        
+    }
 }
 
+
+
+
+/*
+RESPONSIVE DESING OFICIAL NUEVO
+@media (min-width:1025px) and (max-width:1200px){}     175px
+@media (min-width:900px)  and (max-width:1024px){}     124px
+@media (min-width:770px)  and (max-width:899px){}      129px
+@media (min-width:641px)  and (max-width:769px){}      128px
+@media (min-width:481px)  and (max-width:640px){}      159px
+@media (min-width:320px)  and (max-width:480px){}      160px
+
+*/
+
+
+@media (min-width:900px) and (max-width:1024px){
+    .container{
+        width: 100%;
+        max-width: 1440px;
+        margin: auto;
+        //padding: 10px 0px;
+    
+        //BLOCK HEADER  
+    
+        //BLOCK ABOUT AS
+        #cont_descripcion_foto{
+            width: 100%;
+            //background:$colorAzul;
+            background-size:100% 500px;
+            background-repeat:no-repeat ;
+            position: relative;
+            .contBase{
+                width: 100%;
+                padding: 150px 0px;
+                background:white;
+                display: flex;
+                flex-direction:row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                //align-items: center;
+                .contenedor_izq{
+                    width:50%;
+                    height: 500px;
+                    margin-left: 20px;
+                    position: relative;
+                    .titulo_acerca{
+                        width: 450px;
+                        height: 300px;
+                        margin-top: 30px    ;
+                        font-size: 60px;
+                        color:$colorAzulOscuro; 
+                        line-height: 70px;
+                        letter-spacing: $letterSpacing; 
+                        position: absolute;
+                        top: 0;
+                        
+                    }
+                    
+                    .contenedorIzq_parrBtn{
+                        width: 450px;
+                        height: 270px;
+                        position: absolute;
+                        left: 0px;
+                        bottom:0px;
+                        .descripcion_acerca{
+                            text-align: justify;
+                            color:$colorAzul;
+                            font-weight: 300;
+                            font-size: 18px;
+                            .formms{
+                                color: $colorAzulOscuro;
+                            }    
+                        }
+                        .btnAcerca{
+                            width: 200px;
+                            padding: 5px;
+                            background: $colorAzul;
+                            color: white;
+                            font-size: 18px;
+                            font-weight: 300;
+                            margin-top: 20px;
+                            margin-left: 10px;
+                            float: right;
+                            border-radius: 10px;
+                            transition-duration: 0.1s;
+                            transition-timing-function: ease;
+                            cursor: pointer;
+                            .iconAB{
+                                margin-left: 5px;
+                                font-size: 25px;
+                                color: $colorVerde;
+                            }
+                        }
+                        
+                    }
+        
+                }
+                .contenedor_der{
+                    width: 40%;
+                    //margin-right: 50px;
+                    display: flex;
+                    flex-direction: column;    
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 10px;
+                    .contenedor_der_image{
+                        width: 350px;
+                        height: 350px;
+                        border:2px solid $colorAzul;
+                        border-radius:50%;
+                        box-shadow: 0px 0px 5px $colorAzul;
+                        transition: 0.1s all linear;
+                        overflow: hidden;
+                        background:$colorVerde;
+                        transition: 1s all;
+                        .foto{
+                            //mix-blend-mode:multiply;    
+                        }    
+                    }
+                } 
+            }
+    
+           
+        }
+    
+        //BLOCK FOOTER
+        .cont_descripcion_footer{
+            width: 100%;
+            padding: 20px 0px;
+            background:$colorAzul;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .cont_descripcion_logo{
+                width: 60px;
+                height:60px;
+                margin-left: 20px;
+            }
+            .cont_descripcion_reserved{
+                padding: 5px;
+                .cont_descripcion_reserved_text{
+                    color: white;
+                    .text{
+                        color: $colorVerde;
+                    }
+                }
+            }
+            .cont_descripcion_redes{
+                width: 300px;
+                padding: 10px 0px;
+                margin-right: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .cont_descripcion_redes_social{
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .conRed{
+                        font-size: 25px;
+                        color: white;
+                        transition: 0.5s all;
+                    }
+                    .conRed:hover{
+                        color:$colorVerde;
+                        cursor: pointer;
+                    }
+    
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media (min-width:770px) and (max-width:899px){
+    .container{
+        /*width: 100%;
+        max-width: 1440px;
+        margin: auto;*/
+        //padding: 10px 0px;
+        //BLOCK HEADER
+        .containerHeader{
+
+            /*width: 100%;
+            padding: 15px 0px;
+            background:$colorAzulOscuro;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            z-index: 10;
+            background: teal;*/
+
+            .containerHeader_logo{
+                /*width: 290px;
+                height: 80px;
+                margin-left: 20px;*/
+            }
+            .containerHeader_ul{
+                width: 100%;
+                height: 82vh;
+                padding: 0px;
+                display: flex;
+                flex-direction:column;
+                justify-content: space-around;
+                align-items: center;
+                position: absolute;
+                left: -100%;
+                top: 100px;
+
+                .containerHeader_ul_li{
+                    width: 100%;
+                    height:20vh ;
+                    padding:0px;
+                    list-style: none;
+                    text-align: center;
+                    background: $colorAzul;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: 0.3s linear;
+                    .containerHeader_ul_li_a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                    
+                }
+                .containerHeader_ul_li:hover{
+                    background: $colorAzulOscuro;
+                    cursor: pointer;
+                    .containerHeader_ul_li_a{
+                        text-decoration: none;
+                        color:$colorVerde;
+                    }
+                }
+    
+            }
+
+            .containerHeader_btn{
+                width: 50px;
+                height: 50px;
+                background: peru;
+                margin-right: 20px;
+                display: block;
+            }
+        }
+    
+        //BLOCK ABOUT AS
+        #cont_descripcion_foto{
+            width: 100%;
+            //background:$colorAzul;
+            background-size:100% 500px;
+            background-repeat:no-repeat ;
+            position: relative;
+            .contBase{
+                width: 100%;
+                padding: 150px 0px;
+                background:white;
+                display: flex;
+                flex-direction:row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                //align-items: center;
+                .contenedor_izq{
+                    width:50%;
+                    height: 450px;
+                    margin-left: 20px;
+                    position: relative;
+                    .titulo_acerca{
+                        width: 500px;
+                        height: 300px;
+                        margin-top: 30px    ;
+                        font-size: 50px;
+                        color:$colorAzulOscuro; 
+                        line-height: 60px;
+                        letter-spacing: $letterSpacing; 
+                        position: absolute;
+                        top: 0;
+                        
+                    }
+                    
+                    .contenedorIzq_parrBtn{
+                        width: 400px;
+                        height: 270px;
+                        position: absolute;
+                        left: 0px;
+                        bottom:0px;
+                        .descripcion_acerca{
+                            text-align: justify;
+                            color:$colorAzul;
+                            font-weight: 300;
+                            .formms{
+                                color: $colorAzulOscuro;
+                                font-size: 16px;
+
+                            }    
+                        }
+                        .btnAcerca{
+                            width: 150px;
+                            padding: 5px;
+                            background: $colorAzul;
+                            color: white;
+                            font-size: 18px;
+                            font-weight: 300;
+                            margin-top: 20px;
+                            margin-left: 10px;
+                            float: right;
+                            border-radius: 10px;
+                            transition-duration: 0.1s;
+                            transition-timing-function: ease;
+                            cursor: pointer;
+                            .iconAB{
+                                margin-left: 5px;
+                                font-size: 25px;
+                                color: $colorVerde;
+                            }
+                        }
+                        
+                    }
+        
+                }
+                .contenedor_der{
+                    width: 40%;
+                    //margin-right: 50px;
+                    display: flex;
+                    flex-direction: column;    
+                    justify-content: center;
+                    align-items: center;
+                    .contenedor_der_image{
+                        width: 300px;
+                        height: 300px;
+                        border:2px solid $colorAzul;
+                        border-radius:50%;
+                        box-shadow: 0px 0px 5px $colorAzul;
+                        transition: 0.1s all linear;
+                        overflow: hidden;
+                        background:$colorVerde;
+                        transition: 1s all;
+                        .foto{
+                            //mix-blend-mode:multiply;    
+                        }    
+                    }
+                } 
+            }
+    
+           
+        }
+    
+        //BLOCK FOOTER
+        .cont_descripcion_footer{
+            width: 100%;
+            padding: 20px 0px;
+            background:$colorAzul;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .cont_descripcion_logo{
+                width: 60px;
+                height:60px;
+                margin-left: 20px;
+            }
+            .cont_descripcion_reserved{
+                padding: 5px;
+                .cont_descripcion_reserved_text{
+                    color: white;
+                    .text{
+                        color: $colorVerde;
+                    }
+                }
+            }
+            .cont_descripcion_redes{
+                width: 300px;
+                padding: 10px 0px;
+                margin-right: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .cont_descripcion_redes_social{
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .conRed{
+                        font-size: 25px;
+                        color: white;
+                        transition: 0.5s all;
+                    }
+                    .conRed:hover{
+                        color:$colorVerde;
+                        cursor: pointer;
+                    }
+    
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (min-width:320px)  and (max-width:769px){
+    .container{
+       
+        .containerHeader{
+            background: teal;
+
+            .containerHeader_logo{
+                width: 240px;
+                height: 70px;
+                margin-left: 20px;
+            }
+            
+            .containerHeader_ul{
+                width: 100%;
+                height: 82vh;
+                padding: 0px;
+                display: flex;
+                flex-direction:column;
+                justify-content: space-around;
+                align-items: center;
+                position: absolute;
+                left: -100%;
+                top: 100px;
+
+                .containerHeader_ul_li{
+                    width: 100%;
+                    height:20vh ;
+                    padding:0px;
+                    list-style: none;
+                    text-align: center;
+                    background: $colorAzul;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: 0.3s linear;
+                    .containerHeader_ul_li_a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                    
+                }
+                .containerHeader_ul_li:hover{
+                    background: $colorAzulOscuro;
+                    cursor: pointer;
+                    .containerHeader_ul_li_a{
+                        text-decoration: none;
+                        color:$colorVerde;
+                    }
+                }
+    
+            }
+
+            .containerHeader_btn{
+                width: 50px;
+                height: 50px;
+                background: peru;
+                margin-right: 20px;
+                display: block;
+            }
+        }
+    
+        //BLOCK ABOUT AS
+        #cont_descripcion_foto{
+            width: 100%;
+            //background:$colorAzul;
+            background-size:100% 500px;
+            background-repeat:no-repeat ;
+            position: relative;
+            .contBase{
+                width: 100%;
+                padding: 120px 0px;
+                background:white;
+                display: flex;
+                flex-direction:row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                //align-items: center;
+                .contenedor_izq{
+                    width:100%;
+                    height: 580px;
+                    padding: 20px;
+                    margin-left:initial;
+                    position: relative;
+                    .titulo_acerca{
+                        width: 300px;
+                        height: 300px;
+                        margin-top: 30px    ;
+                        font-size: 45px;
+                        color:$colorAzulOscuro; 
+                        line-height: 55px;
+                        letter-spacing: $letterSpacing; 
+                        position: absolute;
+                        top: 0;
+                        
+                    }
+                    
+                    .contenedorIzq_parrBtn{
+                        width: 100%;
+                        padding: 20px;
+                        height: 430px;
+                        position: absolute;
+                        left: 0px;
+                        bottom:0px;
+                        .descripcion_acerca{
+                            text-align: justify;
+                            color:$colorAzul;
+                            font-weight: 300;
+                            .formms{
+                                color: $colorAzulOscuro;
+                                font-size: 16px;
+
+                            }    
+                        }
+                        .btnAcerca{
+                            width: 150px;
+                            padding: 5px;
+                            background: $colorAzul;
+                            color: white;
+                            font-size: 18px;
+                            font-weight: 300;
+                            margin-top: 20px;
+                            margin-left: 10px;
+                            float: right;
+                            border-radius: 10px;
+                            transition-duration: 0.1s;
+                            transition-timing-function: ease;
+                            cursor: pointer;
+                            .iconAB{
+                                margin-left: 5px;
+                                font-size: 25px;
+                                color: $colorVerde;
+                            }
+                        }
+                        
+                    }
+        
+                }
+                .contenedor_der{
+                    width: 100%;
+                    //margin-right: 50px;
+                    display: flex;
+                    flex-direction: column;    
+                    justify-content: center;
+                    align-items: center;
+                    .contenedor_der_image{
+                        width: 300px;
+                        height: 300px;
+                        border:2px solid $colorAzul;
+                        border-radius:50%;
+                        box-shadow: 0px 0px 5px $colorAzul;
+                        transition: 0.1s all linear;
+                        overflow: hidden;
+                        background:$colorVerde;
+                        transition: 1s all;
+                        .foto{
+                            //mix-blend-mode:multiply;    
+                        }    
+                    }
+                } 
+            }
+    
+           
+        }
+    
+        //BLOCK FOOTER
+        .cont_descripcion_footer{
+            width: 100%;
+            padding: 20px 0px;
+            background:$colorAzul;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .cont_descripcion_logo{
+                width: 60px;
+                height:60px;
+                margin-left: 20px;
+            }
+            .cont_descripcion_reserved{
+                padding: 5px;
+                .cont_descripcion_reserved_text{
+                    color: white;
+                    .text{
+                        color: $colorVerde;
+                    }
+                }
+            }
+            .cont_descripcion_redes{
+                width: 300px;
+                padding: 10px 0px;
+                margin-right: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .cont_descripcion_redes_social{
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .conRed{
+                        font-size: 25px;
+                        color: white;
+                        transition: 0.5s all;
+                    }
+                    .conRed:hover{
+                        color:$colorVerde;
+                        cursor: pointer;
+                    }
+    
+                }
+            }
+        }
+    }
+}
 
 
 

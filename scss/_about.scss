@@ -481,9 +481,7 @@
             background: teal;*/
 
             .containerHeader_logo{
-                /*width: 290px;
-                height: 80px;
-                margin-left: 20px;*/
+                
             }
             .containerHeader_ul{
                 width: 100%;
@@ -694,6 +692,7 @@
     .container{
        
         .containerHeader{
+            //background: rebeccapurple;
 
             .containerHeader_logo{
                 width: 240px;
@@ -749,46 +748,48 @@
     
         //BLOCK ABOUT AS
         #cont_descripcion_foto{
+            margin-top: 80px;
             width: 100%;
+            padding: 10px 0px;
             //background:$colorAzul;
             background-size:100% 500px;
             background-repeat:no-repeat ;
-            position: relative;
+            position: initial;
             .contBase{
                 width: 100%;
-                padding: 120px 0px;
-                background:white;
+                padding: 20px 0px;
                 display: flex;
-                flex-direction:row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                //align-items: center;
+                flex-direction:column;
+                flex-wrap: initial;
+                justify-content:center;
+                align-items: center;
                 .contenedor_izq{
                     width:100%;
-                    height: 580px;
+                    height:initial;
                     padding: 20px;
                     margin-left:initial;
-                    position: relative;
+                    position: initial;
                     .titulo_acerca{
                         width: 300px;
-                        height: 300px;
-                        margin-top: 30px    ;
+                        height: initial;
+                        padding: 10px 0px;
+                        margin-top: initial;
                         font-size: 45px;
                         color:$colorAzulOscuro; 
                         line-height: 55px;
                         letter-spacing: $letterSpacing; 
-                        position: absolute;
-                        top: 0;
+                        position:initial;
+                        top:initial;
                         
                     }
                     
                     .contenedorIzq_parrBtn{
                         width: 100%;
-                        padding: 20px;
-                        height: 430px;
-                        position: absolute;
-                        left: 0px;
-                        bottom:0px;
+                        padding: 20px 0px;
+                        height: initial;
+                        position: initial;
+                        left: initial;
+                        bottom:initial;
                         .descripcion_acerca{
                             text-align: justify;
                             color:$colorAzul;
@@ -807,12 +808,8 @@
                             font-size: 18px;
                             font-weight: 300;
                             margin-top: 20px;
-                            margin-left: 10px;
-                            float: right;
+                            margin-right: 10px;
                             border-radius: 10px;
-                            transition-duration: 0.1s;
-                            transition-timing-function: ease;
-                            cursor: pointer;
                             .iconAB{
                                 margin-left: 5px;
                                 font-size: 25px;
@@ -840,9 +837,7 @@
                         overflow: hidden;
                         background:$colorVerde;
                         transition: 1s all;
-                        .foto{
-                            //mix-blend-mode:multiply;    
-                        }    
+    
                     }
                 } 
             }

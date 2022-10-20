@@ -212,9 +212,6 @@
 
 
 
-
-
-
 @media (min-width:1025px) and (max-width:1200px){
     .container{
         width: 100%;
@@ -295,16 +292,6 @@
 
 
 
-/*
-RESPONSIVE DESING OFICIAL NUEVO
-@media (min-width:1025px) and (max-width:1200px){}     175px
-@media (min-width:900px)  and (max-width:1024px){}     124px
-@media (min-width:770px)  and (max-width:899px){}      129px
-@media (min-width:641px)  and (max-width:769px){}      128px
-@media (min-width:481px)  and (max-width:640px){}      159px
-@media (min-width:320px)  and (max-width:480px){}      160px
-
-*/
 
 
 @media (min-width:900px) and (max-width:1024px){
@@ -706,11 +693,10 @@ RESPONSIVE DESING OFICIAL NUEVO
 
 
 
-@media (min-width:320px)  and (max-width:769px){
+@media (min-width:481px)  and (max-width:769px){
     .container{
        
         .containerHeader{
-            background: teal;
 
             .containerHeader_logo{
                 width: 240px;
@@ -876,8 +862,9 @@ RESPONSIVE DESING OFICIAL NUEVO
             padding: 20px 0px;
             background:$colorAzul;
             display: flex;
+            flex-wrap: wrap;
             flex-direction: row;
-            justify-content: space-between;
+            justify-content: space-around;
             align-items: center;
             .cont_descripcion_logo{
                 width: 60px;
@@ -894,7 +881,7 @@ RESPONSIVE DESING OFICIAL NUEVO
                 }
             }
             .cont_descripcion_redes{
-                width: 300px;
+                width: 220px;
                 padding: 10px 0px;
                 margin-right: 20px;
                 display: flex;
@@ -925,4 +912,238 @@ RESPONSIVE DESING OFICIAL NUEVO
 
 
 
+@media (min-width:320px)  and (max-width:480px){
+    .container{
+       
+        .containerHeader{
+            .containerHeader_logo{
+                width: 210px;
+                height: 65px;
+                margin-left: 10px;
+            }
+            
+            .containerHeader_ul{
+                width: 100%;
+                height: 82vh;
+                padding: 0px;
+                display: flex;
+                flex-direction:column;
+                justify-content: space-around;
+                align-items: center;
+                position: absolute;
+                left: -100%;
+                top: 100px;
 
+                .containerHeader_ul_li{
+                    width: 100%;
+                    height:20vh ;
+                    padding:0px;
+                    list-style: none;
+                    text-align: center;
+                    background: $colorAzul;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    transition: 0.3s linear;
+                    .containerHeader_ul_li_a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                    
+                }
+                .containerHeader_ul_li:hover{
+                    background: $colorAzulOscuro;
+                    cursor: pointer;
+                    .containerHeader_ul_li_a{
+                        text-decoration: none;
+                        color:$colorVerde;
+                    }
+                }
+    
+            }
+
+            .containerHeader_btn{
+                width: 40px;
+                height: 40px;
+                margin-right: 20px;
+                display: block;
+            }
+        }
+    
+        //BLOCK ABOUT AS
+        #cont_descripcion_foto{
+            margin-top: 80px;
+            width: 100%;
+            background:$colorAzul;
+            background-size:100% 500px;
+            background-repeat:no-repeat ;
+            position: initial;
+            .contBase{
+                width: 100%;
+                padding: 0px 0px; 
+                display: flex;
+                flex-direction:column;
+                flex-wrap:initial;
+                justify-content: space-between;
+                //align-items: center;
+                .contenedor_izq{
+                    width:100%;
+                    height:initial;
+                    padding: 20px 10px;
+                    margin-left:initial;
+                    position: initial;
+                    .titulo_acerca{
+                        width: 100%;
+                        height:initial;
+                        padding: 0px 10px;
+                        margin-top: 30px    ;
+                        font-size: 42px;
+                        color:$colorAzulOscuro; 
+                        line-height: 52px;
+                        letter-spacing: $letterSpacing; 
+                        position: initial;
+                        top: initial;
+                        left: initial;
+                        
+                    }
+                    
+                    .contenedorIzq_parrBtn{
+                        width: 100%;
+                        padding: 10px;
+                        height: initial;
+                        position: initial;
+                        left: initial;
+                        top:initial;
+                        .descripcion_acerca{
+                            text-align: justify;
+                            color:$colorAzul;
+                            font-weight: 300;
+                            .formms{
+                                color: $colorAzulOscuro;
+                                font-size: 16px;
+
+                            }    
+                        }
+                        .btnAcerca{
+                            width: 100%;
+                            margin: auto;
+                            padding: 3px;
+                            background: $colorAzul;
+                            color: white;
+                            font-size: 16px;
+                            font-weight: 300;
+                            margin-top: 10px;
+                            margin-left:initial;
+                            float:initial;
+                            border-radius: 10px;
+                            transition-duration: 0.1s;
+                            transition-timing-function: ease;
+                            cursor: pointer;
+                            .iconAB{
+                                margin-left: 5px;
+                                font-size: 25px;
+                                color: $colorVerde;
+                            }
+                        }
+                        
+                    }
+        
+                }
+
+                
+                .contenedor_der{
+                    width: 100%;
+                    margin-top: 0px;
+                    display: flex;
+                    flex-direction: column;    
+                    justify-content: center;
+                    align-items: center;
+                    .contenedor_der_image{
+                        width: 280px;
+                        height: 280px;
+                        border:2px solid $colorAzul;
+                        border-radius:50%;
+                        box-shadow: 0px 0px 5px $colorAzul;
+                        transition: 0.1s all linear;
+                        overflow: hidden;
+                        background:$colorVerde;
+                        transition: 1s all;
+                        .foto{
+                            //mix-blend-mode:multiply;    
+                        }    
+                    }
+                } 
+            }       
+        }
+    
+        //BLOCK FOOTER
+        .cont_descripcion_footer{
+            margin-top: 50px;
+            width: 100%;
+            padding: 30px 0px;
+            background:$colorAzul;
+            display: flex;
+            flex-wrap: initial;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .cont_descripcion_logo{
+                width: 60px;
+                height:60px;
+                margin: auto;
+            }
+            .cont_descripcion_reserved{
+                margin-top: 5px;
+                padding: 5px;
+                .cont_descripcion_reserved_text{
+                    color: white;
+                    .text{
+                        color: $colorVerde;
+                    }
+                }
+            }
+            .cont_descripcion_redes{
+                width: 50%;
+                padding: 10px 0px;
+                margin:auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .cont_descripcion_redes_social{
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .conRed{
+                        font-size: 25px;
+                        color: white;
+                        transition: 0.5s all;
+                    }
+                    .conRed:hover{
+                        color:$colorVerde;
+                        cursor: pointer;
+                    }
+    
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+/*
+RESPONSIVE DESING OFICIAL NUEVO
+@media (min-width:1025px) and (max-width:1200px){}     175px
+@media (min-width:900px)  and (max-width:1024px){}     124px
+@media (min-width:770px)  and (max-width:899px){}      129px
+@media (min-width:641px)  and (max-width:769px){}      128px
+@media (min-width:481px)  and (max-width:640px){}      159px
+@media (min-width:320px)  and (max-width:480px){}      160px
+
+*/

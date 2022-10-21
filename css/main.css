@@ -113,6 +113,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 100%;
   max-width: 1440px;
   margin: auto;
+  overflow: hidden;
 }
 .container .containerHeader {
   width: 100%;
@@ -528,7 +529,7 @@ body::-webkit-scrollbar-thumb:hover {
     align-items: center;
     position: absolute;
     left: -100%;
-    top: 100px;
+    top: 110px;
     transition: 0.5s all;
   }
   .container .containerHeader .containerHeader_ul .containerHeader_ul_li {
@@ -705,7 +706,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .container .containerHeader .containerHeader_ul {
     width: 100%;
-    height: 82vh;
+    height: 85vh;
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -713,7 +714,8 @@ body::-webkit-scrollbar-thumb:hover {
     align-items: center;
     position: absolute;
     left: -100%;
-    top: 100px;
+    top: 90px;
+    transition: 0.5s all;
   }
   .container .containerHeader .containerHeader_ul .containerHeader_ul_li {
     width: 100%;
@@ -738,6 +740,9 @@ body::-webkit-scrollbar-thumb:hover {
   .container .containerHeader .containerHeader_ul .containerHeader_ul_li:hover .containerHeader_ul_li_a {
     text-decoration: none;
     color: #56fbd3;
+  }
+  .container .containerHeader .containerHeader_ul_JS {
+    left: 0;
   }
   .container .containerHeader .containerHeader_btn {
     margin-right: 10px;
@@ -888,7 +893,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .container .containerHeader .containerHeader_ul {
     width: 100%;
-    height: 82vh;
+    height: 85vh;
     padding: 0px;
     display: flex;
     flex-direction: column;
@@ -896,7 +901,8 @@ body::-webkit-scrollbar-thumb:hover {
     align-items: center;
     position: absolute;
     left: -100%;
-    top: 100px;
+    top: 90px;
+    transition: 0.5s all;
   }
   .container .containerHeader .containerHeader_ul .containerHeader_ul_li {
     width: 100%;
@@ -921,6 +927,9 @@ body::-webkit-scrollbar-thumb:hover {
   .container .containerHeader .containerHeader_ul .containerHeader_ul_li:hover .containerHeader_ul_li_a {
     text-decoration: none;
     color: #56fbd3;
+  }
+  .container .containerHeader .containerHeader_ul_JS {
+    left: 0;
   }
   .container .containerHeader .containerHeader_btn {
     margin-right: 10px;

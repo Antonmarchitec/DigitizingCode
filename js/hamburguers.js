@@ -15,9 +15,9 @@
 
 
 //SCRIPT PERSONALIZADO PARA ABRIR EL BOTON
-let cont_headerDesktop_menu = document.querySelector("#cont_headerDesktop_menu")
-let btnResponsive = document.querySelector("#btnResponsive")
+let containerHeader_ul = document.querySelector("#containerHeader_ul")
+let containerHeader_btn = document.querySelector("#containerHeader_btn")
 
-btnResponsive.addEventListener("click", () =>{
-   cont_headerDesktop_menu.classList.toggle("cont_headerDesktop_menu_JS")
+containerHeader_btn.addEventListener("click", () =>{
+  containerHeader_ul.classList.toggle("containerHeader_ul_JS")
 })

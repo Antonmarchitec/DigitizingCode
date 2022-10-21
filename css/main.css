@@ -1399,7 +1399,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .containerHeaderContServicios .containerHeaderContServicios_banner .banner {
     width: 100%;
-    height: 400px;
+    height: 350px;
     background: rgba(12, 27, 50, 0.6980392157);
     display: flex;
     justify-content: center;
@@ -1433,6 +1433,200 @@ body::-webkit-scrollbar-thumb:hover {
 /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
 /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
 /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+.containerBlog {
+  width: 100%;
+}
+.containerBlog .contBlogBloggersBase {
+  width: 100%;
+}
+.containerBlog .contBlogBloggersBase .contBlogBloggers {
+  width: 100%;
+  padding: 50px 0px;
+  background: #060f1d;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_img {
+  width: 280px;
+  height: 280px;
+  border-radius: 5px;
+  transition: 0.5s linear;
+  overflow: hidden;
+}
+.containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc {
+  width: 60%;
+  padding: 5px;
+}
+.containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_title {
+  width: 400px;
+  padding: 5px 0px;
+  font-weight: 600;
+  color: #56fbd3;
+  font-size: 35px;
+  line-height: 30px;
+}
+.containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_parrafo {
+  margin-top: 10px;
+  font-weight: 300;
+  color: white;
+}
+.containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_fuente {
+  color: #96aadb;
+  font-weight: 500;
+}
+.containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton {
+  width: 100%;
+  padding: 3px 0px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_btn {
+  width: 150px;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background: #0c1b32;
+  transition: 0.2s;
+  border-radius: 5px;
+}
+.containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_btn:hover {
+  background: rgba(12, 27, 50, 0.6980392157);
+}
+.containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_contIcons {
+  width: auto;
+  padding: 2px 0px;
+  margin-right: 10px;
+}
+.containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_contIcons .blogIcons {
+  color: #56fbd3;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_contIcons .campo {
+  color: white;
+}
+.containerBlog .contBlogBloggersBase .contBlogBloggers .blogSeparador {
+  margin-top: 20px;
+  width: 80%;
+  height: 2px;
+  border: none;
+  background: rgba(5, 5, 39, 0.322);
+}
+.containerBlog .contBlogNumerador {
+  width: 160px;
+  height: 50px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.containerBlog .contBlogNumerador .contBlogNumerador_box {
+  width: 45px;
+  height: 30px;
+  background: #0c1b32;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s all;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 3px;
+}
+.containerBlog .contBlogNumerador .contBlogNumerador_box:hover {
+  background: rgba(12, 27, 50, 0.6980392157);
+  cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 423px) {
+  .containerBlog {
+    width: 100%;
+  }
+  .containerBlog .contBlogBloggersBase {
+    width: 100%;
+  }
+  .containerBlog .contBlogBloggersBase .contBlogBloggers {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_img {
+    margin-top: 20px;
+    width: 100%;
+    height: 280px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 5px 0px;
+  }
+  .containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+  }
+  .containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_title {
+    width: 100%;
+    padding: 5px 0px;
+    font-weight: 600;
+    color: #56fbd3;
+    line-height: 30px;
+  }
+  .containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_parrafo {
+    margin-top: 10px;
+    font-weight: 300;
+    color: white;
+  }
+  .containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton {
+    width: 100%;
+    padding: 3px 0px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_btn {
+    width: 150px;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: transparent;
+    transition: 0.2s;
+    border-radius: 5px;
+    border: 2px solid #56fbd3;
+  }
+  .containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_btn:hover {
+    background: #0c1b32;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  .containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_contIcons {
+    width: auto;
+    padding: 2px 0px;
+    margin-left: 5px;
+  }
+  .containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_contIcons .blogIcons {
+    color: #56fbd3;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  .containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_contIcons .campo {
+    color: white;
+  }
+}
 .contBtnTop {
   position: fixed;
   right: 20px;

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--LINKS PERSONALIZADOS-->
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="./css/preloader.css">
+
+    <!------BTN RESPONSIVE HAMBURGUER CDN------------->
+    <link rel="stylesheet" href="css/hamburgers.css">
+
+    <!------ANIMATE CDN------------->
+    <link rel="stylesheet" href="./css/animate.min.css">
+
+    <!------FONT AWESON CDN------------->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b7fb745aab.js" crossorigin="anonymous"></script>
+    
+    <!-------GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap" rel="stylesheet">
+    
+
+
+    <title> BlogCode </title>
+</head>
+
+
+<body>
+
+    <!--PRELOADER DE LA PAGINA STAR-->
+    <div class="loader" id="loader">
+        <div class="cssload-thecube">
+          <div class="cssload-cube cssload-c1"></div>
+          <div class="cssload-cube cssload-c2"></div>
+          <div class="cssload-cube cssload-c4"></div>
+          <div class="cssload-cube cssload-c3"></div>
+      </div>
+    </div>
+    <!--PRELOADER DE LA PAGINA END-->
+
+
+    <main class="container" id="container">
+
+       <!--BLOCK HEADER-->
+       <nav class="containerHeader">
+            <div class="containerHeader_logo">
+                <img src="./image/logo.jpg" alt="logo" style="width: 100%; height:100%;">
+            </div>
+
+            <ul class="containerHeader_ul" id="containerHeader_ul">
+                <li class="containerHeader_ul_li">
+                    <a href="index.html" class="containerHeader_ul_li_a"> Acerca de </a>
+                </li>
+                <li class="containerHeader_ul_li">
+                    <a href="servicios.html" class="containerHeader_ul_li_a"> Servicios </a>
+                </li>
+                <li class="containerHeader_ul_li">
+                    <a href="cursos.html" class="containerHeader_ul_li_a"> Cursos </a>
+                </li>
+                <li class="containerHeader_ul_li">
+                    <a href="blog.html" class="containerHeader_ul_li_a"> Blog </a>
+                </li>
+                <li class="containerHeader_ul_li">
+                    <a href="contanto.html" class="containerHeader_ul_li_a"> Contacto </a>
+                </li>
+            </ul>
+
+            <div class="containerHeader_btn" id="containerHeader_btn">
+                <button class="hamburger hamburger--collapse" type="button">
+                    <span class="hamburger-box">
+                      <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+       </nav> 
+
+
+
+
+       <!--BLOCK CONTENEDOR BLOG-->
+       <div class="containerHeaderContServicios">
+
+            <!--BLOCK BANNER-->
+            <div class="containerHeaderContServicios_banner">
+                <div class="banner">
+                    <h1 class="containerHeaderContServicios_banner_title 
+                    wow animate__animated animate__fadeInUp" style="animation-delay: 1.5s;"> Blogs </h1>
+                </div>
+            </div>
+
+            <!--BLOCK CONTENEDOR BLOGS-->
+            <div class="containerBlog">
+                <!--BLOQUE ARTICULOS-->
+                <div class="contBlogBloggersBase" id="contBlogBloggersBase">
+                    
+        
+                    <template id="template_article">
+                        <article class="contBlogBloggers">
+                            <figure class="contBlogBloggers_img
+                            wow animate__animated animate__backInLeft" style="animation-duration:1s;">
+                                <img style="width:100%; height:100%;" id="imgBlog">
+                            </figure>
+            
+                            <div class="contBlogBloggers_desc">
+                                <h1 class="contBloggers_desc_title" id="titleBlog">EL PERFIL DE UN DESARROLLADOR</h1>   
+            
+                                <p class="contBloggers_desc_parrafo
+                                wow animate__animated animate__fadeInUp" style="animation-duration:1s;" id="parrafoBlog">
+                                    Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur...
+                                    
+                                </p>
+
+                                <p class="contBloggers_desc_fuente
+                                wow animate__animated animate__fadeInUp" style="animation-duration:1.5s;" id="fuente">
+                                    texto
+                                </p>
+            
+                                <div class="contBloggers_desc_IconButton
+                                wow animate__animated animate__fadeInUp" style="animation-duration:1.7s;">
+                                    <button class="contBloggers_desc_btn" id="btnBlog"> Read More</button>
+                                    <div class="contBloggers_desc_contIcons">
+                                        <i class="blogIcons fa-solid fa-heart-circle-check"></i>
+                                        <span class ="campo" id="num+"> 0 </span>
+                                        <i class="blogIcons fa-solid fa-message"></i>
+                                        <span class ="campo" id="num-"> 0 </span>
+                                    </div>
+                                    
+        
+                                </div>
+                            </div>
+                            
+                            <hr class="blogSeparador">
+                        </article> 
+                    </template>
+                </div>
+
+                <!--BLOQUE NUMERADOR-->
+                <div class="contBlogNumerador">
+                    <div class="contBlogNumerador_box" id="numBlogUno"> 1 </div>
+                    <div class="contBlogNumerador_box" id="numBlogdos"> 2 </div>
+                    <div class="contBlogNumerador_box" id="numBlogtres"> 3 </div>
+                    
+                </div>
+            </div>
+       </div>
+
+
+
+
+
+       <!--BLOCK FOOTER-->
+       <footer class="cont_descripcion_footer">
+         <figure class="cont_descripcion_logo">
+            <img src="./image/logo para facce y youtube.jpg " alt="logo" style="width:100%;height:100%;">
+         </figure>
+
+         <div class="cont_descripcion_reserved">
+            <p class="cont_descripcion_reserved_text"> Reserved 2022 Antonio Ponce 
+                <span class="text"> || DigitizingCode</p> 
+         </div>
+
+         <div class="cont_descripcion_redes">
+            <a href="https://www.facebook.com/digitizingCode/" target="_blank">
+                <div class="cont_descripcion_redes_social">
+                    <i class="conRed fab fa-facebook-square"></i>
+                </div>
+            </a>
+            
+            <a href="https://www.instagram.com/antom_ap/?hl=es-la" target="_blank">
+                <div class="cont_descripcion_redes_social">
+                    <i class="conRed fab fa-instagram-square"></i>
+                </div>
+            </a>
+
+            <a href="https://linkedin.com/in/antonio-dennis-ponce-salazar-255243225" target="_blank">
+                <div class="cont_descripcion_redes_social">
+                    <i class="conRed fab fa-linkedin" target="_blank"></i>
+                </div>
+            </a>
+
+            <a href="https://twitter.com/AntonioDennisP1" target="_blank">
+                <div class="cont_descripcion_redes_social">
+                    <i class="conRed fab fa-twitter-square"></i>
+                </div>
+            </a>
+
+            <a href="/">
+                <div class="cont_descripcion_redes_social" target="_blank">
+                    <i class="conRed fab fa-youtube"></i>
+                </div>
+            </a>
+         </div>
+       </footer>
+    </main>
+
+    <!--BTN-TOP-->
+    <div class="contBtnTop" >
+        <a href="#container"><i class="iconTop fas fa-caret-square-up" id="iconTop"></i></a>
+    </div>
+
+
+
+
+
+
+
+
+
+    
+
+    <!--SCRIPTS BTN TOP-->
+    <script src="js/btnTop.js"></script>
+
+    <!--SCRIPTS SERVICIOS-->
+    <script src="./js/templates/templates_services.js"></script>
+
+    <!--SCRIPTS BLOG-->
+    <script src="./js/templates/templates_blog.js"></script>
+
+     <!--SCRIPT DE EFECTO PRELOADER-->
+     <script src="./js/preloader.js"></script>
+
+    <!--SCRIPT DE ANIMATION EL SCROLLING-->
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!--SCRIPT DE BTN HAMBURGUESA-->
+    <script src="js/hamburguers.js"></script>
+    
+    
+    
+</body>
+</html>

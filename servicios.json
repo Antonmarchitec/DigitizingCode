@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "title":"Sitios web y landing page",
+        "imagen":"./image/SERVICIOS/SITIOS_WEB.png",
+        "descripcion": "Diseño de sitios web y landing page totalmente personalizados con adaptabilidad a cualquier dispositivo: equipos de escritorio, tablet y dispositivos móviles."
+    },   
+    {
+        "id":2,
+        "title":"Asesoria frontEnd",
+        "imagen":"./image/SERVICIOS/ASESORAMOS.png",
+        "descripcion": "Si estás iniciando en el desarrollo web, puedo asesorarte para que tomes la mejor ruta de aprendizaje, en base en mi experiencia."
+    },   
+    {
+        "id":3,
+        "title":"Diseño grafico",
+        "imagen":"./image/SERVICIOS/DISEÑO_GRAFICO.png",
+        "descripcion": "Personalización de logotipos y artes publicitarios para tu negocio o emprendimiento."
+    },   
+    {
+        "id":4,
+        "title":"Páginas One page",
+        "imagen":"./image/SERVICIOS/ONE_PAGE.png",
+        "descripcion": "Diseño de páginas one page a medida para tu negocio o emprendimiento donde podras presentar todo tus servicios en una sola pagina."
+    },   
+    {
+        "id":5,
+        "title":"Páginas corporativas",
+        "imagen":"./image/SERVICIOS/LANDING_NAME.png",
+        "descripcion": "Desarrollo de paginas web corporativas hechas a medida y con todas las caracteristicas que represente a tu empresa."
+    },   
+    
+    {
+        "id":6,
+        "title":"Páginas presenciales",
+        "imagen":"./image/SERVICIOS/PRESENCIALES.png",
+        "descripcion": "Desarrollo de paginas web para negocios pequeños o que estan iniciando, muestra tus productos o servicios."
+    },
+    {
+        "id":7,
+        "title":"Landing name",
+        "imagen":"./image/SERVICIOS/CORPORATIVA.png",
+        "descripcion": "Una landing promocionando tu nombre y tu marca integrando tu curriculum web personalizado."
+    },
+    
+    {
+        "id":8,
+        "title":"Podcast web",
+        "imagen":"./image/SERVICIOS/POSDCAST.png",
+        "descripcion": "Una página web para compartir tus conocimientos, servicios o productos en formato de audio."
+    }  
+    
+]  
+
+
+
+    
+  

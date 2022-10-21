@@ -25,9 +25,8 @@
             background: $colorAzulTransparente;
             display: flex;
             justify-content: center;
-            align-items:flex-start;
+            align-items:center;
             .containerHeaderContServicios_banner_title{
-                margin-top: 40px;
                 color: white;
                 font-size: 100px;
             }
@@ -350,11 +349,12 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                .containerHeaderContServicios_banner_title{
+                    color: white;
+                    font-size: 100px;
+                }
             }
-            .containerHeaderContServicios_banner_title{
-                color: white;
-                font-size: 100px;
-            }
+            
         }
     } 
 }
@@ -372,11 +372,12 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                .containerHeaderContServicios_banner_title{
+                    color: white;
+                    font-size: 80px;
+                }
             }
-            .containerHeaderContServicios_banner_title{
-                color: white;
-                font-size: 60px;
-            }
+            
         }
     } 
 }

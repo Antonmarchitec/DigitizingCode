@@ -97,7 +97,7 @@ a{
 
 body{
     scroll-behavior:unset;
-
+    
 }
 
 body::-webkit-scrollbar{
@@ -117,3 +117,6 @@ body::-webkit-scrollbar-thumb:hover{
 @import "variables";
 @import "about";
 @import "servicios";
+@import "blog";
+@import "btnTop";
+@import "_btnWatts";

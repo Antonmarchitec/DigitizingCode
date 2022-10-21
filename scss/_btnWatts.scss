@@ -1,0 +1,34 @@
+@import "variables";
+
+.contBtnWatts{
+    width: 40px;
+    height: 40px;
+    position:fixed;
+    bottom: 75px;
+    right: 20px;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .iconWatt{
+        color: white;
+        font-size: 40px;
+        color: rgb(78, 242, 89);
+    }
+}
+
+
+@media (min-width:320px) and (max-width:423px){
+    .contBtnWatts{
+        width: 40px;
+        height: 40px;
+        position:fixed;
+        bottom: 75px;
+        right: 20px;
+        z-index: 20;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}

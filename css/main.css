@@ -1103,10 +1103,9 @@ body::-webkit-scrollbar-thumb:hover {
   background: rgba(12, 27, 50, 0.6980392157);
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 .containerHeaderContServicios .containerHeaderContServicios_banner .banner .containerHeaderContServicios_banner_title {
-  margin-top: 40px;
   color: white;
   font-size: 100px;
 }
@@ -1406,7 +1405,7 @@ body::-webkit-scrollbar-thumb:hover {
     justify-content: center;
     align-items: center;
   }
-  .containerHeaderContServicios .containerHeaderContServicios_banner .containerHeaderContServicios_banner_title {
+  .containerHeaderContServicios .containerHeaderContServicios_banner .banner .containerHeaderContServicios_banner_title {
     color: white;
     font-size: 100px;
   }
@@ -1426,13 +1425,78 @@ body::-webkit-scrollbar-thumb:hover {
     justify-content: center;
     align-items: center;
   }
-  .containerHeaderContServicios .containerHeaderContServicios_banner .containerHeaderContServicios_banner_title {
+  .containerHeaderContServicios .containerHeaderContServicios_banner .banner .containerHeaderContServicios_banner_title {
     color: white;
-    font-size: 60px;
+    font-size: 80px;
   }
 }
 /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
 /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
 /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+.contBtnTop {
+  position: fixed;
+  right: 20px;
+  bottom: 140px;
+  z-index: 40;
+}
+.contBtnTop .iconTop {
+  font-size: 40px;
+  color: #56fbd3;
+  opacity: 0;
+  transition: 0.5s all;
+  transform: scale(0, 0);
+  animation: moverTop;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes moverTop {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+.contBtnTop .iconTopJS {
+  opacity: 1;
+  transform: scale(0.8, 0.8);
+  cursor: pointer;
+  position: relative;
+  z-index: 2000;
+}
+
+.contBtnWatts {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  bottom: 75px;
+  right: 20px;
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contBtnWatts .iconWatt {
+  color: white;
+  font-size: 40px;
+  color: rgb(78, 242, 89);
+}
+
+@media (min-width: 320px) and (max-width: 423px) {
+  .contBtnWatts {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 75px;
+    right: 20px;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

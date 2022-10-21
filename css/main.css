@@ -1094,7 +1094,8 @@ body::-webkit-scrollbar-thumb:hover {
 .containerHeaderContServicios .containerHeaderContServicios_banner {
   width: 100%;
   background-image: url(../image/banner.jpg);
-  background-size: 100%;
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 .containerHeaderContServicios .containerHeaderContServicios_banner .banner {
   width: 100%;

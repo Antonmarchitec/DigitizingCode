@@ -1860,6 +1860,109 @@ RESPONSIVE DESING OFICIAL NUEVO
 @media (min-width:481px)  and (max-width:640px){}      159px
 @media (min-width:320px)  and (max-width:480px){}      160px
 */
+.containerContact {
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  background: rgb(255, 255, 255);
+}
+.containerContact .containerContactBig {
+  width: 85%;
+  padding: 120px 0px;
+  background: #060f1d;
+  margin: auto;
+  position: relative;
+}
+.containerContact .containerContactBig .containerContact_blockSup {
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: -90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.containerContact .containerContactBig .containerContact_blockSup .containerContact_blockSup_box {
+  width: 170px;
+  height: 150px;
+  padding-top: 35px;
+  text-align: center;
+  background: #0c1b32;
+  position: relative;
+}
+.containerContact .containerContactBig .containerContact_blockSup .containerContact_blockSup_box .containerContact_blockSup_box_img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 5px #56fbd3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0c1b32;
+  position: absolute;
+  top: -30px;
+  left: calc(50% - 30px);
+}
+.containerContact .containerContactBig .containerContact_blockSup .containerContact_blockSup_box .containerContact_blockSup_box_img .iconContact {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+.containerContact .containerContactBig .containerContact_blockSup .containerContact_blockSup_box .containerContact_blockSup_box_title {
+  color: #56fbd3;
+}
+.containerContact .containerContactBig .containerContact_blockSup .containerContact_blockSup_box .containerContact_blockSup_box_Parrafo {
+  color: white;
+  font-size: 15px;
+}
+.containerContact .containerContactBig .containerContact_form {
+  width: 80%;
+  margin: auto;
+  padding: 10px 0px;
+}
+.containerContact .containerContactBig .containerContact_form .containerContact_form_caja {
+  width: 100%;
+  padding: 10px 0px;
+  background: transparent;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerContact .containerContactBig .containerContact_form .containerContact_form_caja .input {
+  width: 48%;
+  background: transparent;
+  border: none;
+  box-shadow: 0px 1px 0px #56fbd3;
+  color: white;
+  padding: 10px 0px;
+}
+.containerContact .containerContactBig .containerContact_form .containerContact_form_caja .textTarea {
+  width: 100%;
+  background: transparent;
+  padding: 10px 0px;
+  border: none;
+  color: white;
+  resize: none;
+  box-shadow: 0px 1px 0px #56fbd3;
+}
+.containerContact .containerContactBig .containerContact_form .button {
+  width: 200px;
+  padding: 6px 0px;
+  border-radius: 5px;
+  border: 2px solid #56fbd3;
+  background-color: #56fbd3;
+  color: #060f1d;
+  margin-top: 50px;
+  margin-left: calc(50% - 100px);
+  cursor: pointer;
+  transition: 0.2s all;
+}
+.containerContact .containerContactBig .containerContact_form .button:hover {
+  background-color: #0c1b32;
+  color: #56fbd3;
+}
+
 .contBtnTop {
   position: fixed;
   right: 20px;

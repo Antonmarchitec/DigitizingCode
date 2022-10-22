@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/hamburgers.css">
 
     <!------ANIMATE CDN------------->
-    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
 
     <!------FONT AWESON CDN------------->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -27,7 +27,7 @@
     
 
 
-    <title> DigitizingCode </title>
+    <title> ContactCode </title>
 </head>
 
 
@@ -41,11 +41,11 @@
           <div class="cssload-cube cssload-c4"></div>
           <div class="cssload-cube cssload-c3"></div>
       </div>
-      </div>
+    </div>
     <!--PRELOADER DE LA PAGINA END-->
 
 
-    <main class="container">
+    <main class="container" id="container">
 
        <!--BLOCK HEADER-->
        <nav class="containerHeader">
@@ -61,14 +61,13 @@
                     <a href="servicios.html" class="containerHeader_ul_li_a"> Servicios </a>
                 </li>
                 <li class="containerHeader_ul_li">
-                    <a href="https://antonmarchitec.github.io/project_ap/" target="_blank"
-                     class="containerHeader_ul_li_a"> Portafolio </a>
+                    <a href="https://antonmarchitec.github.io/project_ap/" class="containerHeader_ul_li_a"> Portafolio </a>
                 </li>
                 <li class="containerHeader_ul_li">
                     <a href="blog.html" class="containerHeader_ul_li_a"> Blog </a>
                 </li>
                 <li class="containerHeader_ul_li">
-                    <a href="contacto.html" class="containerHeader_ul_li_a"> Contacto </a>
+                    <a href="contanto.html" class="containerHeader_ul_li_a"> Contacto </a>
                 </li>
             </ul>
 
@@ -81,46 +80,92 @@
             </div>
        </nav> 
 
-       <!--BLOCK ABOUT-->
-       <div id="cont_descripcion_foto">
-        <div class="contBase">
 
-          <!--CONTENEDOR QUIEN SOY-->
-          <div class="contenedor_izq">
-            <h2 class="titulo_acerca
-            wow animate__animated animate__fadeInUp" style="animation-duration: 1s;animation-delay: 0.8s;">¿Quién está detrás de DigitizingCode?</h2>
-             
-            <div class="contenedorIzq_parrBtn">
-              <p class="descripcion_acerca
-                wow animate__animated animate__fadeInUp" style="animation-duration: 1s; animation-delay: 1s;">
-                Hola, mi nombre es Antonio Ponce y soy un emprendedor freelancer con formación en Ing. De Sistemas, amante del mundo digital, actualmente me encuentro incursionando en el diseño y desarrollo web FrontEnd y mi principal meta es ser un desarrollador de aplicaciones Full Stack. 
-                <br><br>
-                Mi trabajo está dirigido al desarrollo de interfaces web aplicando distintas tecnologías. ¡Si estás interesado en desarrollar algún proyecto para tu negocio o emprendimiento, puedes contactarme dando un click en el botón o puedes enviarme un mensaje llenando el  <a href="#basecontacto" class="formms">formulario de contacto!</a> 
-              </p>
 
-              <a href="https://wa.me/+59170856061?text=Hola%20necesito%20información" target="_blank">
-                <button class="btnAcerca
-                wow animate__animated animate__fadeInUp" style="animation-duration: 1s; animation-delay: 1.5s;">Contacto <i class="iconAB fab fa-whatsapp-square"></i></button>
-              </a>   
-              <a href="contanto.html" target="_blank">
-                <button class="btnAcerca
-                wow animate__animated animate__fadeInUp" style="animation-duration: 1s; animation-delay: 1.5s;">Formulario <i class="iconAB fa-regular fa-file"></i></button>
-              </a>  
+
+       <!--BLOCK CONTENEDOR BLOG-->
+       <div class="containerHeaderContServicios">
+
+            <!--BLOCK BANNER-->
+            <div class="containerHeaderContServicios_banner">
+                <div class="banner">
+                    <h1 class="containerHeaderContServicios_banner_title 
+                    wow animate__animated animate__fadeInUp" style="animation-delay: 1.5s;"> Contacto
+                </h1>
+                </div>
             </div>
-          </div>
 
-          <!--CONTENEDOR FOTO-->
-          <div class="contenedor_der">
-            <div class="contenedor_der_image">
-              <div class="foto">
-               <img src="./image/foto.jpg" alt="foto" style="width: 100%; height:100%;">
-              </div>
+            <!--BLOCK CONTENEDOR CONTACTO-->
+            <div class="containerContact">
+                <div class="containerContactBig">
+                    
+                    <!--BLOCK FLOTANTE SUPERIOR--->
+                    <div class="containerContact_blockSup">
+
+                        <!--BOX 1-->
+                        <div class="containerContact_blockSup_box">
+                            <figure class="containerContact_blockSup_box_img">
+                                <i class="iconContact fa-solid fa-location-dot"></i> 
+                            </figure>
+
+                            <h2 class="containerContact_blockSup_box_title"> Location </h2>
+
+                            <p class="containerContact_blockSup_box_Parrafo"> Santa Cruz - Bolivia </p>
+                        </div>
+
+
+                        <!--BOX 2-->
+                        <div class="containerContact_blockSup_box">
+                            <figure class="containerContact_blockSup_box_img">
+                                <i class="iconContact fa-solid fa-phone-volume"></i>
+                            </figure>
+
+                            <h2 class="containerContact_blockSup_box_title"> Phone </h2>
+
+                            <p class="containerContact_blockSup_box_Parrafo"> +591 70856061 </p>
+                        </div>
+
+                        <!--BOX 3-->
+                        <div class="containerContact_blockSup_box">
+                            <figure class="containerContact_blockSup_box_img">
+                                <i class="iconContact fa-solid fa-envelope-circle-check"></i>                    
+                            </figure>
+
+                            <h2 class="containerContact_blockSup_box_title"> Email </h2>
+
+                            <p class="containerContact_blockSup_box_Parrafo"> digitizingcode@gmail.com</p>
+                        </div>
+
+                    </div> 
+
+
+                    <!--BLOCK FORMULARIO-->
+                    <form action="" method="Post" class="containerContact_form">
+                            <div class="containerContact_form_caja">
+                                <input type="text" placeholder="Nombres" name="nombre"  class="input">
+                                <input type="text" placeholder="Apellidos" name="apellido" class="input">
+                            </div>
+
+                            <div class="containerContact_form_caja">
+                                <input type="text" placeholder="Correo electronico" name="email"  class="input">
+                                <input type="text" placeholder="Telefono / Celular" name="phone" class="input">
+                            </div>
+
+                            <div class="containerContact_form_caja">
+                                <textarea class="textTarea" placeholder=" Dejame tu consulta ">
+
+                                </textarea>
+                            </div>
+
+                            <button type="button" class="button"> Enviar consulta </button>
+                    </form>
+                </div>
             </div>
-            
-          </div>
-
-        </div>
        </div>
+
+
+
+
 
        <!--BLOCK FOOTER-->
        <footer class="cont_descripcion_footer">
@@ -167,6 +212,10 @@
        </footer>
     </main>
 
+    <!--BTN-TOP-->
+    <div class="contBtnTop" >
+        <a href="#container"><i class="iconTop fas fa-caret-square-up" id="iconTop"></i></a>
+    </div>
 
 
 
@@ -175,16 +224,20 @@
 
 
 
+
+    
 
     <!--SCRIPTS BTN TOP-->
-    <script src="mis_scripts/btnTop.js"></script>
+    <script src="js/btnTop.js"></script>
 
+    <!--SCRIPTS SERVICIOS-->
+    <script src="./js/templates/templates_services.js"></script>
+
+    <!--SCRIPTS BLOG-->
+    <script src="./js/templates/templates_blog.js"></script>
 
      <!--SCRIPT DE EFECTO PRELOADER-->
      <script src="./js/preloader.js"></script>
-
-     <!--SCRIPT DE BTN HAMBURGUESA-->
-    <script src="js/hamburguers.js"></script>
 
     <!--SCRIPT DE ANIMATION EL SCROLLING-->
     <script src="./js/wow.min.js"></script>
@@ -192,5 +245,10 @@
         new WOW().init();
     </script>
 
+    <!--SCRIPT DE BTN HAMBURGUESA-->
+    <script src="js/hamburguers.js"></script>
+    
+    
+    
 </body>
 </html>

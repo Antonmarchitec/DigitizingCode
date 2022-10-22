@@ -67,7 +67,7 @@
                     <a href="blog.html" class="containerHeader_ul_li_a"> Blog </a>
                 </li>
                 <li class="containerHeader_ul_li">
-                    <a href="contanto.html" class="containerHeader_ul_li_a"> Contacto </a>
+                    <a href="contacto.html" class="containerHeader_ul_li_a"> Contacto </a>
                 </li>
             </ul>
 
@@ -100,7 +100,8 @@
                 <div class="containerContactBig">
                     
                     <!--BLOCK FLOTANTE SUPERIOR--->
-                    <div class="containerContact_blockSup">
+                    <div class="containerContact_blockSup
+                    wow animate__animated animate__fadeInUp" style="animation-delay: 1s;">
 
                         <!--BOX 1-->
                         <div class="containerContact_blockSup_box">
@@ -140,15 +141,21 @@
 
 
                     <!--BLOCK FORMULARIO-->
-                    <form action="" method="Post" class="containerContact_form">
+                    <form action="enviar.php" method="Post" onsubmit="return validar();"
+                    class="containerContact_form
+                    wow animate__animated animate__fadeInUp" style="animation-delay: 1.5s;">
                             <div class="containerContact_form_caja">
-                                <input type="text" placeholder="Nombres" name="nombre"  class="input">
-                                <input type="text" placeholder="Apellidos" name="apellido" class="input">
+                                <input type="text" placeholder="Nombres" 
+                                name="nombre"  class="input" id="nameForm">
+                                <input type="text" placeholder="Apellidos" 
+                                name="apellido" class="input" id="apellidoForm">
                             </div>
 
                             <div class="containerContact_form_caja">
-                                <input type="text" placeholder="Correo electronico" name="email"  class="input">
-                                <input type="text" placeholder="Telefono / Celular" name="phone" class="input">
+                                <input type="text" placeholder="Correo electronico" 
+                                name="email"  class="input" id="mailForm">
+                                <input type="text" placeholder="Telefono / Celular" 
+                                name="phone" class="input" id="celuForm">
                             </div>
 
                             <div class="containerContact_form_caja">
@@ -157,7 +164,8 @@
                                 </textarea>
                             </div>
 
-                            <button type="button" class="button"> Enviar consulta </button>
+                            <button type="submit" class="button"
+                            onclick="validar()"> Enviar consulta </button>
                     </form>
                 </div>
             </div>
@@ -227,6 +235,12 @@
 
     
 
+    <!--VALIDAR FORMULARIO-->
+    <script src="./js/validacionForm.js"></script>
+
+    <!--SCRIPT DE SWITCH ALERT -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
     <!--SCRIPTS BTN TOP-->
     <script src="js/btnTop.js"></script>
 

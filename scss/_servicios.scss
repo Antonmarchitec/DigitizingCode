@@ -238,7 +238,7 @@
                         }
                     }
                 }
-                @media (min-width: 481px) and (max-width: 640px){
+                @media (min-width: 424px) and (max-width: 640px){
                     .contCuadro{
                         width: calc(50% - 20px);
                         height: 250px;
@@ -265,14 +265,13 @@
                         }
                     }
                 }
-                @media (min-width: 424px) and (max-width: 480px){
+                @media (min-width: 320px) and (max-width: 423px){
                     .contCuadro{
-                        width: calc(100% - 95px);
-                        height: 250px;
-                        //background: chartreuse;
+                        width: calc(100% - 0px);
+                        height:calc(100% - 300px);
                         .contCuadro_imagen{
-                            width: 85%;
-                            height: 250px;
+                            width: 80%;
+                            height:calc(100% - 300px);
                             margin: auto;
                             opacity: 0.5;
                         }
@@ -294,42 +293,29 @@
                             height: 250px;
                             opacity: 0.4;
                         }
+
+                        .contCuadro_descripcion{   //cuadro de ensima superior
+                            .contCuadro_title{
+                                width: 60%;
+                                line-height: 24px;
+                                font-size: 25px;
+                            }
+                            
+                            .contCuadro_parrafo{
+                                text-align: center;
+                                margin-top: 180px;
+                                color: white;
+                                transition: 0.5s all;
+                                font-size: 18px;
+                                margin-top: 15px;
+                                opacity: 1;
+                                font-size: 18px;    
+                            }
+                           
+                        }
                     }
                 }
-                @media (min-width: 320px) and (max-width: 423px){
-                    .contCuadro{
-                        width: calc(100% - 10px);
-                        height: 250px;
-                        .contCuadro_imagen{
-                            width: 85%;
-                            height: 250px;
-                            margin: auto;
-                            opacity: 0.4;
-                        }
-                        .contCuadro_imagen2{
-                            width:85%;
-                            height: 250px;
-                            margin: auto;
-                            opacity: 0.4;
-                        }
-                        .contCuadro_imagen3{
-                            width:85%;
-                            height: 250px;
-                            margin: auto;
-                            opacity: 0.4;
-                        }
-                        .contCuadro_imagen4{
-                            width:85%;
-                            margin: auto;
-                            height: 250px;
-                            opacity: 0.4;
-                        }
-                        .contCuadro_descripcion{
-                            height: 250px;
-                        }
-                        
-                    }
-                }
+               
             }
     
         }
@@ -340,8 +326,7 @@
     .containerHeaderContServicios{
         margin-top: 70px;
         .containerHeaderContServicios_banner{
-            width: 100%;
-           
+            width: 100%;    
             .banner{
                 width: 100%;
                 height: 350px;
@@ -358,6 +343,10 @@
         }
     } 
 }
+
+
+
+
 
 @media (min-width:320px)  and (max-width:480px){
     .containerHeaderContServicios{

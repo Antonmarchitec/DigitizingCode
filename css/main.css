@@ -1300,7 +1300,7 @@ body::-webkit-scrollbar-thumb:hover {
     opacity: 0.4;
   }
 }
-@media (min-width: 481px) and (max-width: 640px) {
+@media (min-width: 424px) and (max-width: 640px) {
   .containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro {
     width: calc(50% - 20px);
     height: 250px;
@@ -1326,14 +1326,14 @@ body::-webkit-scrollbar-thumb:hover {
     opacity: 0.4;
   }
 }
-@media (min-width: 424px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 423px) {
   .containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro {
-    width: calc(100% - 95px);
-    height: 250px;
+    width: calc(100% - 0px);
+    height: calc(100% - 300px);
   }
   .containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro .contCuadro_imagen {
-    width: 85%;
-    height: 250px;
+    width: 80%;
+    height: calc(100% - 300px);
     margin: auto;
     opacity: 0.5;
   }
@@ -1355,38 +1355,20 @@ body::-webkit-scrollbar-thumb:hover {
     height: 250px;
     opacity: 0.4;
   }
-}
-@media (min-width: 320px) and (max-width: 423px) {
-  .containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro {
-    width: calc(100% - 10px);
-    height: 250px;
+  .containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro .contCuadro_descripcion .contCuadro_title {
+    width: 60%;
+    line-height: 24px;
+    font-size: 25px;
   }
-  .containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro .contCuadro_imagen {
-    width: 85%;
-    height: 250px;
-    margin: auto;
-    opacity: 0.4;
-  }
-  .containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro .contCuadro_imagen2 {
-    width: 85%;
-    height: 250px;
-    margin: auto;
-    opacity: 0.4;
-  }
-  .containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro .contCuadro_imagen3 {
-    width: 85%;
-    height: 250px;
-    margin: auto;
-    opacity: 0.4;
-  }
-  .containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro .contCuadro_imagen4 {
-    width: 85%;
-    margin: auto;
-    height: 250px;
-    opacity: 0.4;
-  }
-  .containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro .contCuadro_descripcion {
-    height: 250px;
+  .containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro .contCuadro_descripcion .contCuadro_parrafo {
+    text-align: center;
+    margin-top: 180px;
+    color: white;
+    transition: 0.5s all;
+    font-size: 18px;
+    margin-top: 15px;
+    opacity: 1;
+    font-size: 18px;
   }
 }
 

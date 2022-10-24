@@ -1886,7 +1886,7 @@ RESPONSIVE DESING OFICIAL NUEVO
 .containerContact .containerContactBig .containerContact_blockSup .containerContact_blockSup_box {
   width: 170px;
   height: 150px;
-  padding-top: 35px;
+  padding-top: 65px;
   text-align: center;
   background: #0c1b32;
   position: relative;
@@ -1936,6 +1936,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   box-shadow: 0px 1px 0px #56fbd3;
   color: white;
   padding: 10px 0px;
+  outline: none;
 }
 .containerContact .containerContactBig .containerContact_form .containerContact_form_caja .textTarea {
   width: 100%;
@@ -1945,6 +1946,7 @@ RESPONSIVE DESING OFICIAL NUEVO
   color: white;
   resize: none;
   box-shadow: 0px 1px 0px #56fbd3;
+  outline: none;
 }
 .containerContact .containerContactBig .containerContact_form .button {
   width: 200px;
@@ -1963,6 +1965,113 @@ RESPONSIVE DESING OFICIAL NUEVO
   color: #56fbd3;
 }
 
+@media (min-width: 320px) and (max-width: 423px) {
+  .containerContact {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .containerContact .containerContactBig {
+    width: 95%;
+    padding: 50px 0px;
+    background: #060f1d;
+    margin: auto;
+    position: initial;
+  }
+  .containerContact .containerContactBig .containerContact_blockSup {
+    width: 100%;
+    padding: 10px 0px;
+    margin: auto;
+    position: initial;
+    top: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .containerContact .containerContactBig .containerContact_blockSup .containerContact_blockSup_box {
+    width: 80%;
+    height: 130px;
+    padding-top: 65px;
+    text-align: center;
+    background: #0c1b32;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .containerContact .containerContactBig .containerContact_blockSup .containerContact_blockSup_box .containerContact_blockSup_box_img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px #56fbd3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0c1b32;
+    position: absolute;
+    top: -30px;
+    left: calc(50% - 30px);
+  }
+  .containerContact .containerContactBig .containerContact_blockSup .containerContact_blockSup_box .containerContact_blockSup_box_img .iconContact {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+  }
+  .containerContact .containerContactBig .containerContact_blockSup .containerContact_blockSup_box .containerContact_blockSup_box_title {
+    color: #56fbd3;
+  }
+  .containerContact .containerContactBig .containerContact_blockSup .containerContact_blockSup_box .containerContact_blockSup_box_Parrafo {
+    color: white;
+    font-size: 15px;
+  }
+  .containerContact .containerContactBig .containerContact_form {
+    width: 100%;
+    margin: auto;
+    padding: 10px 0px;
+  }
+  .containerContact .containerContactBig .containerContact_form .containerContact_form_caja {
+    width: 100%;
+    padding: 10px 0px;
+    background: transparent;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .containerContact .containerContactBig .containerContact_form .containerContact_form_caja .input {
+    width: 90%;
+    border: none;
+    box-shadow: 0px 1px 0px #56fbd3;
+    color: white;
+    padding: 10px;
+    outline: none;
+  }
+  .containerContact .containerContactBig .containerContact_form .containerContact_form_caja .textTarea {
+    width: 90%;
+    background: transparent;
+    padding: 10px;
+    border: none;
+    color: white;
+    resize: none;
+    box-shadow: 0px 1px 0px #56fbd3;
+    outline: none;
+  }
+  .containerContact .containerContactBig .containerContact_form .button {
+    width: 180px;
+    padding: 5px 0px;
+    border-radius: 5px;
+    border: 2px solid #56fbd3;
+    background-color: #56fbd3;
+    color: #060f1d;
+    margin-top: 50px;
+    margin-left: calc(50% - 90px);
+    cursor: pointer;
+    transition: 0.2s all;
+  }
+  .containerContact .containerContactBig .containerContact_form .button:hover {
+    background-color: #0c1b32;
+    color: #56fbd3;
+  }
+}
 h2 {
   /* NOOOOO SE RESPETA LAS CLASE TITLE*/
   margin-top: -30px;
@@ -1982,7 +2091,7 @@ h2 {
   border: 1px solid white;
   border-radius: 10px;
   border: 2px solid #56fbd3;
-  background: rgba(12, 27, 50, 0.6980392157);
+  background: #0c1b32;
   color: white;
   cursor: pointer;
 }
@@ -1991,6 +2100,7 @@ h2 {
 h3 {
   /*SE RESPETA LAS CLASE DE LA BOTON*/
   color: rgba(250, 250, 250, 0.872);
+  font-size: 14px;
 }
 
 .contBtnTop {

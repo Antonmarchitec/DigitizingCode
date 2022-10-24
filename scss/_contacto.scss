@@ -1,6 +1,11 @@
 @import "variables";
 
 
+//////////BLOCK HEADER ESTILOS CLONADOS DE INDEX//////////////////////////
+//////////BLOCK HEADER ESTILOS CLONADOS DE INDEX//////////////////////////
+//////////BLOCK HEADER ESTILOS CLONADOS DE INDEX//////////////////////////
+
+
 
 .containerContact{
     width: 100%;
@@ -26,7 +31,7 @@
             .containerContact_blockSup_box{
                  width: 170px;
                  height: 150px;
-                 padding-top: 35px;
+                 padding-top: 65px;
                  text-align: center;
                  background: $colorAzul;
                  position: relative;
@@ -84,6 +89,7 @@
                     box-shadow:0px 1px 0px $colorVerde;
                     color: white;
                     padding: 10px 0px;
+                    outline: none;
                 }
                 
 
@@ -95,7 +101,8 @@
                     color: white;
                     resize: none;
                     box-shadow:0px 1px 0px $colorVerde;
-
+                    outline:none;
+                    
                 }
             }
             .button{
@@ -122,6 +129,150 @@
 
 
 
+//////////BLOCK FOOTER ESTILOS CLONADOS DE INDEX//////////////////////////
+//////////BLOCK FOOTER ESTILOS CLONADOS DE INDEX//////////////////////////
+//////////BLOCK FOOTER ESTILOS CLONADOS DE INDEX//////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////@at-root
+/// 
+/// 
+////////////////////////////////////////
+
+@media (min-width:320px) and (max-width:423px){
+    .containerContact{
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        .containerContactBig{
+            width: 95%;
+            padding: 50px 0px;
+            background:$colorAzulOscuro;
+            margin: auto;
+            position: initial;
+            .containerContact_blockSup{
+                width: 100%;
+                padding: 10px 0px;
+                //background: rgba(0, 128, 128, 0.34); 
+                margin: auto;
+                position: initial;
+                top: initial;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                .containerContact_blockSup_box{
+                     width: 80%;
+                     height: 130px;
+                     padding-top: 65px;
+                     text-align: center;
+                     background: $colorAzul;
+                     position: relative;
+                     margin-bottom: 50px;
+    
+                     //BLOCK IMAGE
+                     .containerContact_blockSup_box_img{
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 100%;
+                        box-shadow: 0px 0px 5px $colorVerde;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background:$colorAzul;
+                        position: absolute;
+                        top: -30px;
+                        left: calc(50% - 30px);
+                        .iconContact{
+                            font-size: 25px;
+                            color: rgb(255, 255, 255);
+                        }
+                     }
+    
+                     //BLOCK TITLE
+                     .containerContact_blockSup_box_title{
+                        color:$colorVerde;
+                     }
+    
+                     //BLOCK PARRAFO
+                     .containerContact_blockSup_box_Parrafo{
+                        color:white;
+                        font-size: 15px;
+                     }
+                     
+                }
+            }
+    
+    
+            .containerContact_form{
+                width: 100%;
+                margin: auto;
+                padding: 10px 0px;
+                .containerContact_form_caja{
+                    width: 100%;
+                    padding: 10px 0px;
+                    background:transparent;
+                    margin-top: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    align-items: center;
+                    .input{
+                        width: 90%;
+                        border: none;
+                        box-shadow:0px 1px 0px $colorVerde;
+                        color: white;
+                        padding: 10px;
+                        outline: none;
+                    }
+                    
+    
+                    .textTarea{
+                        width: 90%;
+                        background: transparent;
+                        padding: 10px;
+                        border: none;
+                        color: white;
+                        resize: none;
+                        box-shadow:0px 1px 0px $colorVerde;
+                        outline:none;
+                        
+                    }
+                }
+                .button{
+                    width: 180px;
+                    padding: 5px 0px;
+                    border-radius: 5px;
+                    border: 2px solid $colorVerde;
+                    background-color:$colorVerde;
+                    color:$colorAzulOscuro;
+                    margin-top: 50px;
+                    margin-left:calc(50% - 90px) ;
+                    cursor: pointer;
+                    transition: 0.2s all;
+                }
+                .button:hover{
+                    background-color:$colorAzul;
+                    color: $colorVerde;
+                }
+                
+            }
+        }
+        
+    } 
+}
 
 
 

@@ -1091,26 +1091,21 @@ body::-webkit-scrollbar-thumb:hover {
   width: 100%;
   padding: 30px 0px;
 }
-.containerHeaderContServicios .container_banner {
+.containerHeaderContServicios .containerHeaderContServicios_banner {
   width: 100%;
-  position: relative;
+  background-image: url(../image/blog.jpg);
+  background-size: 100% 100%;
   background-attachment: fixed;
 }
-.containerHeaderContServicios .container_banner .fondo_banner {
+.containerHeaderContServicios .containerHeaderContServicios_banner .banner {
   width: 100%;
-  height: 400px;
-}
-.containerHeaderContServicios .container_banner .banner_text {
-  width: 100%;
-  height: 400px;
+  height: 350px;
   background: rgba(12, 27, 50, 0.6980392157);
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 0px;
 }
-.containerHeaderContServicios .container_banner .banner_text .containerHeaderContServicios_banner_title {
+.containerHeaderContServicios .containerHeaderContServicios_banner .banner .containerHeaderContServicios_banner_title {
   color: white;
   font-size: 100px;
 }
@@ -1381,26 +1376,18 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios {
     margin-top: 70px;
   }
-  .containerHeaderContServicios .container_banner {
+  .containerHeaderContServicios .containerHeaderContServicios_banner {
     width: 100%;
-    position: relative;
-    background-attachment: fixed;
   }
-  .containerHeaderContServicios .container_banner .fondo_banner {
+  .containerHeaderContServicios .containerHeaderContServicios_banner .banner {
     width: 100%;
-    height: 400px;
-  }
-  .containerHeaderContServicios .container_banner .banner_text {
-    width: 100%;
-    height: 400px;
+    height: 350px;
     background: rgba(12, 27, 50, 0.6980392157);
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 0px;
   }
-  .containerHeaderContServicios .container_banner .banner_text .containerHeaderContServicios_banner_title {
+  .containerHeaderContServicios .containerHeaderContServicios_banner .banner .containerHeaderContServicios_banner_title {
     color: white;
     font-size: 100px;
   }
@@ -1409,26 +1396,18 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios {
     margin-top: 65px;
   }
-  .containerHeaderContServicios .container_banner {
+  .containerHeaderContServicios .containerHeaderContServicios_banner {
     width: 100%;
-    position: relative;
-    background-attachment: fixed;
   }
-  .containerHeaderContServicios .container_banner .fondo_banner {
+  .containerHeaderContServicios .containerHeaderContServicios_banner .banner {
     width: 100%;
-    height: 350px;
-  }
-  .containerHeaderContServicios .container_banner .banner_text {
-    width: 100%;
-    height: 350px;
+    height: 300px;
     background: rgba(12, 27, 50, 0.6980392157);
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 0px;
   }
-  .containerHeaderContServicios .container_banner .banner_text .containerHeaderContServicios_banner_title {
+  .containerHeaderContServicios .containerHeaderContServicios_banner .banner .containerHeaderContServicios_banner_title {
     color: white;
     font-size: 80px;
   }

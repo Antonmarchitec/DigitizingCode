@@ -1941,15 +1941,15 @@ RESPONSIVE DESING OFICIAL NUEVO
   padding: 10px 0px;
   outline: none;
 }
-.containerContact .containerContactBig .containerContact_form .containerContact_form_caja .textTarea {
+.containerContact .containerContactBig .containerContact_form .containerContact_form_caja textarea {
   width: 100%;
   background: transparent;
   padding: 10px 0px;
   border: none;
   color: white;
-  resize: none;
   box-shadow: 0px 1px 0px #56fbd3;
   outline: none;
+  resize: none;
 }
 .containerContact .containerContactBig .containerContact_form .button {
   width: 200px;
@@ -2048,7 +2048,7 @@ RESPONSIVE DESING OFICIAL NUEVO
     padding: 10px;
     outline: none;
   }
-  .containerContact .containerContactBig .containerContact_form .containerContact_form_caja .textTarea {
+  .containerContact .containerContactBig .containerContact_form .containerContact_form_caja textarea {
     width: 90%;
     background: transparent;
     padding: 10px;

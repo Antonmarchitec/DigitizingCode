@@ -506,6 +506,7 @@ body::-webkit-scrollbar-thumb:hover {
     margin: auto;*/
   }
   .container .containerHeader {
+    z-index: 200;
     /*width: 100%;
     padding: 15px 0px;
     background:$colorAzulOscuro;
@@ -700,6 +701,9 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 @media (min-width: 481px) and (max-width: 769px) {
+  .container .containerHeader {
+    z-index: 200;
+  }
   .container .containerHeader .containerHeader_logo {
     width: 240px;
     height: 70px;
@@ -887,6 +891,9 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
+  .container .containerHeader {
+    z-index: 200;
+  }
   .container .containerHeader .containerHeader_logo {
     width: 210px;
     height: 65px;

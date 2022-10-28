@@ -1444,6 +1444,7 @@ body::-webkit-scrollbar-thumb:hover {
 /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
 /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
 .containerBlog {
+  margin-top: 30px;
   width: 100%;
 }
 .containerBlog .contBlogBloggersBase {
@@ -1532,7 +1533,7 @@ body::-webkit-scrollbar-thumb:hover {
 .containerBlog .contBlogNumerador {
   width: 160px;
   height: 50px;
-  margin: 10px auto;
+  margin: 5px auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

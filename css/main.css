@@ -1468,8 +1468,8 @@ body::-webkit-scrollbar-thumb:hover {
   padding: 5px 0px;
   font-weight: 600;
   color: #56fbd3;
-  font-size: 35px;
-  line-height: 30px;
+  font-size: 32px;
+  line-height: 40px;
 }
 .containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_parrafo {
   margin-top: 10px;
@@ -1520,7 +1520,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 80%;
   height: 2px;
   border: none;
-  background: rgba(5, 5, 39, 0.322);
+  background: rgba(102, 102, 222, 0.322);
 }
 .containerBlog .contBlogNumerador {
   width: 160px;

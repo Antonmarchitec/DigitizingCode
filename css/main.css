@@ -178,7 +178,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .container #cont_descripcion_foto .contBase .contenedor_izq {
   width: 50%;
-  height: 500px;
+  height: 700px;
   margin-left: 50px;
   position: relative;
 }
@@ -195,7 +195,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
   width: 500px;
-  height: 270px;
+  height: 470px;
   position: absolute;
   left: 100px;
   bottom: 0px;

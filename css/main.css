@@ -1104,7 +1104,6 @@ body::-webkit-scrollbar-thumb:hover {
 .containerHeaderContServicios .container_banner {
   width: 100%;
   position: relative;
-  background-attachment: fixed;
 }
 .containerHeaderContServicios .container_banner .fondo_banner {
   width: 100%;
@@ -1123,6 +1122,23 @@ body::-webkit-scrollbar-thumb:hover {
 .containerHeaderContServicios .container_banner .banner_text .containerHeaderContServicios_banner_title {
   color: white;
   font-size: 100px;
+}
+.containerHeaderContServicios .containerHeaderContServicios_info {
+  margin-top: 100px;
+  width: 100%;
+  padding: 10px 30px;
+}
+.containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_title {
+  font-size: 50px;
+  text-align: center;
+  color: #96aadb;
+  text-shadow: 0px 1px 0px #0c1b32;
+}
+.containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_descrpcion {
+  padding: 10px 0px;
+  text-align: center;
+  color: #0c1b32;
+  font-size: 25px;
 }
 .containerHeaderContServicios .containerHeaderContServicios_contCuadros {
   margin: 10px auto;

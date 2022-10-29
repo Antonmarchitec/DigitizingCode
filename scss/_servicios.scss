@@ -17,7 +17,7 @@
     .container_banner{
         width: 100%;
         position: relative;
-        background-attachment: fixed;
+       
         .fondo_banner{
             width: 100%;
             height: 400px;
@@ -39,7 +39,34 @@
         }
         
     }
+
+
+
+
+
+    //BLOCK
+    .containerHeaderContServicios_info{
+        margin-top: 100px;
+        width: 100%;
+        padding: 10px 30px;
+        .containerHeaderContServicios_info_title{
+            font-size: 50px;
+            text-align: center;
+            color:$colorCelesteOscuro;
+            text-shadow: 0px 1px 0px $colorAzul;
+        }
+        .containerHeaderContServicios_info_descrpcion{
+            padding: 10px 0px;
+            text-align: center;
+            color: $colorAzul;
+            font-size: 25px;
+        }
+    }
     
+
+
+
+
     //BLOCK CONTENEDOR SERVICIOS
     .containerHeaderContServicios_contCuadros{
         margin: 10px auto;

@@ -1100,6 +1100,7 @@ body::-webkit-scrollbar-thumb:hover {
   margin-top: 80px;
   width: 100%;
   padding: 30px 0px;
+  background: #10182b;
 }
 .containerHeaderContServicios .container_banner {
   width: 100%;
@@ -1125,8 +1126,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .containerHeaderContServicios .containerHeaderContServicios_info {
   width: 100%;
-  background: #10182b;
-  padding: 150px 30px;
+  padding-top: 150px;
+  padding-bottom: 0px;
 }
 .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_title {
   font-size: 50px;
@@ -1142,7 +1143,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_img {
   margin: 30px auto;
-  width: 60%;
+  width: 80%;
 }
 .containerHeaderContServicios .containerHeaderContServicios_contCuadros {
   margin: 0px auto;

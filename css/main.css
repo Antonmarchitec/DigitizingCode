@@ -1146,12 +1146,15 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .containerHeaderContServicios .containerHeaderContServicios_contCuadros {
   margin: 0px auto;
-  width: 92%;
-  padding: 10px 0px;
-  background: rgb(249, 249, 249);
+  width: 100%;
+  padding: 0px;
+  background-image: url(../image/desarrollo.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 .containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase {
   padding: 0px;
+  background: rgba(12, 27, 50, 0.6980392157);
 }
 .containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros {
   width: 100%;
@@ -1167,7 +1170,7 @@ body::-webkit-scrollbar-thumb:hover {
   height: 250px;
   background: #0c1b32;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px #96aadb;
+  box-shadow: 0px 0px 10px white;
   margin: 10px auto;
   position: relative;
   overflow: hidden;

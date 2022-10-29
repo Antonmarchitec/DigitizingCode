@@ -1523,13 +1523,6 @@ body::-webkit-scrollbar-thumb:hover {
 .containerBlog .contBlogBloggersBase .contBlogBloggers .contBlogBloggers_desc .contBloggers_desc_IconButton .contBloggers_desc_contIcons .campo {
   color: white;
 }
-.containerBlog .contBlogBloggersBase .contBlogBloggers .blogSeparador {
-  margin-top: 20px;
-  width: 80%;
-  height: 2px;
-  border: none;
-  background: rgba(102, 102, 222, 0.322);
-}
 .containerBlog .contBlogNumerador {
   width: 160px;
   height: 50px;

@@ -46,9 +46,9 @@
 
     //BLOCK
     .containerHeaderContServicios_info{
-        margin-top: 100px;
         width: 100%;
-        padding: 10px 30px;
+        background: #10182b;
+        padding: 150px 30px;
         .containerHeaderContServicios_info_title{
             font-size: 50px;
             text-align: center;
@@ -58,8 +58,12 @@
         .containerHeaderContServicios_info_descrpcion{
             padding: 10px 0px;
             text-align: center;
-            color: $colorAzul;
+            color: white;
             font-size: 25px;
+        }
+        .containerHeaderContServicios_info_img{
+            margin: 30px auto;
+            width: 60%;
         }
     }
     
@@ -69,10 +73,10 @@
 
     //BLOCK CONTENEDOR SERVICIOS
     .containerHeaderContServicios_contCuadros{
-        margin: 10px auto;
+        margin: 0px auto;
         width: 92%;
         padding: 10px 0px;
-        background: rgb(255, 255, 255);
+        background: rgb(249, 249, 249);
         #contBase{
             padding: 0px;
             //overflow: hidden;

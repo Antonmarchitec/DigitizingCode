@@ -5,7 +5,6 @@
     margin: auto;
     overflow: hidden;
     //padding: 10px 0px;
-
     //BLOCK HEADER
     .containerHeader{
         width: 100%;
@@ -110,7 +109,7 @@
                         color: white;
                         font-size: 18px;
                         font-weight: 300;
-                        margin-top: 20px;
+                        margin-top: 30px;
                         margin-left: 10px;
                         float: right;
                         border-radius: 10px;
@@ -215,7 +214,6 @@
         width: 100%;
         max-width: 1440px;
         margin: auto;
-    
         //BLOCK HEADER
         
     
@@ -239,7 +237,7 @@
                     margin-left: 20px;
                     .contenedorIzq_parrBtn{
                         width: 500px;
-                        height: 270px;
+                        height: 480px;
                         position: absolute;
                         left: 20px;
                         bottom:0px;
@@ -259,7 +257,7 @@
                             color: white;
                             font-size: 18px;
                             font-weight: 300;
-                            margin-top: 20px;
+                            margin-top: 30px;
                             margin-left: 10px;
                             float: right;
                             border-radius: 10px;
@@ -297,6 +295,7 @@
         width: 100%;
         max-width: 1440px;
         margin: auto;
+        
         //padding: 10px 0px;
     
         //BLOCK HEADER  
@@ -308,6 +307,7 @@
             background-size:100% 500px;
             background-repeat:no-repeat ;
             position: relative;
+
             .contBase{
                 width: 100%;
                 padding: 150px 0px;
@@ -319,7 +319,7 @@
                 //align-items: center;
                 .contenedor_izq{
                     width:50%;
-                    height: 500px;
+                    height: 800px;
                     margin-left: 20px;
                     position: relative;
                     .titulo_acerca{
@@ -337,10 +337,11 @@
                     
                     .contenedorIzq_parrBtn{
                         width: 450px;
-                        height: 270px;
+                        height: initial;
+                        padding: 10px 0px;
                         position: absolute;
                         left: 0px;
-                        bottom:0px;
+                        top:200px;
                         .descripcion_acerca{
                             text-align: justify;
                             color:$colorAzul;
@@ -467,7 +468,7 @@
         //BLOCK HEADER
         .containerHeader{
             z-index:200;
-
+            background: red;
             /*width: 100%;
             padding: 15px 0px;
             background:$colorAzulOscuro;
@@ -552,13 +553,13 @@
                 //align-items: center;
                 .contenedor_izq{
                     width:50%;
-                    height: 450px;
+                    height: 1000px;
                     margin-left: 20px;
                     position: relative;
                     .titulo_acerca{
                         width: 500px;
                         height: 300px;
-                        margin-top: 30px    ;
+                        margin-top: 30px;
                         font-size: 50px;
                         color:$colorAzulOscuro; 
                         line-height: 60px;
@@ -570,10 +571,12 @@
                     
                     .contenedorIzq_parrBtn{
                         width: 400px;
-                        height: 270px;
+                        height:initial;
+                        padding: 10px 0px;
                         position: absolute;
                         left: 0px;
-                        bottom:0px;
+                        top:180px;
+                        bottom: initial;
                         .descripcion_acerca{
                             text-align: justify;
                             color:$colorAzul;

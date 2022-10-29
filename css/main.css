@@ -216,7 +216,7 @@ body::-webkit-scrollbar-thumb:hover {
   color: white;
   font-size: 18px;
   font-weight: 300;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 10px;
   float: right;
   border-radius: 10px;
@@ -322,7 +322,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
     width: 500px;
-    height: 270px;
+    height: 480px;
     position: absolute;
     left: 20px;
     bottom: 0px;
@@ -343,7 +343,7 @@ body::-webkit-scrollbar-thumb:hover {
     color: white;
     font-size: 18px;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 10px;
     float: right;
     border-radius: 10px;
@@ -380,7 +380,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .container #cont_descripcion_foto .contBase .contenedor_izq {
     width: 50%;
-    height: 500px;
+    height: 800px;
     margin-left: 20px;
     position: relative;
   }
@@ -397,10 +397,11 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
     width: 450px;
-    height: 270px;
+    height: initial;
+    padding: 10px 0px;
     position: absolute;
     left: 0px;
-    bottom: 0px;
+    top: 200px;
   }
   .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
     text-align: justify;
@@ -507,6 +508,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .container .containerHeader {
     z-index: 200;
+    background: red;
     /*width: 100%;
     padding: 15px 0px;
     background:$colorAzulOscuro;
@@ -582,7 +584,7 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .container #cont_descripcion_foto .contBase .contenedor_izq {
     width: 50%;
-    height: 450px;
+    height: 1000px;
     margin-left: 20px;
     position: relative;
   }
@@ -599,10 +601,12 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
     width: 400px;
-    height: 270px;
+    height: initial;
+    padding: 10px 0px;
     position: absolute;
     left: 0px;
-    bottom: 0px;
+    top: 180px;
+    bottom: initial;
   }
   .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
     text-align: justify;

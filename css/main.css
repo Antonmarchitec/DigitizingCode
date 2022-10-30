@@ -1562,18 +1562,19 @@ body::-webkit-scrollbar-thumb:hover {
 .containerBlog .contBlogNumerador .contBlogNumerador_box {
   width: 45px;
   height: 30px;
-  background: #0c1b32;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 0.2s all;
-  color: white;
+  color: #0c1b32;
   font-weight: 600;
   font-size: 15px;
   border-radius: 3px;
 }
 .containerBlog .contBlogNumerador .contBlogNumerador_box:hover {
-  background: rgba(12, 27, 50, 0.6980392157);
+  background: #0c1b32;
+  color: white;
   cursor: pointer;
 }
 
@@ -1677,18 +1678,15 @@ body::-webkit-scrollbar-thumb:hover {
   .containerBlog .contBlogNumerador .contBlogNumerador_box {
     width: 45px;
     height: 30px;
-    background: #0c1b32;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.2s all;
-    color: white;
     font-weight: 600;
     font-size: 15px;
     border-radius: 3px;
   }
   .containerBlog .contBlogNumerador .contBlogNumerador_box:hover {
-    background: rgba(12, 27, 50, 0.6980392157);
     cursor: pointer;
   }
 }
@@ -1786,12 +1784,10 @@ body::-webkit-scrollbar-thumb:hover {
   .containerBlog .contBlogNumerador .contBlogNumerador_box {
     width: 45px;
     height: 30px;
-    background: #0c1b32;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.2s all;
-    color: white;
     font-weight: 600;
     font-size: 15px;
     border-radius: 3px;
@@ -1882,15 +1878,6 @@ body::-webkit-scrollbar-thumb:hover {
     color: white;
   }
 }
-/*
-RESPONSIVE DESING OFICIAL NUEVO
-@media (min-width:1025px) and (max-width:1200px){}     175px
-@media (min-width:900px)  and (max-width:1024px){}     124px
-@media (min-width:770px)  and (max-width:899px){}      129px
-@media (min-width:641px)  and (max-width:769px){}      128px
-@media (min-width:481px)  and (max-width:640px){}      159px
-@media (min-width:320px)  and (max-width:480px){}      160px
-*/
 .containerContact {
   width: 100%;
   padding-top: 200px;

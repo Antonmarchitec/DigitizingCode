@@ -47,6 +47,7 @@
         //background: #10182b;
         padding-top: 150px;
         padding-bottom: 0px;
+
         .containerHeaderContServicios_info_title{
             font-size: 50px;
             text-align: center;
@@ -54,6 +55,8 @@
             text-shadow: 0px 1px 0px $colorAzul;
         }
         .containerHeaderContServicios_info_descrpcion{
+            width: 80%;
+            margin: auto;
             padding: 10px 0px;
             text-align: center;
             color: white;
@@ -71,12 +74,10 @@
     .containerHeaderContServicios_contCuadros{
         margin: 0px auto;
         width: 100%;
-        padding:0px;
         background-image: url(../image/banner.jpg);
         background-size: 100% 100%;
         background-attachment: fixed;
         #contBase{
-            padding: 0px;
             background: $colorAzulTransparente;
             //overflow: hidden;
           
@@ -89,8 +90,7 @@
                 justify-content: space-around;
                 align-items: center;
                 .contCuadro{
-                    width: 250px;
-                    height: 250px;
+                    width: 23%;
                     background: $colorAzul;
                     border-radius: 5px;
                     //border: 5px solid $colorBlack;
@@ -101,7 +101,6 @@
                     animation-duration: 3s;
                     .contCuadro_imagen{
                         width: 100%;
-                        height: 250px;
                         background-image: url(../image/SERVICIOS/DISEÑO_GRAFICO.png);
                         background-size: 100% 100%;
                         transition: 0.5s all;
@@ -109,14 +108,14 @@
                     
                     .contCuadro_descripcion{   //cuadro de ensima superior
                         width: 100%;
-                        height: 250px;
-                        //background: chartreuse;
-                        padding: 18px 20px;
+                        height: 100%;
+                        padding: 30px;
                         position: absolute;
                         top: 0;
                         transition: 0.5s all;
                         .contCuadro_title{
-                            width: 60%;
+                            width: 150px;
+                            height: 50px;
                             margin: auto ;
                             text-align: center;
                             text-transform: uppercase;
@@ -128,37 +127,15 @@
                         
                         .contCuadro_parrafo{
                             text-align: center;
-                            margin-top: 180px;
+                            margin-top: 20px;
+                            transform: translateY(180px);
                             opacity: 0;
                             color: white;
-                            transition: 0.5s all;
+                            transition: 0.2s all;
                             font-size: 18px;
                             
-                        }
+                        }   
         
-                        @media only screen and (max-width:720px) {
-                            .contCuadro_parrafo{
-                                margin-top: 15px;
-                                opacity: 1;
-                                font-size: 18px;
-        
-                            }
-                        }
-                        .btnPlanes{
-                            display: none;
-                            border:2px solid $colorVerde;
-                            border-radius: 5px;
-                            background: $colorAzulTransparente;
-                            padding: 3px 10px;
-                            position: relative;
-                            top: 15px;
-                            left: calc(50% - 40px);
-                            color: white;
-                            cursor: pointer;
-                        }
-                        .btnPlanes:hover{
-                            background: rgba(255, 255, 255, 0.205);
-                        }
                     }
                 }
                 .contCuadro:hover{
@@ -167,15 +144,7 @@
                     .contCuadro_imagen{
                         transform: scale(1.1,1.1);
                     }
-                    .contCuadro_imagen2{
-                        transform: scale(1.1,1.1);
-                    }
-                    .contCuadro_imagen3{
-                        transform: scale(1.1,1.1);
-                    }
-                    .contCuadro_imagen4{
-                        transform: scale(1.1,1.1);
-                    }
+
                     .contCuadro_descripcion{
                         /////////////
                         background:$colorAzulTransparente;
@@ -184,174 +153,11 @@
                         }
                         .contCuadro_parrafo{
                            opacity: 1;
-                           margin-top: 20px;
-                        }
-                    }
-                }
-                
-                @media (min-width: 981px) and (max-width: 1024px){
-                    .contCuadro{
-                        width: 230px;
-                        height: 250px;
-                        //background: rgb(30, 33, 210);
-                        .contCuadro_imagen{
-                            width: 100%;
-                            height: 250px;
-                            margin: auto;
-                        }
-                        .contCuadro_imagen2{
-                            width: 100%;
-                            height: 250px;
-                            margin: auto;
-                        }
-                        .contCuadro_imagen3{
-                            width: 100%;
-                            height: 250px;
-                            margin: auto;
-                        }
-                        .contCuadro_imagen4{
-                            width: 100%;
-                            height: 250px;
-                            margin: auto;
-                        }
-                    }
-                }
-                @media (min-width: 721px) and (max-width: 980px){
-                    .contCuadro{
-                        width: 330px;
-                        height: 250px;
-                        //background: chocolate;
-                        .contCuadro_imagen{
-                            width: 80%;
-                            height: 250px;
-                            margin: auto;
-                        }
-                        .contCuadro_imagen2{
-                            width: 80%;
-                            height: 250px;
-                            margin: auto;
-                        }
-                        .contCuadro_imagen3{
-                            width: 80%;
-                            height: 250px;
-                            margin: auto;
-                        }
-                        .contCuadro_imagen4{
-                            width: 80%;
-                            height: 250px;
-                            margin: auto;
-                        }
-                    }
-                }
-                @media (min-width: 641px) and (max-width: 720px){
-                    .contCuadro{
-                        width: calc(50% - 20px);
-                        height: 250px;
-                        //background: rgb(196, 51, 184);
-                        .contCuadro_imagen{
-                            width: 80%;
-                            height: 250px;
-                            margin: auto;
-                            opacity: 0.4;
-                        }
-                        .contCuadro_imagen2{
-                            width:80%;
-                            height: 250px;
-                            margin: auto;
-                            opacity: 0.4;
-                        }
-                        .contCuadro_imagen3{
-                            width:80%;
-                            margin: auto;
-                            height: 250px;
-                            opacity: 0.4;
-                        }
-                        .contCuadro_imagen4{
-                            width:80%;
-                            height: 250px;
-                            margin: auto;
-                            opacity: 0.4;
-                        }
-                    }
-                }
-                @media (min-width: 424px) and (max-width: 640px){
-                    .contCuadro{
-                        width: calc(50% - 20px);
-                        height: 250px;
-                        //background: cornflowerblue;
-                        .contCuadro_imagen{
-                            width: 100%;
-                            height: 250px;
-                            opacity: 0.4;
-                        }
-                        .contCuadro_imagen2{
-                            width:100%;
-                            height: 250px;
-                            opacity: 0.4;
-                        }
-                        .contCuadro_imagen3{
-                            width:100%;
-                            height: 250px;
-                            opacity: 0.4;
-                        }
-                        .contCuadro_imagen4{
-                            width:100%;
-                            height: 250px;
-                            opacity: 0.4;
-                        }
-                    }
-                }
-                @media (min-width: 320px) and (max-width: 423px){
-                    .contCuadro{
-                        width: calc(100% - 0px);
-                        height:calc(100% - 300px);
-                        .contCuadro_imagen{
-                            width: 80%;
-                            height:calc(100% - 300px);
-                            margin: auto;
-                            opacity: 0.5;
-                        }
-                        .contCuadro_imagen2{
-                            width:85%;
-                            margin: auto;
-                            height: 250px;
-                            opacity: 0.4;
-                        }
-                        .contCuadro_imagen3{
-                            width:85%;
-                            margin: auto;
-                            height: 250px;
-                            opacity: 0.4;
-                        }
-                        .contCuadro_imagen4{
-                            width:85%;
-                            margin: auto;
-                            height: 250px;
-                            opacity: 0.4;
-                        }
+                           transform: translateY(0px);
 
-                        .contCuadro_descripcion{   //cuadro de ensima superior
-                            .contCuadro_title{
-                                width: 60%;
-                                line-height: 24px;
-                                font-size: 25px;
-                            }
-                            
-                            .contCuadro_parrafo{
-                                text-align: center;
-                                margin-top: 180px;
-                                color: white;
-                                transition: 0.5s all;
-                                font-size: 18px;
-                                margin-top: 15px;
-                                opacity: 1;
-                                font-size: 18px;    
-                            }
-                           
                         }
                     }
                 }
-               
             }
     
         }
@@ -361,14 +167,17 @@
 
 
 
-@media (min-width:481px)  and (max-width:769px){
+
+
+
+@media (min-width:1025px)  and (max-width:1200px){
     .containerHeaderContServicios{
         margin-top: 80px;
         width: 100%;
         padding: 30px 0px;
         background: #10182b;
         //BLOCK BANNER
-        /*.container_banner{
+        .container_banner{
             width: 100%;
             position: relative;
            
@@ -392,33 +201,33 @@
                 }
             }
             
-        }*/
+        }
     
     
         //BLOCK INFO
         .containerHeaderContServicios_info{
             width: 100%;
             //background: #10182b;
-            padding-top: 100px;
+            padding-top: 150px;
             padding-bottom: 0px;
+    
             .containerHeaderContServicios_info_title{
-                font-size: 40px;
+                font-size: 50px;
                 text-align: center;
                 color:$colorCelesteOscuro;
                 text-shadow: 0px 1px 0px $colorAzul;
-                line-height: 40px;
             }
             .containerHeaderContServicios_info_descrpcion{
-                margin: 20px auto;
+                width: 80%;
+                margin: auto;
                 padding: 10px 0px;
                 text-align: center;
                 color: white;
                 font-size: 20px;
-                width: 80%;
             }
             .containerHeaderContServicios_info_img{
                 margin: 30px auto;
-                width: 100%;
+                width: 80%;
             }
         }
         
@@ -428,12 +237,10 @@
         .containerHeaderContServicios_contCuadros{
             margin: 0px auto;
             width: 100%;
-            padding:initial;
             background-image: url(../image/banner.jpg);
             background-size: 100% 100%;
             background-attachment: fixed;
             #contBase{
-                padding: initial;
                 background: $colorAzulTransparente;
                 //overflow: hidden;
               
@@ -446,8 +253,7 @@
                     justify-content: space-around;
                     align-items: center;
                     .contCuadro{
-                        width: 250px;
-                        height: 250px;
+                        width: 23%;
                         background: $colorAzul;
                         border-radius: 5px;
                         //border: 5px solid $colorBlack;
@@ -458,7 +264,6 @@
                         animation-duration: 3s;
                         .contCuadro_imagen{
                             width: 100%;
-                            height: 250px;
                             background-image: url(../image/SERVICIOS/DISEÑO_GRAFICO.png);
                             background-size: 100% 100%;
                             transition: 0.5s all;
@@ -466,246 +271,34 @@
                         
                         .contCuadro_descripcion{   //cuadro de ensima superior
                             width: 100%;
-                            height: 250px;
-                            //background: chartreuse;
-                            padding: 18px 20px;
+                            height: 100%;
+                            padding: 20px;
                             position: absolute;
                             top: 0;
                             transition: 0.5s all;
                             .contCuadro_title{
-                                width: 60%;
+                                width: 150px;
+                                height: 40px;
                                 margin: auto ;
                                 text-align: center;
                                 text-transform: uppercase;
                                 line-height: 25px;
                                 color: $colorVerde;
-                                line-height: 24px;
-                                font-size: 20px;
+                                line-height: 20px;
+                                font-size: 18px;
                             }
                             
                             .contCuadro_parrafo{
                                 text-align: center;
-                                margin-top: 180px;
+                                margin-top: 20px;
+                                transform: translateY(180px);
                                 opacity: 0;
                                 color: white;
-                                transition: 0.5s all;
-                                font-size: 18px;
+                                transition: 0.2s all;
+                                font-size: 16px;
                                 
-                            }
+                            }   
             
-                            @media only screen and (max-width:720px) {
-                                .contCuadro_parrafo{
-                                    margin-top: 15px;
-                                    opacity: 1;
-                                    font-size: 18px;
-            
-                                }
-                            }
-                            .btnPlanes{
-                                display: none;
-                                border:2px solid $colorVerde;
-                                border-radius: 5px;
-                                background: $colorAzulTransparente;
-                                padding: 3px 10px;
-                                position: relative;
-                                top: 15px;
-                                left: calc(50% - 40px);
-                                color: white;
-                                cursor: pointer;
-                            }
-                            .btnPlanes:hover{
-                                background: rgba(255, 255, 255, 0.205);
-                            }
-                        }
-                    }
-                    .contCuadro:hover{
-                        /////////////
-                        cursor: pointer;
-                        .contCuadro_imagen{
-                            transform: scale(1.1,1.1);
-                        }
-                        .contCuadro_imagen2{
-                            transform: scale(1.1,1.1);
-                        }
-                        .contCuadro_imagen3{
-                            transform: scale(1.1,1.1);
-                        }
-                        .contCuadro_imagen4{
-                            transform: scale(1.1,1.1);
-                        }
-                        .contCuadro_descripcion{
-                            /////////////
-                            background:$colorAzulTransparente;
-                            .contCuadro_title{
-                                color: $colorVerde;
-                            }
-                            .contCuadro_parrafo{
-                               opacity: 1;
-                               margin-top: 20px;
-                            }
-                        }
-                    }
-                    
-                    @media (min-width: 981px) and (max-width: 1024px){
-                        .contCuadro{
-                            width: 230px;
-                            height: 250px;
-                            //background: rgb(30, 33, 210);
-                            .contCuadro_imagen{
-                                width: 100%;
-                                height: 250px;
-                                margin: auto;
-                            }
-                            .contCuadro_imagen2{
-                                width: 100%;
-                                height: 250px;
-                                margin: auto;
-                            }
-                            .contCuadro_imagen3{
-                                width: 100%;
-                                height: 250px;
-                                margin: auto;
-                            }
-                            .contCuadro_imagen4{
-                                width: 100%;
-                                height: 250px;
-                                margin: auto;
-                            }
-                        }
-                    }
-                    @media (min-width: 721px) and (max-width: 980px){
-                        .contCuadro{
-                            width: 330px;
-                            height: 250px;
-                            //background: chocolate;
-                            .contCuadro_imagen{
-                                width: 80%;
-                                height: 250px;
-                                margin: auto;
-                            }
-                            .contCuadro_imagen2{
-                                width: 80%;
-                                height: 250px;
-                                margin: auto;
-                            }
-                            .contCuadro_imagen3{
-                                width: 80%;
-                                height: 250px;
-                                margin: auto;
-                            }
-                            .contCuadro_imagen4{
-                                width: 80%;
-                                height: 250px;
-                                margin: auto;
-                            }
-                        }
-                    }
-                    @media (min-width: 641px) and (max-width: 720px){
-                        .contCuadro{
-                            width: calc(50% - 20px);
-                            height: 250px;
-                            //background: rgb(196, 51, 184);
-                            .contCuadro_imagen{
-                                width: 80%;
-                                height: 250px;
-                                margin: auto;
-                                opacity: 0.4;
-                            }
-                            .contCuadro_imagen2{
-                                width:80%;
-                                height: 250px;
-                                margin: auto;
-                                opacity: 0.4;
-                            }
-                            .contCuadro_imagen3{
-                                width:80%;
-                                margin: auto;
-                                height: 250px;
-                                opacity: 0.4;
-                            }
-                            .contCuadro_imagen4{
-                                width:80%;
-                                height: 250px;
-                                margin: auto;
-                                opacity: 0.4;
-                            }
-                        }
-                    }
-                    @media (min-width: 424px) and (max-width: 640px){
-                        .contCuadro{
-                            width: calc(50% - 20px);
-                            height: 250px;
-                            //background: cornflowerblue;
-                            .contCuadro_imagen{
-                                width: 100%;
-                                height: 250px;
-                                opacity: 0.4;
-                            }
-                            .contCuadro_imagen2{
-                                width:100%;
-                                height: 250px;
-                                opacity: 0.4;
-                            }
-                            .contCuadro_imagen3{
-                                width:100%;
-                                height: 250px;
-                                opacity: 0.4;
-                            }
-                            .contCuadro_imagen4{
-                                width:100%;
-                                height: 250px;
-                                opacity: 0.4;
-                            }
-                        }
-                    }
-                    @media (min-width: 320px) and (max-width: 423px){
-                        .contCuadro{
-                            width: calc(100% - 0px);
-                            height:calc(100% - 300px);
-                            .contCuadro_imagen{
-                                width: 80%;
-                                height:calc(100% - 300px);
-                                margin: auto;
-                                opacity: 0.5;
-                            }
-                            .contCuadro_imagen2{
-                                width:85%;
-                                margin: auto;
-                                height: 250px;
-                                opacity: 0.4;
-                            }
-                            .contCuadro_imagen3{
-                                width:85%;
-                                margin: auto;
-                                height: 250px;
-                                opacity: 0.4;
-                            }
-                            .contCuadro_imagen4{
-                                width:85%;
-                                margin: auto;
-                                height: 250px;
-                                opacity: 0.4;
-                            }
-    
-                            .contCuadro_descripcion{   //cuadro de ensima superior
-                                .contCuadro_title{
-                                    width: 60%;
-                                    line-height: 24px;
-                                    font-size: 25px;
-                                }
-                                
-                                .contCuadro_parrafo{
-                                    text-align: center;
-                                    margin-top: 180px;
-                                    color: white;
-                                    transition: 0.5s all;
-                                    font-size: 18px;
-                                    margin-top: 15px;
-                                    opacity: 1;
-                                    font-size: 18px;    
-                                }
-                               
-                            }
                         }
                     }
                    
@@ -717,11 +310,15 @@
 }
 
 
-@media (min-width:300px)  and (max-width:480px){
+
+
+
+
+@media (min-width:900px)  and (max-width:1024px){
     .containerHeaderContServicios{
         margin-top: 80px;
         width: 100%;
-        padding: 0px 0px;
+        padding: 30px 0px;
         background: #10182b;
         //BLOCK BANNER
         .container_banner{
@@ -744,7 +341,7 @@
                 top:0px;
                 .containerHeaderContServicios_banner_title{
                     color: white;
-                    font-size:80px;
+                    font-size: 100px;
                 }
             }
             
@@ -755,21 +352,164 @@
         .containerHeaderContServicios_info{
             width: 100%;
             //background: #10182b;
-            padding-top: 70px;
+            padding-top: 150px;
             padding-bottom: 0px;
+    
             .containerHeaderContServicios_info_title{
-                width: 80%;
-                margin: auto;
-                font-size: 35px;
+                font-size: 45px;
                 text-align: center;
                 color:$colorCelesteOscuro;
                 text-shadow: 0px 1px 0px $colorAzul;
-                line-height: 40px;
             }
             .containerHeaderContServicios_info_descrpcion{
+                width: 80%;
+                margin: auto;
+                padding: 10px 0px;
+                text-align: center;
+                color: white;
+                font-size: 18px;
+            }
+            .containerHeaderContServicios_info_img{
+                margin: 30px auto;
+                width: 80%;
+            }
+        }
+        
+    
+    
+        //BLOCK CONTENEDOR SERVICIOS
+        .containerHeaderContServicios_contCuadros{
+            margin: 0px auto;
+            width: 100%;
+            background-image: url(../image/banner.jpg);
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            #contBase{
+                background: $colorAzulTransparente;
+                //overflow: hidden;
+              
+                .containerBaseCuadros{  
+                    width: 100%;
+                    padding: 50px 0px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    align-items: center;
+                    .contCuadro{
+                        width: 30%;
+                        background: $colorAzul;
+                        border-radius: 5px;
+                        //border: 5px solid $colorBlack;
+                        box-shadow: 0px 0px 10px white;
+                        margin:10px auto;
+                        position: relative;
+                        overflow: hidden;
+                        animation-duration: 3s;
+                        .contCuadro_imagen{
+                            width: 100%;
+                            background-image: url(../image/SERVICIOS/DISEÑO_GRAFICO.png);
+                            background-size: 100% 100%;
+                            transition: 0.5s all;
+                        }
+                        
+                        .contCuadro_descripcion{   //cuadro de ensima superior
+                            width: 100%;
+                            height: 100%;
+                            padding: 30px;
+                            position: absolute;
+                            top: 0;
+                            transition: 0.5s all;
+                            .contCuadro_title{
+                                width: 150px;
+                                height: 40px;
+                                margin: auto ;
+                                text-align: center;
+                                text-transform: uppercase;
+                                line-height: 25px;
+                                color: $colorVerde;
+                                line-height: 20px;
+                                font-size: 18px;
+                            }
+                            
+                            .contCuadro_parrafo{
+                                text-align: center;
+                                margin-top: 20px;
+                                transform: translateY(180px);
+                                opacity: 0;
+                                color: white;
+                                transition: 0.2s all;
+                                font-size: 16px;
+                                
+                            }   
+            
+                        }
+                    }
+                   
+                }
+        
+            }
+        }
+    }
+}
+
+
+
+
+
+
+@media (min-width:641px)  and (max-width:899px){
+    .containerHeaderContServicios{
+        margin-top: 80px;
+        width: 100%;
+        padding: 30px 0px;
+        background: #10182b;
+
+        //BLOCK BANNER
+        .container_banner{
+            width: 100%;
+            position: relative;
+           
+            .fondo_banner{
                 width: 100%;
-                margin: 5px auto;
-                padding: 10px;
+                height: 400px;
+            }
+            
+            .banner_text{
+                width: 100%;
+                height: 400px;
+                background: $colorAzulTransparente;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                position: absolute;
+                top:0px;
+                .containerHeaderContServicios_banner_title{
+                    color: white;
+                    font-size: 100px;
+                }
+            }
+            
+        }
+    
+    
+        //BLOCK INFO
+        .containerHeaderContServicios_info{
+            width: 100%;
+            //background: #10182b;
+            padding-top: 100px;
+            padding-bottom: 0px;
+    
+            .containerHeaderContServicios_info_title{
+                font-size: 40px;
+                text-align: center;
+                color:$colorCelesteOscuro;
+                text-shadow: 0px 1px 0px $colorAzul;
+            }
+            .containerHeaderContServicios_info_descrpcion{
+                width: 80%;
+                margin: auto;
+                padding: 10px 0px;
                 text-align: center;
                 color: white;
                 font-size: 16px;
@@ -786,26 +526,23 @@
         .containerHeaderContServicios_contCuadros{
             margin: 0px auto;
             width: 100%;
-            padding:0px;
             background-image: url(../image/banner.jpg);
             background-size: 100% 100%;
             background-attachment: fixed;
             #contBase{
-                padding: initial;
                 background: $colorAzulTransparente;
                 //overflow: hidden;
               
                 .containerBaseCuadros{  
-                    width: 90%;
-                    margin: auto;                    padding: 50px 0px;
+                    width: 100%;
+                    padding: 50px 0px;
                     display: flex;
                     flex-direction: row;
                     flex-wrap: wrap;
                     justify-content: space-around;
                     align-items: center;
                     .contCuadro{
-                        width: 250px;
-                        height: 250px;
+                        width: 40%;
                         background: $colorAzul;
                         border-radius: 5px;
                         //border: 5px solid $colorBlack;
@@ -816,7 +553,6 @@
                         animation-duration: 3s;
                         .contCuadro_imagen{
                             width: 100%;
-                            height: 250px;
                             background-image: url(../image/SERVICIOS/DISEÑO_GRAFICO.png);
                             background-size: 100% 100%;
                             transition: 0.5s all;
@@ -824,246 +560,35 @@
                         
                         .contCuadro_descripcion{   //cuadro de ensima superior
                             width: 100%;
-                            height: 250px;
-                            //background: chartreuse;
-                            padding: 18px 20px;
+                            height: 100%;
+                            padding: 30px;
                             position: absolute;
                             top: 0;
                             transition: 0.5s all;
+                            background: $colorAzulTransparente;
                             .contCuadro_title{
-                                width: 60%;
+                                width: 150px;
+                                height: 50px;
                                 margin: auto ;
                                 text-align: center;
                                 text-transform: uppercase;
                                 line-height: 25px;
                                 color: $colorVerde;
-                                line-height: 24px;
-                                font-size: 20px;
+                                line-height: 20px;
+                                font-size:20px;
                             }
                             
                             .contCuadro_parrafo{
                                 text-align: center;
-                                margin-top: 180px;
-                                opacity: 0;
+                                margin-top: 10px;
+                                transform: translateY(0px);
+                                opacity: 1;
                                 color: white;
-                                transition: 0.5s all;
-                                font-size: 18px;
+                                transition: 0.2s all;
+                                font-size: 16px;
                                 
-                            }
+                            }   
             
-                            @media only screen and (max-width:720px) {
-                                .contCuadro_parrafo{
-                                    margin-top: 15px;
-                                    opacity: 1;
-                                    font-size: 18px;
-            
-                                }
-                            }
-                            .btnPlanes{
-                                display: none;
-                                border:2px solid $colorVerde;
-                                border-radius: 5px;
-                                background: $colorAzulTransparente;
-                                padding: 3px 10px;
-                                position: relative;
-                                top: 15px;
-                                left: calc(50% - 40px);
-                                color: white;
-                                cursor: pointer;
-                            }
-                            .btnPlanes:hover{
-                                background: rgba(255, 255, 255, 0.205);
-                            }
-                        }
-                    }
-                    .contCuadro:hover{
-                        /////////////
-                        cursor: pointer;
-                        .contCuadro_imagen{
-                            transform: scale(1.1,1.1);
-                        }
-                        .contCuadro_imagen2{
-                            transform: scale(1.1,1.1);
-                        }
-                        .contCuadro_imagen3{
-                            transform: scale(1.1,1.1);
-                        }
-                        .contCuadro_imagen4{
-                            transform: scale(1.1,1.1);
-                        }
-                        .contCuadro_descripcion{
-                            /////////////
-                            background:$colorAzulTransparente;
-                            .contCuadro_title{
-                                color: $colorVerde;
-                            }
-                            .contCuadro_parrafo{
-                               opacity: 1;
-                               margin-top: 20px;
-                            }
-                        }
-                    }
-                    
-                    @media (min-width: 981px) and (max-width: 1024px){
-                        .contCuadro{
-                            width: 230px;
-                            height: 250px;
-                            //background: rgb(30, 33, 210);
-                            .contCuadro_imagen{
-                                width: 100%;
-                                height: 250px;
-                                margin: auto;
-                            }
-                            .contCuadro_imagen2{
-                                width: 100%;
-                                height: 250px;
-                                margin: auto;
-                            }
-                            .contCuadro_imagen3{
-                                width: 100%;
-                                height: 250px;
-                                margin: auto;
-                            }
-                            .contCuadro_imagen4{
-                                width: 100%;
-                                height: 250px;
-                                margin: auto;
-                            }
-                        }
-                    }
-                    @media (min-width: 721px) and (max-width: 980px){
-                        .contCuadro{
-                            width: 330px;
-                            height: 250px;
-                            //background: chocolate;
-                            .contCuadro_imagen{
-                                width: 80%;
-                                height: 250px;
-                                margin: auto;
-                            }
-                            .contCuadro_imagen2{
-                                width: 80%;
-                                height: 250px;
-                                margin: auto;
-                            }
-                            .contCuadro_imagen3{
-                                width: 80%;
-                                height: 250px;
-                                margin: auto;
-                            }
-                            .contCuadro_imagen4{
-                                width: 80%;
-                                height: 250px;
-                                margin: auto;
-                            }
-                        }
-                    }
-                    @media (min-width: 641px) and (max-width: 720px){
-                        .contCuadro{
-                            width: calc(50% - 20px);
-                            height: 250px;
-                            //background: rgb(196, 51, 184);
-                            .contCuadro_imagen{
-                                width: 80%;
-                                height: 250px;
-                                margin: auto;
-                                opacity: 0.4;
-                            }
-                            .contCuadro_imagen2{
-                                width:80%;
-                                height: 250px;
-                                margin: auto;
-                                opacity: 0.4;
-                            }
-                            .contCuadro_imagen3{
-                                width:80%;
-                                margin: auto;
-                                height: 250px;
-                                opacity: 0.4;
-                            }
-                            .contCuadro_imagen4{
-                                width:80%;
-                                height: 250px;
-                                margin: auto;
-                                opacity: 0.4;
-                            }
-                        }
-                    }
-                    @media (min-width: 424px) and (max-width: 640px){
-                        .contCuadro{
-                            width: calc(50% - 20px);
-                            height: 250px;
-                            //background: cornflowerblue;
-                            .contCuadro_imagen{
-                                width: 100%;
-                                height: 250px;
-                                opacity: 0.4;
-                            }
-                            .contCuadro_imagen2{
-                                width:100%;
-                                height: 250px;
-                                opacity: 0.4;
-                            }
-                            .contCuadro_imagen3{
-                                width:100%;
-                                height: 250px;
-                                opacity: 0.4;
-                            }
-                            .contCuadro_imagen4{
-                                width:100%;
-                                height: 250px;
-                                opacity: 0.4;
-                            }
-                        }
-                    }
-                    @media (min-width: 320px) and (max-width: 423px){
-                        .contCuadro{
-                            width: calc(100% - 0px);
-                            height:calc(100% - 300px);
-                            .contCuadro_imagen{
-                                width: 80%;
-                                height:calc(100% - 300px);
-                                margin: auto;
-                                opacity: 0.5;
-                            }
-                            .contCuadro_imagen2{
-                                width:85%;
-                                margin: auto;
-                                height: 250px;
-                                opacity: 0.4;
-                            }
-                            .contCuadro_imagen3{
-                                width:85%;
-                                margin: auto;
-                                height: 250px;
-                                opacity: 0.4;
-                            }
-                            .contCuadro_imagen4{
-                                width:85%;
-                                margin: auto;
-                                height: 250px;
-                                opacity: 0.4;
-                            }
-    
-                            .contCuadro_descripcion{   //cuadro de ensima superior
-                                .contCuadro_title{
-                                    width: 60%;
-                                    line-height: 24px;
-                                    font-size: 25px;
-                                }
-                                
-                                .contCuadro_parrafo{
-                                    text-align: center;
-                                    margin-top: 180px;
-                                    color: white;
-                                    transition: 0.5s all;
-                                    font-size: 18px;
-                                    margin-top: 15px;
-                                    opacity: 1;
-                                    font-size: 18px;    
-                                }
-                               
-                            }
                         }
                     }
                    
@@ -1074,24 +599,176 @@
     }
 }
 
-/*
-@media (min-width:320px)  and (max-width:480px){
-    .containerHeaderContServicios{
-        margin-top: 65px;
 
+
+
+
+
+
+@media (min-width:481px)  and (max-width:640px){
+    .containerHeaderContServicios{
+        margin-top: 80px;
+        width: 100%;
+        padding: 30px 0px;
+        background: #10182b;
         //BLOCK BANNER
         .container_banner{
             width: 100%;
             position: relative;
-            background-attachment: fixed;
+           
             .fondo_banner{
                 width: 100%;
-                height: 350px;
+                height: 400px;
             }
             
             .banner_text{
                 width: 100%;
-                height: 350px;
+                height: 400px;
+                background: $colorAzulTransparente;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                position: absolute;
+                top:0px;
+                .containerHeaderContServicios_banner_title{
+                    color: white;
+                    font-size: 100px;
+                }
+            }
+            
+        }
+    
+    
+        //BLOCK INFO
+        .containerHeaderContServicios_info{
+            width: 100%;
+            //background: #10182b;
+            padding-top: 100px;
+            padding-bottom: 0px;
+    
+            .containerHeaderContServicios_info_title{
+                font-size: 35px;
+                text-align: center;
+                color:$colorCelesteOscuro;
+                text-shadow: 0px 1px 0px $colorAzul;
+                line-height: 38px;
+            }
+            .containerHeaderContServicios_info_descrpcion{
+                width: 80%;
+                margin: auto;
+                padding: 10px 0px;
+                text-align: center;
+                color: white;
+                font-size: 16px;
+            }
+            .containerHeaderContServicios_info_img{
+                margin: 30px auto;
+                width: 100%;
+            }
+        }
+        
+    
+    
+        //BLOCK CONTENEDOR SERVICIOS
+        .containerHeaderContServicios_contCuadros{
+            margin: 0px auto;
+            width: 100%;
+            background-image: url(../image/banner.jpg);
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            #contBase{
+                background: $colorAzulTransparente;
+                //overflow: hidden;
+              
+                .containerBaseCuadros{  
+                    width: 100%;
+                    padding: 50px 0px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    align-items: center;
+                    .contCuadro{
+                        width: 45%;
+                        background: $colorAzul;
+                        border-radius: 5px;
+                        //border: 5px solid $colorBlack;
+                        box-shadow: 0px 0px 10px white;
+                        margin:10px auto;
+                        position: relative;
+                        overflow: hidden;
+                        animation-duration: 3s;
+                        .contCuadro_imagen{
+                            width: 100%;
+                            background-image: url(../image/SERVICIOS/DISEÑO_GRAFICO.png);
+                            background-size: 100% 100%;
+                            transition: 0.5s all;
+                        }
+                        
+                        .contCuadro_descripcion{   //cuadro de ensima superior
+                            width: 100%;
+                            height: 100%;
+                            padding: 15px;
+                            position: absolute;
+                            top: 0;
+                            transition: 0.5s all;
+                            background: $colorAzulTransparente;
+                            .contCuadro_title{
+                                width: 150px;
+                                height: 40px;
+                                margin: auto ;
+                                text-align: center;
+                                text-transform: uppercase;
+                                line-height: 25px;
+                                color: $colorVerde;
+                                line-height: 20px;
+                                font-size:18px;
+                            }
+                            
+                            .contCuadro_parrafo{
+                                text-align: center;
+                                margin-top: 10px;
+                                transform: translateY(0px);
+                                opacity: 1;
+                                color: white;
+                                transition: 0.2s all;
+                                font-size: 16px;
+                                
+                            }   
+            
+                        }
+                    }
+                   
+                }
+        
+            }
+        }
+    }
+}
+
+
+
+
+
+@media (min-width:320px)  and (max-width:480px){
+    .containerHeaderContServicios{
+        margin-top: 80px;
+        width: 100%;
+        padding: 30px 0px;
+        background: #10182b;
+        //BLOCK BANNER
+        .container_banner{
+            width: 100%;
+            position: relative;
+           
+            .fondo_banner{
+                width: 100%;
+                height: 400px;
+            }
+            
+            .banner_text{
+                width: 100%;
+                height: 400px;
                 background: $colorAzulTransparente;
                 display: flex;
                 justify-content: center;
@@ -1105,8 +782,133 @@
             }
             
         }
-    } 
-}*/
+    
+    
+        //BLOCK INFO
+        .containerHeaderContServicios_info{
+            width: 100%;
+            //background: #10182b;
+            padding-top: 80px;
+            padding-bottom: 0px;
+    
+            .containerHeaderContServicios_info_title{
+                width: 90%;
+                margin: auto;
+                font-size: 30px;
+                text-align: center;
+                color:$colorCelesteOscuro;
+                text-shadow: 0px 1px 0px $colorAzul;
+                line-height: 38px;
+            }
+            .containerHeaderContServicios_info_descrpcion{
+                width: 80%;
+                margin: auto;
+                padding: 10px 0px;
+                text-align: center;
+                color: white;
+                font-size: 18px;
+            }
+            .containerHeaderContServicios_info_img{
+                margin: 30px auto;
+                width: 100%;
+            }
+        }
+        
+    
+    
+        //BLOCK CONTENEDOR SERVICIOS
+        .containerHeaderContServicios_contCuadros{
+            margin: 0px auto;
+            width: 100%;
+            background-image: url(../image/banner.jpg);
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            #contBase{
+                background: $colorAzulTransparente;
+                //overflow: hidden;
+              
+                .containerBaseCuadros{  
+                    width: 100%;
+                    padding: 50px 20px;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap:initial;
+                    justify-content: space-around;
+                    align-items: center;
+                    .contCuadro{
+                        width: 100%;
+                        background: $colorAzul;
+                        border-radius: 5px;
+                        //border: 5px solid $colorBlack;
+                        box-shadow: 0px 0px 10px white;
+                        margin:10px auto;
+                        position: relative;
+                        overflow: hidden;
+                        animation-duration: 3s;
+                        .contCuadro_imagen{
+                            width: 100%;
+                            background-image: url(../image/SERVICIOS/DISEÑO_GRAFICO.png);
+                            background-size: 100% 100%;
+                            transition: 0.5s all;
+                        }
+                        
+                        .contCuadro_descripcion{   //cuadro de ensima superior
+                            width: 100%;
+                            height: 100%;
+                            padding: 40px;
+                            position: absolute;
+                            top: 0;
+                            transition: 0.5s all;
+                            background:$colorAzulTransparente;
+
+                            .contCuadro_title{
+                                width: 150px;
+                                height: 50px;
+                                margin: auto ;
+                                text-align: center;
+                                text-transform: uppercase;
+                                color: $colorVerde;
+                                line-height: 25px;
+                                font-size:24px;
+                            }
+                            
+                            .contCuadro_parrafo{
+                                text-align: center;
+                                margin-top: 10px;
+                                transform: translateY(0px);
+                                opacity: 1;
+                                color: white;
+                                transition: 0.2s all;
+                                font-size: 18px;
+                                
+                            }   
+            
+                        }
+                    }
+                   
+                }
+        
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1115,3 +917,14 @@
 /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
 /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
 /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+
+
+
+
+
+
+
+
+
+
+

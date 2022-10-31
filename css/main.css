@@ -1,86 +1,4 @@
 @charset "UTF-8";
-/*
-@import "variables";
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;     //600    //300
-    font-size: 18px;
-}
-
-
-body{
-    scroll-behavior:unset;
-
-}
-
-body::-webkit-scrollbar{
-    width: 15px;
-
-}
-body::-webkit-scrollbar-thumb{
-    background: $colorVerde;
-    border-radius: 20px;
-    height: 100px;
-}
-body::-webkit-scrollbar-thumb:hover{
-    cursor: pointer;
-}
-
-
-
-@import "menu";
-@import "grid_paginaFrontal";
-@import "paginaFrontal";
-@import "gridContent";
-@import "about";
-@import "variables";
-@import "contact";
-@import "btnTop";
-@import "preloader";
-@import "pie";
-@import "barras";
-@import "switchAlert";
-@import "grid_retos";
-@import "retos";
-@import "landing"; 
-@import "contTemplatesRetos"; 
-@import "blog";
-@import "block_redes";
-
-
-//ESTILOS PORTAFOLIO
-@import "../scss/portfolio/title";
-@import "../scss/portfolio/estructura";
-
-
-//ESTILOS SERVICIOS
-@import "../scss/services/titleServices";
-@import "../scss/services/services";
-
-//ESTILOS SKILLS
-@import "../scss/skills/skillsCont";
-@import "../scss/skills/titleSkills";
-@import "../scss/skills/skills";
-
-
-//ESTILOS CONTACT
-@import "../scss/contact/contactTitle";
-
-
-//ESTILOS BLOGGER
-@import "../scss/blog/blogGrilla";  
-@import "../scss/blog/contBlogTop";
-@import "../scss/blog/contBlogMenu";
-@import "../scss/blog/contBlogHeader";
-@import "../scss/blog/contBlogBloggers";
-@import "../scss/blog/contBlogSidebar";
-@import "../scss/blog/contBlogFooter";
-
-
-*/
 * {
   padding: 0;
   margin: 0;
@@ -2229,6 +2147,7 @@ body::-webkit-scrollbar-thumb:hover {
   padding-top: 200px;
   padding-bottom: 100px;
   background: rgb(255, 255, 255);
+  position: relative;
 }
 .containerContact .containerContactBig {
   width: 85%;
@@ -2283,6 +2202,8 @@ body::-webkit-scrollbar-thumb:hover {
   width: 80%;
   margin: auto;
   padding: 10px 0px;
+  position: relative;
+  z-index: 100;
 }
 .containerContact .containerContactBig .containerContact_form .containerContact_form_caja {
   width: 100%;
@@ -2327,6 +2248,14 @@ body::-webkit-scrollbar-thumb:hover {
 .containerContact .containerContactBig .containerContact_form .button:hover {
   background-color: #0c1b32;
   color: #56fbd3;
+}
+.containerContact .containerContactInterrogacion {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  bottom: 250px;
+  right: 100px;
+  opacity: 0.2;
 }
 
 @media (min-width: 320px) and (max-width: 423px) {
@@ -2434,6 +2363,13 @@ body::-webkit-scrollbar-thumb:hover {
   .containerContact .containerContactBig .containerContact_form .button:hover {
     background-color: #0c1b32;
     color: #56fbd3;
+  }
+  .containerContact .containerContactInterrogacion {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    bottom: 250px;
+    right: -60px;
   }
 }
 h2 {

@@ -12,6 +12,9 @@
     padding-top: 200px;
     padding-bottom: 100px;
     background: rgb(255, 255, 255);
+    position: relative;
+
+    //BLOCK CONTACT BIG
     .containerContactBig{
         width: 85%;
         padding: 120px 0px;
@@ -75,6 +78,8 @@
             width: 80%;
             margin: auto;
             padding: 10px 0px;
+            position: relative;
+            z-index: 100;
             .containerContact_form_caja{
                 width: 100%;
                 padding: 10px 0px;
@@ -123,6 +128,17 @@
             }
             
         }
+    }
+
+
+    //BLOCK INTERROGATION
+    .containerContactInterrogacion{
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        bottom:250px;
+        right: 100px;
+        opacity: 0.2;
     }
     
 }
@@ -269,6 +285,16 @@
                 }
                 
             }
+        }
+
+
+        //BLOCK INTERROGATION
+        .containerContactInterrogacion{
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            bottom:250px;
+            right: -60px;
         }
         
     } 

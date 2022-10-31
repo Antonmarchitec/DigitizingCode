@@ -21,20 +21,20 @@
         "id":4,
         "title":"Páginas One page",
         "imagen":"./image/SERVICIOS/ONE_PAGE.png",
-        "descripcion": "Diseño de páginas one page a medida para tu negocio o emprendimiento donde podras presentar todo tus servicios en una sola pagina."
+        "descripcion": "Diseño de páginas one page a medida para tu negocio o emprendimiento donde podrás presentar todo tus servicios en una sola página."
     },   
     {
         "id":5,
         "title":"Páginas corporativas",
         "imagen":"./image/SERVICIOS/LANDING_NAME.png",
-        "descripcion": "Desarrollo de paginas web corporativas hechas a medida y con todas las caracteristicas que represente a tu empresa."
+        "descripcion": "Desarrollo de páginas web corporativas hechas a medida y con todas las características que represente a tu empresa."
     },   
     
     {
         "id":6,
         "title":"Páginas presenciales",
         "imagen":"./image/SERVICIOS/PRESENCIALES.png",
-        "descripcion": "Desarrollo de paginas web para negocios pequeños o que estan iniciando, muestra tus productos o servicios."
+        "descripcion": "Desarrollo de páginas web para negocios pequeños o que están iniciando, muestra tus productos o servicios."
     },
     {
         "id":7,

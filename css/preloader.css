@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    z-index: 100;
+    z-index: 1000;
 }
 .loaderJS{
     animation: preloader 2s forwards;

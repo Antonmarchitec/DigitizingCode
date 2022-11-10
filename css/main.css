@@ -46,7 +46,7 @@ body::-webkit-scrollbar-thumb:hover {
   left: 0;
   top: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 500;
 }
 .container .containerHeader .containerHeader_logo {
   width: 290px;

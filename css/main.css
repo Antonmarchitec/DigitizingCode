@@ -189,7 +189,7 @@ body::-webkit-scrollbar-thumb:hover {
   color: #56fbd3;
 }
 .container .cont_descripcion_footer .cont_descripcion_redes {
-  width: 300px;
+  width: 200px;
   padding: 10px 0px;
   margin-right: 20px;
   display: flex;

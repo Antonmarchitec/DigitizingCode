@@ -1065,84 +1065,100 @@ body::-webkit-scrollbar-thumb:hover {
   margin: 30px auto;
   width: 80%;
 }
-.containerHeaderContServicios .containerHeaderContServicios_contCuadros {
-  margin: 0px auto;
-  width: 100%;
-  background-image: url(../image/banner.jpg);
-  background-size: 100% 100%;
-  background-attachment: fixed;
-}
-.containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase {
-  background: rgba(12, 27, 50, 0.6980392157);
-}
-.containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros {
-  width: 100%;
-  padding: 50px 0px;
+.containerHeaderContServicios .containerRef {
+  width: 700px;
+  padding: 10px;
+  background: transparent;
+  margin: 50px auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
-.containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro {
-  width: 23%;
-  background: #0c1b32;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px white;
-  margin: 10px auto;
-  position: relative;
-  overflow: hidden;
-  animation-duration: 3s;
+.containerHeaderContServicios .containerRef .containerRef_box {
+  width: 200px;
+  padding: 15px;
+  border: 1.5px solid #56fbd3;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  transition: 0.1s all;
 }
-.containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro .contCuadro_imagen {
-  width: 100%;
-  background-image: url(../image/SERVICIOS/DISEÑO_GRAFICO.png);
-  background-size: 100% 100%;
-  transition: 0.5s all;
-}
-.containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro .contCuadro_descripcion {
-  width: 100%;
-  height: 100%;
-  padding: 30px;
-  position: absolute;
-  top: 0;
-  transition: 0.5s all;
-}
-.containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro .contCuadro_descripcion .contCuadro_title {
-  width: 150px;
-  height: 50px;
+.containerHeaderContServicios .containerRef .containerRef_box .containerRef_box_image {
+  width: 80px;
+  height: 80px;
   margin: auto;
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 25px;
-  color: #56fbd3;
-  line-height: 24px;
-  font-size: 20px;
 }
-.containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro .contCuadro_descripcion .contCuadro_parrafo {
-  text-align: center;
-  margin-top: 20px;
-  transform: translateY(180px);
-  opacity: 0;
+.containerHeaderContServicios .containerRef .containerRef_box .containerRef_box_text {
   color: white;
-  transition: 0.2s all;
-  font-size: 18px;
+  text-align: center;
 }
-.containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro:hover {
-  cursor: pointer;
+.containerHeaderContServicios .containerRef .containerRef_box:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 8px #56fbd3;
 }
-.containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro:hover .contCuadro_imagen {
-  transform: scale(1.1, 1.1);
+.containerHeaderContServicios .containerServices {
+  width: 100%;
+  padding: 10px 0px;
+  background: #0c1b32;
 }
-.containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro:hover .contCuadro_descripcion {
-  background: rgba(12, 27, 50, 0.6980392157);
+.containerHeaderContServicios .containerServices .containerServices_boxA {
+  width: 90%;
+  margin: auto;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
 }
-.containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro:hover .contCuadro_descripcion .contCuadro_title {
-  color: #56fbd3;
+.containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_image {
+  width: 400px;
+  height: 400px;
 }
-.containerHeaderContServicios .containerHeaderContServicios_contCuadros #contBase .containerBaseCuadros .contCuadro:hover .contCuadro_descripcion .contCuadro_parrafo {
-  opacity: 1;
-  transform: translateY(0px);
+.containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text {
+  width: 600px;
+  padding: 10px;
+}
+.containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text .containerServices_boxA_text_title {
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+  color: #96aadb;
+}
+.containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text .containerServices_boxA_text_text {
+  margin-top: 20px;
+  color: white;
+}
+.containerHeaderContServicios .containerServices {
+  width: 100%;
+  padding: 10px 0px;
+  background: #0c1b32;
+}
+.containerHeaderContServicios .containerServices .containerServices_boxB {
+  width: 90%;
+  margin: auto;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_image {
+  width: 400px;
+  height: 400px;
+}
+.containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_text {
+  width: 600px;
+  padding: 10px;
+}
+.containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_text .containerServices_boxB_text_title {
+  color: #96aadb;
+  font-size: 35px;
+  font-weight: 600;
+}
+.containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_text .containerServices_boxB_text_text {
+  margin-top: 20px;
+  color: white;
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {

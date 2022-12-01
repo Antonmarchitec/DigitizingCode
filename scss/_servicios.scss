@@ -67,102 +67,128 @@
             width: 80%;
         }
     }
+
+
+
+    
+    //BLOCK REFERENCIAS
+    .containerRef{
+        width: 700px;
+        padding: 10px;
+        background:transparent;
+        margin: 50px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .containerRef_box{
+            width: 200px;
+            padding: 15px;
+            border: 1.5px solid $colorVerde;
+            border-radius: 3px;
+            margin-bottom: 10px;
+            transition: 0.1s all;
+            .containerRef_box_image{
+                width: 80px;
+                height: 80px;
+                margin: auto;
+            }
+
+            .containerRef_box_text{
+                color: white;
+                text-align: center;
+            }
+        }
+
+        .containerRef_box:hover{
+            transform: scale(1.02);
+            box-shadow: 0px 0px 8px $colorVerde;
+
+        }
+    }
     
 
 
     //BLOCK CONTENEDOR SERVICIOS
-    .containerHeaderContServicios_contCuadros{
-        margin: 0px auto;
+    //TIPE BLOCK A
+    .containerServices{
         width: 100%;
-        background-image: url(../image/banner.jpg);
-        background-size: 100% 100%;
-        background-attachment: fixed;
-        #contBase{
-            background: $colorAzulTransparente;
-            //overflow: hidden;
-          
-            .containerBaseCuadros{  
-                width: 100%;
-                padding: 50px 0px;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                align-items: center;
-                .contCuadro{
-                    width: 23%;
-                    background: $colorAzul;
-                    border-radius: 5px;
-                    //border: 5px solid $colorBlack;
-                    box-shadow: 0px 0px 10px white;
-                    margin:10px auto;
-                    position: relative;
-                    overflow: hidden;
-                    animation-duration: 3s;
-                    .contCuadro_imagen{
-                        width: 100%;
-                        background-image: url(../image/SERVICIOS/DISEÑO_GRAFICO.png);
-                        background-size: 100% 100%;
-                        transition: 0.5s all;
-                    }
-                    
-                    .contCuadro_descripcion{   //cuadro de ensima superior
-                        width: 100%;
-                        height: 100%;
-                        padding: 30px;
-                        position: absolute;
-                        top: 0;
-                        transition: 0.5s all;
-                        .contCuadro_title{
-                            width: 150px;
-                            height: 50px;
-                            margin: auto ;
-                            text-align: center;
-                            text-transform: uppercase;
-                            line-height: 25px;
-                            color: $colorVerde;
-                            line-height: 24px;
-                            font-size: 20px;
-                        }
-                        
-                        .contCuadro_parrafo{
-                            text-align: center;
-                            margin-top: 20px;
-                            transform: translateY(180px);
-                            opacity: 0;
-                            color: white;
-                            transition: 0.2s all;
-                            font-size: 18px;
-                            
-                        }   
-        
-                    }
+        padding: 10px 0px;
+        background:$colorAzul;
+        .containerServices_boxA{
+            width: 90%;
+            margin: auto;
+            padding: 100px 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: flex-start;
+            .containerServices_boxA_image{
+                width: 400px;
+                height: 400px;
+            }
+
+            .containerServices_boxA_text{
+                width: 600px;
+                padding:10px;
+                .containerServices_boxA_text_title{
+                    color: white;
+                    font-size: 35px;
+                    font-weight: 600;
+                    color: $colorCelesteOscuro;
+
                 }
-                .contCuadro:hover{
-                    /////////////
-                    cursor: pointer;
-                    .contCuadro_imagen{
-                        transform: scale(1.1,1.1);
-                    }
 
-                    .contCuadro_descripcion{
-                        /////////////
-                        background:$colorAzulTransparente;
-                        .contCuadro_title{
-                            color: $colorVerde;
-                        }
-                        .contCuadro_parrafo{
-                           opacity: 1;
-                           transform: translateY(0px);
-
-                        }
-                    }
+                .containerServices_boxA_text_text{
+                    margin-top: 20px;
+                    color: white;
                 }
             }
-    
+
+        }
+    }
+
+    //TIPE BLOCK B
+    .containerServices{
+        width: 100%;
+        padding: 10px 0px;
+        background:$colorAzul;
+        .containerServices_boxB{
+            width: 90%;
+            margin: auto;
+            padding: 100px 0px;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+            align-items: flex-start;
+            .containerServices_boxB_image{
+                width: 400px;
+                height: 400px;
+            }
+
+            .containerServices_boxB_text{
+                width: 600px;
+                padding:10px;
+                .containerServices_boxB_text_title{
+                    color: $colorCelesteOscuro;
+                    font-size: 35px;
+                    font-weight: 600;
+
+                }
+
+                .containerServices_boxB_text_text{
+                    margin-top: 20px;
+                    color: white;
+                }
+            }
+
         }
     }
 }
+
+
+
 
 
 
@@ -892,17 +918,6 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -12,6 +12,10 @@ a{
     text-decoration: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     scroll-behavior:unset;
     

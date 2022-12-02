@@ -12,7 +12,7 @@
     margin-top: 80px;
     width: 100%;
     padding: 30px 0px;
-    background: #10182b;
+    background:$colorAzul;
     //BLOCK BANNER
     .container_banner{
         width: 100%;
@@ -51,7 +51,7 @@
         .containerHeaderContServicios_info_title{
             font-size: 50px;
             text-align: center;
-            color:$colorCelesteOscuro;
+            color:$colorVerde;
             text-shadow: 0px 1px 0px $colorAzul;
         }
         .containerHeaderContServicios_info_descrpcion{
@@ -133,10 +133,9 @@
                 width: 600px;
                 padding:10px;
                 .containerServices_boxA_text_title{
-                    color: white;
+                    color: $colorVerde;
                     font-size: 35px;
                     font-weight: 600;
-                    color: $colorCelesteOscuro;
 
                 }
 
@@ -171,7 +170,7 @@
                 width: 600px;
                 padding:10px;
                 .containerServices_boxB_text_title{
-                    color: $colorCelesteOscuro;
+                    color: $colorVerde;
                     font-size: 35px;
                     font-weight: 600;
 

@@ -1022,7 +1022,7 @@ body::-webkit-scrollbar-thumb:hover {
   margin-top: 80px;
   width: 100%;
   padding: 30px 0px;
-  background: #10182b;
+  background: #0c1b32;
 }
 .containerHeaderContServicios .container_banner {
   width: 100%;
@@ -1054,7 +1054,7 @@ body::-webkit-scrollbar-thumb:hover {
 .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_title {
   font-size: 50px;
   text-align: center;
-  color: #96aadb;
+  color: #56fbd3;
   text-shadow: 0px 1px 0px #0c1b32;
 }
 .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_descrpcion {
@@ -1124,10 +1124,9 @@ body::-webkit-scrollbar-thumb:hover {
   padding: 10px;
 }
 .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text .containerServices_boxA_text_title {
-  color: white;
+  color: #56fbd3;
   font-size: 35px;
   font-weight: 600;
-  color: #96aadb;
 }
 .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text .containerServices_boxA_text_text {
   margin-top: 20px;
@@ -1156,7 +1155,7 @@ body::-webkit-scrollbar-thumb:hover {
   padding: 10px;
 }
 .containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_text .containerServices_boxB_text_title {
-  color: #96aadb;
+  color: #56fbd3;
   font-size: 35px;
   font-weight: 600;
 }

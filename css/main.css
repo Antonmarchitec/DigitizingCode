@@ -1023,6 +1023,13 @@ body::-webkit-scrollbar-thumb:hover {
   width: 100%;
   padding: 30px 0px;
   background: #11182b;
+  /*
+      containerWeb
+  containerWeb_image
+  containerWeb_box
+  containerWeb_box_number
+  containerWeb_box_text
+  containerWeb_box_desc*/
 }
 .containerHeaderContServicios .container_banner {
   width: 100%;
@@ -1164,6 +1171,144 @@ body::-webkit-scrollbar-thumb:hover {
   width: 80%;
   margin-top: 20px;
   color: white;
+}
+.containerHeaderContServicios .containerWeb {
+  margin-top: 100px;
+  width: 90%;
+  margin: auto;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_image {
+  width: 500px;
+  height: 400px;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_box1 {
+  width: 200px;
+  padding: 15px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  background: #0c1b32;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_box1 .containerWeb_box_number {
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 25px;
+  border: 2px solid #56fbd3;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_box1 .containerWeb_box_text {
+  color: white;
+  font-size: 20px;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_box1 .containerWeb_box_desc {
+  margin-top: 6px;
+  color: #96aadb;
+  font-size: 14px;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_box2 {
+  width: 200px;
+  padding: 15px;
+  position: absolute;
+  top: 300px;
+  left: 80px;
+  background: #0c1b32;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_box2 .containerWeb_box_number {
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 25px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_box2 .containerWeb_box_text {
+  color: white;
+  font-size: 20px;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_box2 .containerWeb_box_desc {
+  margin-top: 6px;
+  color: #96aadb;
+  font-size: 14px;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_box3 {
+  width: 200px;
+  padding: 15px;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  background: #0c1b32;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_box3 .containerWeb_box_number {
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 25px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_box3 .containerWeb_box_text {
+  color: white;
+  font-size: 20px;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_box3 .containerWeb_box_desc {
+  margin-top: 6px;
+  color: #96aadb;
+  font-size: 14px;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_box4 {
+  width: 200px;
+  padding: 15px;
+  position: absolute;
+  top: 300px;
+  right: 80px;
+  background: #0c1b32;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_box4 .containerWeb_box_number {
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 25px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_box4 .containerWeb_box_text {
+  color: white;
+  font-size: 20px;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_box4 .containerWeb_box_desc {
+  margin-top: 6px;
+  color: #96aadb;
+  font-size: 14px;
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {

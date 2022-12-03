@@ -224,9 +224,11 @@
     
             .containerWeb_box1{
                 width: 200px;
-                height: 180px;
+                height: 200px;
                 padding: 20px;
                 position: absolute;
+                border:2px solid $colorVerde;
+                border-radius: 5px 5px 50px 5px;
                 top: 50px;
                 left: 100px;
                 background: $colorAzul;
@@ -235,6 +237,7 @@
                     height: 40px;
                     color:white;
                     font-size: 25px;
+                    background: $colorAzul;
                     border: 2px solid $colorVerde;
                     border-radius: 50%;
                     display: flex;
@@ -258,8 +261,10 @@
     
             .containerWeb_box2{
                 width: 200px;
-                height: 180px;
+                height: 200px;
                 padding: 20px;
+                border:2px solid $colorVerde;
+                border-radius: 5px 5px 50px 5px;
                 position: absolute;
                 top: 300px;
                 left: 80px;
@@ -267,6 +272,7 @@
                 .containerWeb_box_number{
                     width: 40px;
                     height: 40px;
+                    background: $colorAzul;
                     color:white;
                     font-size: 25px;
                     border: 2px solid $colorVerde;
@@ -292,8 +298,10 @@
 
             .containerWeb_box3{
                 width: 200px;
-                height: 180px;
+                height: 200px;
                 padding: 20px;
+                border:2px solid $colorVerde;
+                border-radius: 5px 5px 5px 50px;
                 position: absolute;
                 top: 50px;
                 right: 100px;
@@ -301,6 +309,7 @@
                 .containerWeb_box_number{
                     width: 40px;
                     height: 40px;
+                    background: $colorAzul;
                     color:white;
                     font-size: 25px;
                     border: 2px solid $colorVerde;
@@ -326,8 +335,10 @@
 
             .containerWeb_box4{
                 width: 200px;
-                height: 180px;
+                height: 200px;
                 padding: 20px;
+                border:2px solid $colorVerde;
+                border-radius: 5px 5px 5px 50px;
                 position: absolute;
                 top: 300px;
                 right: 80px;
@@ -336,6 +347,7 @@
                     width: 40px;
                     height: 40px;
                     color:white;
+                    background: $colorAzul;
                     font-size: 25px;
                     border: 2px solid $colorVerde;
                     border-radius: 50%;

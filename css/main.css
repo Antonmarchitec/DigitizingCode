@@ -1023,13 +1023,6 @@ body::-webkit-scrollbar-thumb:hover {
   width: 100%;
   padding: 30px 0px;
   background: #11182b;
-  /*
-      containerWeb
-  containerWeb_image
-  containerWeb_box
-  containerWeb_box_number
-  containerWeb_box_text
-  containerWeb_box_desc*/
 }
 .containerHeaderContServicios .container_banner {
   width: 100%;
@@ -1174,27 +1167,46 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .containerHeaderContServicios .containerWeb {
   margin-top: 100px;
-  width: 90%;
+  width: 100%;
+  padding: 10px 0px;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_title {
+  width: 45%;
+  line-height: 40px;
+  color: #56fbd3;
+  font-size: 40px;
   margin: auto;
-  height: 800px;
+  text-align: center;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_description {
+  width: 70%;
+  margin: 30px auto;
+  text-align: center;
+  color: white;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_block {
+  width: 90%;
+  margin: 50px auto;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
-.containerHeaderContServicios .containerWeb .containerWeb_image {
+.containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_image {
   width: 500px;
   height: 400px;
 }
-.containerHeaderContServicios .containerWeb .containerWeb_box1 {
+.containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 {
   width: 200px;
-  padding: 15px;
+  height: 180px;
+  padding: 20px;
   position: absolute;
   top: 50px;
   left: 100px;
   background: #0c1b32;
 }
-.containerHeaderContServicios .containerWeb .containerWeb_box1 .containerWeb_box_number {
+.containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_number {
   width: 40px;
   height: 40px;
   color: white;
@@ -1208,29 +1220,30 @@ body::-webkit-scrollbar-thumb:hover {
   top: -20px;
   right: -20px;
 }
-.containerHeaderContServicios .containerWeb .containerWeb_box1 .containerWeb_box_text {
+.containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_text {
   color: white;
   font-size: 20px;
 }
-.containerHeaderContServicios .containerWeb .containerWeb_box1 .containerWeb_box_desc {
+.containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_desc {
   margin-top: 6px;
   color: #96aadb;
   font-size: 14px;
 }
-.containerHeaderContServicios .containerWeb .containerWeb_box2 {
+.containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 {
   width: 200px;
-  padding: 15px;
+  height: 180px;
+  padding: 20px;
   position: absolute;
   top: 300px;
   left: 80px;
   background: #0c1b32;
 }
-.containerHeaderContServicios .containerWeb .containerWeb_box2 .containerWeb_box_number {
+.containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_number {
   width: 40px;
   height: 40px;
   color: white;
   font-size: 25px;
-  border: 2px solid white;
+  border: 2px solid #56fbd3;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -1239,29 +1252,30 @@ body::-webkit-scrollbar-thumb:hover {
   top: -20px;
   right: -20px;
 }
-.containerHeaderContServicios .containerWeb .containerWeb_box2 .containerWeb_box_text {
+.containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_text {
   color: white;
   font-size: 20px;
 }
-.containerHeaderContServicios .containerWeb .containerWeb_box2 .containerWeb_box_desc {
+.containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_desc {
   margin-top: 6px;
   color: #96aadb;
   font-size: 14px;
 }
-.containerHeaderContServicios .containerWeb .containerWeb_box3 {
+.containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 {
   width: 200px;
-  padding: 15px;
+  height: 180px;
+  padding: 20px;
   position: absolute;
   top: 50px;
   right: 100px;
   background: #0c1b32;
 }
-.containerHeaderContServicios .containerWeb .containerWeb_box3 .containerWeb_box_number {
+.containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_number {
   width: 40px;
   height: 40px;
   color: white;
   font-size: 25px;
-  border: 2px solid white;
+  border: 2px solid #56fbd3;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -1270,29 +1284,30 @@ body::-webkit-scrollbar-thumb:hover {
   top: -20px;
   right: -20px;
 }
-.containerHeaderContServicios .containerWeb .containerWeb_box3 .containerWeb_box_text {
+.containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_text {
   color: white;
   font-size: 20px;
 }
-.containerHeaderContServicios .containerWeb .containerWeb_box3 .containerWeb_box_desc {
+.containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_desc {
   margin-top: 6px;
   color: #96aadb;
   font-size: 14px;
 }
-.containerHeaderContServicios .containerWeb .containerWeb_box4 {
+.containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 {
   width: 200px;
-  padding: 15px;
+  height: 180px;
+  padding: 20px;
   position: absolute;
   top: 300px;
   right: 80px;
   background: #0c1b32;
 }
-.containerHeaderContServicios .containerWeb .containerWeb_box4 .containerWeb_box_number {
+.containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_number {
   width: 40px;
   height: 40px;
   color: white;
   font-size: 25px;
-  border: 2px solid white;
+  border: 2px solid #56fbd3;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -1301,14 +1316,43 @@ body::-webkit-scrollbar-thumb:hover {
   top: -20px;
   right: -20px;
 }
-.containerHeaderContServicios .containerWeb .containerWeb_box4 .containerWeb_box_text {
+.containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_text {
   color: white;
   font-size: 20px;
 }
-.containerHeaderContServicios .containerWeb .containerWeb_box4 .containerWeb_box_desc {
+.containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_desc {
   margin-top: 6px;
   color: #96aadb;
   font-size: 14px;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_blockArticle {
+  width: 100%;
+  padding: 10px 0px;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_title {
+  width: 50%;
+  line-height: 40px;
+  color: #56fbd3;
+  font-size: 35px;
+  text-align: center;
+  margin: 30px auto;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_block {
+  width: 90%;
+  padding: 10px 0px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_block .containerWeb_blockArticle_box {
+  width: 45%;
+  padding: 5px;
+}
+.containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_block .containerWeb_blockArticle_box .containerWeb_blockArticle_box_p {
+  color: white;
+  text-align: justify;
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {

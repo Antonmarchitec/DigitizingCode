@@ -189,156 +189,208 @@
 
 
     //BLOCK PORQUE TENER WEB
-    /*
-    containerWeb
-containerWeb_image
-containerWeb_box
-containerWeb_box_number
-containerWeb_box_text
-containerWeb_box_desc*/
     .containerWeb{
         margin-top: 100px;
-        width: 90%;
-        margin: auto;
-        height: 800px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        .containerWeb_image{
-            width: 500px;
-            height: 400px;
+        width: 100%;
+        padding: 10px 0px;
+        .containerWeb_title{
+            width: 45%;
+            line-height: 40px;
+            color: $colorVerde;
+            font-size: 40px;
+            margin: auto;
+            text-align: center;
         }
 
-        .containerWeb_box1{
-            width: 200px;
-            padding: 15px;
-            position: absolute;
-            top: 50px;
-            left: 100px;
-            background: $colorAzul;
-            .containerWeb_box_number{
-                width: 40px;
-                height: 40px;
-                color:white;
-                font-size: 25px;
-                border: 2px solid $colorVerde;
-                border-radius: 50%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                position: absolute;
-                top: -20px;
-                right: -20px;
-            }
-            .containerWeb_box_text{
-                color:white;
-                font-size: 20px;
-
-            }
-            .containerWeb_box_desc{
-                margin-top: 6px;
-                color:$colorCelesteOscuro;
-                font-size: 14px;
-            }
+        .containerWeb_description{
+            width: 70%;
+            margin: 30px auto;
+            text-align: center;
+            color: white;
         }
 
-        .containerWeb_box2{
-            width: 200px;
-            padding: 15px;
-            position: absolute;
-            top: 300px;
-            left: 80px;
-            background: $colorAzul;
-            .containerWeb_box_number{
-                width: 40px;
-                height: 40px;
-                color:white;
-                font-size: 25px;
-                border: 2px solid white;
-                border-radius: 50%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+        .containerWeb_block{
+            width: 90%;
+            margin: 50px auto;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            .containerWeb_image{
+                width: 500px;
+                height: 400px;
+            }
+    
+            .containerWeb_box1{
+                width: 200px;
+                height: 180px;
+                padding: 20px;
                 position: absolute;
-                top: -20px;
-                right: -20px;
+                top: 50px;
+                left: 100px;
+                background: $colorAzul;
+                .containerWeb_box_number{
+                    width: 40px;
+                    height: 40px;
+                    color:white;
+                    font-size: 25px;
+                    border: 2px solid $colorVerde;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: -20px;
+                    right: -20px;
+                }
+                .containerWeb_box_text{
+                    color:white;
+                    font-size: 20px;
+    
+                }
+                .containerWeb_box_desc{
+                    margin-top: 6px;
+                    color:$colorCelesteOscuro;
+                    font-size: 14px;
+                }
             }
-            .containerWeb_box_text{
-                color:white;
-                font-size: 20px;
+    
+            .containerWeb_box2{
+                width: 200px;
+                height: 180px;
+                padding: 20px;
+                position: absolute;
+                top: 300px;
+                left: 80px;
+                background: $colorAzul;
+                .containerWeb_box_number{
+                    width: 40px;
+                    height: 40px;
+                    color:white;
+                    font-size: 25px;
+                    border: 2px solid $colorVerde;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: -20px;
+                    right: -20px;
+                }
+                .containerWeb_box_text{
+                    color:white;
+                    font-size: 20px;
+    
+                }
+                .containerWeb_box_desc{
+                    margin-top: 6px;
+                    color:$colorCelesteOscuro;
+                    font-size: 14px;
+                }
+            }
 
+            .containerWeb_box3{
+                width: 200px;
+                height: 180px;
+                padding: 20px;
+                position: absolute;
+                top: 50px;
+                right: 100px;
+                background: $colorAzul;
+                .containerWeb_box_number{
+                    width: 40px;
+                    height: 40px;
+                    color:white;
+                    font-size: 25px;
+                    border: 2px solid $colorVerde;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: -20px;
+                    right: -20px;
+                }
+                .containerWeb_box_text{
+                    color:white;
+                    font-size: 20px;
+    
+                }
+                .containerWeb_box_desc{
+                    margin-top: 6px;
+                    color:$colorCelesteOscuro;
+                    font-size: 14px;
+                }
             }
-            .containerWeb_box_desc{
-                margin-top: 6px;
-                color:$colorCelesteOscuro;
-                font-size: 14px;
+
+            .containerWeb_box4{
+                width: 200px;
+                height: 180px;
+                padding: 20px;
+                position: absolute;
+                top: 300px;
+                right: 80px;
+                background: $colorAzul;
+                .containerWeb_box_number{
+                    width: 40px;
+                    height: 40px;
+                    color:white;
+                    font-size: 25px;
+                    border: 2px solid $colorVerde;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: -20px;
+                    right: -20px;
+                }
+                .containerWeb_box_text{
+                    color:white;
+                    font-size: 20px;
+    
+                }
+                .containerWeb_box_desc{
+                    margin-top: 6px;
+                    color:$colorCelesteOscuro;
+                    font-size: 14px;
+                }
             }
+    
+            
         }
 
-        .containerWeb_box3{
-            width: 200px;
-            padding: 15px;
-            position: absolute;
-            top: 50px;
-            right: 100px;
-            background: $colorAzul;
-            .containerWeb_box_number{
-                width: 40px;
-                height: 40px;
-                color:white;
-                font-size: 25px;
-                border: 2px solid white;
-                border-radius: 50%;
+        .containerWeb_blockArticle{
+            width: 100%;
+            padding: 10px 0px;
+            .containerWeb_blockArticle_title{
+                width: 50%;
+                line-height: 40px;
+                color: $colorVerde;
+                font-size: 35px;
+                text-align: center;
+                margin: 30px auto;
+            }
+
+            .containerWeb_blockArticle_block{
+                width: 90%;
+                padding: 10px 0px;
+                margin: 20px auto;
                 display: flex;
-                justify-content: center;
-                align-items: center;
-                position: absolute;
-                top: -20px;
-                right: -20px;
-            }
-            .containerWeb_box_text{
-                color:white;
-                font-size: 20px;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: flex-start;
+                .containerWeb_blockArticle_box{
+                    width:45%;
+                    padding: 5px;
+                    .containerWeb_blockArticle_box_p{
+                        color: white;
+                        text-align: justify;
+                    }
+                }
+                
 
-            }
-            .containerWeb_box_desc{
-                margin-top: 6px;
-                color:$colorCelesteOscuro;
-                font-size: 14px;
-            }
-        }
-
-        .containerWeb_box4{
-            width: 200px;
-            padding: 15px;
-            position: absolute;
-            top: 300px;
-            right: 80px;
-            background: $colorAzul;
-            .containerWeb_box_number{
-                width: 40px;
-                height: 40px;
-                color:white;
-                font-size: 25px;
-                border: 2px solid white;
-                border-radius: 50%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                position: absolute;
-                top: -20px;
-                right: -20px;
-            }
-            .containerWeb_box_text{
-                color:white;
-                font-size: 20px;
-
-            }
-            .containerWeb_box_desc{
-                margin-top: 6px;
-                color:$colorCelesteOscuro;
-                font-size: 14px;
             }
         }
     }

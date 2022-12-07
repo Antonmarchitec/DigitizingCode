@@ -119,7 +119,7 @@
         .containerServices_boxA{
             width: 90%;
             margin: auto;
-            padding: 100px 0px;
+            padding: 50px 0px;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
@@ -157,7 +157,7 @@
         .containerServices_boxB{
             width: 90%;
             margin: auto;
-            padding: 100px 0px;
+            padding: 50px 0px;
             display: flex;
             flex-direction: row-reverse;
             justify-content: space-around;
@@ -411,6 +411,17 @@
 
 
 
+/*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+/*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+/*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+
+
+
+
+
+
+
+
 
 
 
@@ -418,16 +429,21 @@
 
 
 @media (min-width:1025px)  and (max-width:1200px){
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+
+
     .containerHeaderContServicios{
         margin-top: 80px;
         width: 100%;
         padding: 30px 0px;
-        background: #10182b;
+        background:#11182b;
         //BLOCK BANNER
         .container_banner{
             width: 100%;
             position: relative;
-           
+        
             .fondo_banner{
                 width: 100%;
                 height: 400px;
@@ -449,20 +465,842 @@
             }
             
         }
-    
-    
+
+
         //BLOCK INFO
         .containerHeaderContServicios_info{
             width: 100%;
             //background: #10182b;
             padding-top: 150px;
             padding-bottom: 0px;
-    
+
             .containerHeaderContServicios_info_title{
-                font-size: 50px;
+                font-size: 45px;
                 text-align: center;
-                color:$colorCelesteOscuro;
-                text-shadow: 0px 1px 0px $colorAzul;
+                color:$colorVerde;
+            }
+            .containerHeaderContServicios_info_descrpcion{
+                width: 50%;
+                margin: auto;
+                padding: 10px 0px;
+                text-align: center;
+                color: white;
+                font-size: 23px;
+            }
+            .containerHeaderContServicios_info_img{
+                margin: 30px auto;
+                width: 80%;
+            }
+        }
+
+        
+        //BLOCK REFERENCIAS
+        .containerRef{
+            width: 700px;
+            padding: 10px;
+            background:transparent;
+            margin: 50px auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            .containerRef_box{
+                width: 200px;
+                padding: 15px;
+                border: 1.5px solid $colorVerde;
+                border-radius: 3px;
+                margin-bottom: 10px;
+                transition: 0.1s all;
+                .containerRef_box_image{
+                    width: 80px;
+                    height: 80px;
+                    margin: auto;
+                }
+
+                .containerRef_box_text{
+                    color: white;
+                    text-align: center;
+                }
+            }
+        }
+
+
+        //BLOCK CONTENEDOR SERVICIOS
+        //TIPE BLOCK A
+        .containerServices{
+            width: 100%;
+            padding: 10px 0px;
+            background:#11182b;
+            .containerServices_boxA{
+                width: 90%;
+                margin: auto;
+                padding: 50px 0px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .containerServices_boxA_image{
+                    width: 40%;
+                    height: initial;
+                }
+
+                .containerServices_boxA_text{
+                    width: 500px;
+                    padding:10px;
+                    .containerServices_boxA_text_title{
+                        color: $colorVerde;
+                        font-size: 35px;
+                        font-weight: 600;
+
+                    }
+
+                    .containerServices_boxA_text_text{
+                        width: 80%;
+                        margin-top: 20px;
+                        color: white;
+                    }
+                }
+
+            }
+        }
+
+        //TIPE BLOCK B
+        .containerServices{
+            width: 100%;
+            padding: 10px 0px;
+            background:#11182b;
+            .containerServices_boxB{
+                width: 90%;
+                margin: auto;
+                padding: 50px 0px;
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-around;
+                align-items: center;
+                .containerServices_boxB_image{
+                    width: 40%;
+                    height: initial;
+                }
+
+                .containerServices_boxB_text{
+                    width: 500px;
+                    padding:10px;
+                    .containerServices_boxB_text_title{
+                        color: $colorVerde;
+                        font-size: 35px;
+                        font-weight: 600;
+
+                    }
+
+                    .containerServices_boxB_text_text{
+                        width: 80%;
+                        margin-top: 20px;
+                        color: white;
+                    }
+                }
+
+            }
+        }
+        //BLOCK FIN CONTENEDOR SERVICIOS
+
+
+        //BLOCK PORQUE TENER WEB
+        .containerWeb{
+            margin-top: 100px;
+            width: 100%;
+            padding: 10px 0px;
+            .containerWeb_title{
+                width: 45%;
+                line-height: 35px;
+                color: $colorVerde;
+                font-size: 35px;
+                margin: auto;
+                text-align: center;
+            }
+
+            .containerWeb_description{
+                width: 70%;
+                margin: 30px auto;
+                text-align: center;
+                color: white;
+            }
+
+            .containerWeb_block{
+                width: 100%;
+                margin: 50px auto;
+                height: 600px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                .containerWeb_image{
+                    width: 500px;
+                    height: 400px;
+                }
+        
+                .containerWeb_box1{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    position: absolute;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 50px 5px;
+                    top: 50px;
+                    left: calc(50% - 430px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        color:white;
+                        font-size: 25px;
+                        background: $colorAzul;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+        
+                .containerWeb_box2{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 50px 5px;
+                    position: absolute;
+                    top: 300px;
+                    left: calc(50% - 450px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        background: $colorAzul;
+                        color:white;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+
+                .containerWeb_box3{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 5px 50px;
+                    position: absolute;
+                    top: 50px;
+                    right: calc(50% - 430px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        background: $colorAzul;
+                        color:white;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+
+                .containerWeb_box4{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 5px 50px;
+                    position: absolute;
+                    top: 300px;
+                    right: calc(50% - 450px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        color:white;
+                        background: $colorAzul;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+        
+                
+            }
+
+            .containerWeb_blockArticle{
+                width: 100%;
+                padding: 10px 0px;
+                .containerWeb_blockArticle_title{
+                    width: 50%;
+                    line-height: 35px;
+                    color: $colorVerde;
+                    font-size: 32px;
+                    text-align: center;
+                    margin: 30px auto;
+                }
+
+                .containerWeb_blockArticle_block{
+                    width: 90%;
+                    padding: 10px 0px;
+                    margin: 20px auto;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                    .containerWeb_blockArticle_box{
+                        width:45%;
+                        padding: 5px;
+                        .containerWeb_blockArticle_box_p{
+                            color: white;
+                            text-align: justify;
+                        }
+                    }
+                    
+
+                }
+            }
+        }
+    }
+
+
+
+
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+}
+
+
+
+
+
+
+
+@media (min-width:900px)  and (max-width:1024px){
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+
+
+    .containerHeaderContServicios{
+        margin-top: 80px;
+        width: 100%;
+        padding: 30px 0px;
+        background:#11182b;
+        //BLOCK BANNER
+        .container_banner{
+            width: 100%;
+            position: relative;
+        
+            .fondo_banner{
+                width: 100%;
+                height: 400px;
+            }
+            
+            .banner_text{
+                width: 100%;
+                height: 400px;
+                background: $colorAzulTransparente;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                position: absolute;
+                top:0px;
+                .containerHeaderContServicios_banner_title{
+                    color: white;
+                    font-size: 100px;
+                }
+            }
+            
+        }
+
+
+        //BLOCK INFO
+        .containerHeaderContServicios_info{
+            width: 100%;
+            //background: #10182b;
+            padding-top: 150px;
+            padding-bottom: 0px;
+
+            .containerHeaderContServicios_info_title{
+                font-size: 45px;
+                text-align: center;
+                color:$colorVerde;
+            }
+            .containerHeaderContServicios_info_descrpcion{
+                width: 60%;
+                margin: auto;
+                padding: 10px 0px;
+                text-align: center;
+                color: white;
+                font-size: 23px;
+            }
+            .containerHeaderContServicios_info_img{
+                margin: 30px auto;
+                width: 90%;
+            }
+        }
+
+        
+        //BLOCK REFERENCIAS
+        .containerRef{
+            width: 700px;
+            padding: 10px;
+            background:transparent;
+            margin: 50px auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            .containerRef_box{
+                width: 200px;
+                padding: 15px;
+                border: 1.5px solid $colorVerde;
+                border-radius: 3px;
+                margin-bottom: 10px;
+                transition: 0.1s all;
+                .containerRef_box_image{
+                    width: 80px;
+                    height: 80px;
+                    margin: auto;
+                }
+
+                .containerRef_box_text{
+                    color: white;
+                    text-align: center;
+                }
+            }
+        }
+
+
+        //BLOCK CONTENEDOR SERVICIOS
+        //TIPE BLOCK A
+        .containerServices{
+            width: 100%;
+            padding: 10px 0px;
+            background:#11182b;
+            .containerServices_boxA{
+                width: 100%;
+                margin: auto;
+                padding: 50px 0px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .containerServices_boxA_image{
+                    width: 50%;
+                    height: initial;
+                }
+
+                .containerServices_boxA_text{
+                    width: 400px;
+                    padding:10px;
+                    .containerServices_boxA_text_title{
+                        color: $colorVerde;
+                        font-size: 35px;
+                        font-weight: 600;
+
+                    }
+
+                    .containerServices_boxA_text_text{
+                        width: 80%;
+                        margin-top: 20px;
+                        color: white;
+                    }
+                }
+
+            }
+        }
+
+        //TIPE BLOCK B
+        .containerServices{
+            width: 100%;
+            padding: 10px 0px;
+            background:#11182b;
+            .containerServices_boxB{
+                width: 100%;
+                margin: auto;
+                padding: 50px 0px;
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-around;
+                align-items: center;
+                .containerServices_boxB_image{
+                    width: 50%;
+                    height: initial;
+                }
+
+                .containerServices_boxB_text{
+                    width: 400px;
+                    padding:10px;
+                    .containerServices_boxB_text_title{
+                        color: $colorVerde;
+                        font-size: 35px;
+                        font-weight: 600;
+
+                    }
+
+                    .containerServices_boxB_text_text{
+                        width: 80%;
+                        margin-top: 20px;
+                        color: white;
+                    }
+                }
+
+            }
+        }
+        //BLOCK FIN CONTENEDOR SERVICIOS
+
+
+        //BLOCK PORQUE TENER WEB
+        .containerWeb{
+            margin-top: 100px;
+            width: 100%;
+            padding: 10px 0px;
+            .containerWeb_title{
+                width: 45%;
+                line-height: 35px;
+                color: $colorVerde;
+                font-size: 35px;
+                margin: auto;
+                text-align: center;
+            }
+
+            .containerWeb_description{
+                width: 70%;
+                margin: 30px auto;
+                text-align: center;
+                color: white;
+            }
+
+            .containerWeb_block{
+                width: 100%;
+                margin: 50px auto;
+                height: 600px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                .containerWeb_image{
+                    width: 450px;
+                    height: 350px;
+                }
+        
+                .containerWeb_box1{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    position: absolute;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 50px 5px;
+                    top: 50px;
+                    left: calc(50% - 420px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        color:white;
+                        font-size: 25px;
+                        background: $colorAzul;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+        
+                .containerWeb_box2{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 50px 5px;
+                    position: absolute;
+                    top: 300px;
+                    left: calc(50% - 430px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        background: $colorAzul;
+                        color:white;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+
+                .containerWeb_box3{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 5px 50px;
+                    position: absolute;
+                    top: 50px;
+                    right: calc(50% - 420px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        background: $colorAzul;
+                        color:white;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+
+                .containerWeb_box4{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 5px 50px;
+                    position: absolute;
+                    top: 300px;
+                    right: calc(50% - 430px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        color:white;
+                        background: $colorAzul;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+        
+                
+            }
+
+
+            .containerWeb_blockArticle{
+                width: 100%;
+                padding: 10px 0px;
+                .containerWeb_blockArticle_title{
+                    width: 50%;
+                    line-height: 35px;
+                    color: $colorVerde;
+                    font-size: 32px;
+                    text-align: center;
+                    margin: 30px auto;
+                }
+
+                .containerWeb_blockArticle_block{
+                    width: 100%;
+                    padding: 10px 0px;
+                    margin: 20px auto;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                    .containerWeb_blockArticle_box{
+                        width:45%;
+                        padding: 5px;
+                        .containerWeb_blockArticle_box_p{
+                            color: white;
+                            text-align: justify;
+                        }
+                    }
+                    
+
+                }
+            }
+        }
+    }
+
+
+
+
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+}
+
+
+
+
+
+
+
+@media (min-width:770px)  and (max-width:899px){
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+
+
+    .containerHeaderContServicios{
+        margin-top: 80px;
+        width: 100%;
+        padding: 30px 0px;
+        background:#11182b;
+        //BLOCK BANNER
+        .container_banner{
+            width: 100%;
+            position: relative;
+        
+            .fondo_banner{
+                width: 100%;
+                height: 400px;
+            }
+            
+            .banner_text{
+                width: 100%;
+                height: 400px;
+                background: $colorAzulTransparente;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                position: absolute;
+                top:0px;
+                .containerHeaderContServicios_banner_title{
+                    color: white;
+                    font-size: 100px;
+                }
+            }
+            
+        }
+
+
+        //BLOCK INFO
+        .containerHeaderContServicios_info{
+            width: 100%;
+            //background: #10182b;
+            padding-top: 100px;
+            padding-bottom: 0px;
+
+            .containerHeaderContServicios_info_title{
+                font-size: 40px;
+                text-align: center;
+                color:$colorVerde;
             }
             .containerHeaderContServicios_info_descrpcion{
                 width: 80%;
@@ -473,541 +1311,374 @@
                 font-size: 20px;
             }
             .containerHeaderContServicios_info_img{
-                margin: 30px auto;
-                width: 80%;
+                margin: 10px auto;
+                width: 100%;
             }
         }
+
         
-    
-    
-        //BLOCK CONTENEDOR SERVICIOS
-        .containerHeaderContServicios_contCuadros{
-            margin: 0px auto;
-            width: 100%;
-            background-image: url(../image/banner.jpg);
-            background-size: 100% 100%;
-            background-attachment: fixed;
-            #contBase{
-                background: $colorAzulTransparente;
-                //overflow: hidden;
-              
-                .containerBaseCuadros{  
-                    width: 100%;
-                    padding: 50px 0px;
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                    align-items: center;
-                    .contCuadro{
-                        width: 23%;
-                        background: $colorAzul;
-                        border-radius: 5px;
-                        //border: 5px solid $colorBlack;
-                        box-shadow: 0px 0px 10px white;
-                        margin:10px auto;
-                        position: relative;
-                        overflow: hidden;
-                        animation-duration: 3s;
-                        .contCuadro_imagen{
-                            width: 100%;
-                            background-image: url(../image/SERVICIOS/DISEÑO_GRAFICO.png);
-                            background-size: 100% 100%;
-                            transition: 0.5s all;
-                        }
-                        
-                        .contCuadro_descripcion{   //cuadro de ensima superior
-                            width: 100%;
-                            height: 100%;
-                            padding: 20px;
-                            position: absolute;
-                            top: 0;
-                            transition: 0.5s all;
-                            .contCuadro_title{
-                                width: 150px;
-                                height: 40px;
-                                margin: auto ;
-                                text-align: center;
-                                text-transform: uppercase;
-                                line-height: 25px;
-                                color: $colorVerde;
-                                line-height: 20px;
-                                font-size: 18px;
-                            }
-                            
-                            .contCuadro_parrafo{
-                                text-align: center;
-                                margin-top: 20px;
-                                transform: translateY(180px);
-                                opacity: 0;
-                                color: white;
-                                transition: 0.2s all;
-                                font-size: 16px;
-                                
-                            }   
-            
-                        }
-                    }
-                   
+        //BLOCK REFERENCIAS
+        .containerRef{
+            width: 90%;
+            padding: 10px;
+            background:transparent;
+            margin: 50px auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            .containerRef_box{
+                width: 200px;
+                padding: 15px;
+                border: 1.5px solid $colorVerde;
+                border-radius: 3px;
+                margin-bottom: 10px;
+                transition: 0.1s all;
+                .containerRef_box_image{
+                    width: 80px;
+                    height: 80px;
+                    margin: auto;
                 }
-        
-            }
-        }
-    }
-}
 
-
-
-
-
-
-@media (min-width:900px)  and (max-width:1024px){
-    .containerHeaderContServicios{
-        margin-top: 80px;
-        width: 100%;
-        padding: 30px 0px;
-        background: #10182b;
-        //BLOCK BANNER
-        .container_banner{
-            width: 100%;
-            position: relative;
-           
-            .fondo_banner{
-                width: 100%;
-                height: 400px;
-            }
-            
-            .banner_text{
-                width: 100%;
-                height: 400px;
-                background: $colorAzulTransparente;
-                display: flex;
-                justify-content: center;
-                align-items:center;
-                position: absolute;
-                top:0px;
-                .containerHeaderContServicios_banner_title{
+                .containerRef_box_text{
                     color: white;
-                    font-size: 100px;
+                    text-align: center;
                 }
             }
-            
         }
-    
-    
-        //BLOCK INFO
-        .containerHeaderContServicios_info{
+
+
+        //BLOCK CONTENEDOR SERVICIOS
+        //TIPE BLOCK A
+        .containerServices{
             width: 100%;
-            //background: #10182b;
-            padding-top: 150px;
-            padding-bottom: 0px;
-    
-            .containerHeaderContServicios_info_title{
-                font-size: 45px;
-                text-align: center;
-                color:$colorCelesteOscuro;
-                text-shadow: 0px 1px 0px $colorAzul;
-            }
-            .containerHeaderContServicios_info_descrpcion{
-                width: 80%;
+            padding: 10px 0px;
+            background:#11182b;
+            .containerServices_boxA{
+                width: 100%;
                 margin: auto;
-                padding: 10px 0px;
-                text-align: center;
-                color: white;
-                font-size: 18px;
-            }
-            .containerHeaderContServicios_info_img{
-                margin: 30px auto;
-                width: 80%;
-            }
-        }
-        
-    
-    
-        //BLOCK CONTENEDOR SERVICIOS
-        .containerHeaderContServicios_contCuadros{
-            margin: 0px auto;
-            width: 100%;
-            background-image: url(../image/banner.jpg);
-            background-size: 100% 100%;
-            background-attachment: fixed;
-            #contBase{
-                background: $colorAzulTransparente;
-                //overflow: hidden;
-              
-                .containerBaseCuadros{  
-                    width: 100%;
-                    padding: 50px 0px;
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                    align-items: center;
-                    .contCuadro{
-                        width: 30%;
-                        background: $colorAzul;
-                        border-radius: 5px;
-                        //border: 5px solid $colorBlack;
-                        box-shadow: 0px 0px 10px white;
-                        margin:10px auto;
-                        position: relative;
-                        overflow: hidden;
-                        animation-duration: 3s;
-                        .contCuadro_imagen{
-                            width: 100%;
-                            background-image: url(../image/SERVICIOS/DISEÑO_GRAFICO.png);
-                            background-size: 100% 100%;
-                            transition: 0.5s all;
-                        }
-                        
-                        .contCuadro_descripcion{   //cuadro de ensima superior
-                            width: 100%;
-                            height: 100%;
-                            padding: 30px;
-                            position: absolute;
-                            top: 0;
-                            transition: 0.5s all;
-                            .contCuadro_title{
-                                width: 150px;
-                                height: 40px;
-                                margin: auto ;
-                                text-align: center;
-                                text-transform: uppercase;
-                                line-height: 25px;
-                                color: $colorVerde;
-                                line-height: 20px;
-                                font-size: 18px;
-                            }
-                            
-                            .contCuadro_parrafo{
-                                text-align: center;
-                                margin-top: 20px;
-                                transform: translateY(180px);
-                                opacity: 0;
-                                color: white;
-                                transition: 0.2s all;
-                                font-size: 16px;
-                                
-                            }   
-            
-                        }
-                    }
-                   
-                }
-        
-            }
-        }
-    }
-}
-
-
-
-
-
-
-@media (min-width:641px)  and (max-width:899px){
-    .containerHeaderContServicios{
-        margin-top: 80px;
-        width: 100%;
-        padding: 30px 0px;
-        background: #10182b;
-
-        //BLOCK BANNER
-        .container_banner{
-            width: 100%;
-            position: relative;
-           
-            .fondo_banner{
-                width: 100%;
-                height: 400px;
-            }
-            
-            .banner_text{
-                width: 100%;
-                height: 400px;
-                background: $colorAzulTransparente;
+                padding: 50px 0px;
                 display: flex;
-                justify-content: center;
-                align-items:center;
-                position: absolute;
-                top:0px;
-                .containerHeaderContServicios_banner_title{
-                    color: white;
-                    font-size: 100px;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .containerServices_boxA_image{
+                    width: 50%;
+                    height: initial;
                 }
+
+                .containerServices_boxA_text{
+                    width: 350px;
+                    padding:10px;
+                    .containerServices_boxA_text_title{
+                        color: $colorVerde;
+                        font-size: 30px;
+                        font-weight: 600;
+
+                    }
+
+                    .containerServices_boxA_text_text{
+                        width: 80%;
+                        margin-top: 20px;
+                        color: white;
+                    }
+                }
+
             }
-            
         }
-    
-    
-        //BLOCK INFO
-        .containerHeaderContServicios_info{
+
+        //TIPE BLOCK B
+        .containerServices{
             width: 100%;
-            //background: #10182b;
-            padding-top: 100px;
-            padding-bottom: 0px;
-    
-            .containerHeaderContServicios_info_title{
-                font-size: 40px;
-                text-align: center;
-                color:$colorCelesteOscuro;
-                text-shadow: 0px 1px 0px $colorAzul;
-            }
-            .containerHeaderContServicios_info_descrpcion{
-                width: 80%;
+            padding: 10px 0px;
+            background:#11182b;
+            .containerServices_boxB{
+                width: 100%;
                 margin: auto;
-                padding: 10px 0px;
-                text-align: center;
-                color: white;
-                font-size: 16px;
-            }
-            .containerHeaderContServicios_info_img{
-                margin: 30px auto;
-                width: 100%;
-            }
-        }
-        
-    
-    
-        //BLOCK CONTENEDOR SERVICIOS
-        .containerHeaderContServicios_contCuadros{
-            margin: 0px auto;
-            width: 100%;
-            background-image: url(../image/banner.jpg);
-            background-size: 100% 100%;
-            background-attachment: fixed;
-            #contBase{
-                background: $colorAzulTransparente;
-                //overflow: hidden;
-              
-                .containerBaseCuadros{  
-                    width: 100%;
-                    padding: 50px 0px;
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                    align-items: center;
-                    .contCuadro{
-                        width: 40%;
-                        background: $colorAzul;
-                        border-radius: 5px;
-                        //border: 5px solid $colorBlack;
-                        box-shadow: 0px 0px 10px white;
-                        margin:10px auto;
-                        position: relative;
-                        overflow: hidden;
-                        animation-duration: 3s;
-                        .contCuadro_imagen{
-                            width: 100%;
-                            background-image: url(../image/SERVICIOS/DISEÑO_GRAFICO.png);
-                            background-size: 100% 100%;
-                            transition: 0.5s all;
-                        }
-                        
-                        .contCuadro_descripcion{   //cuadro de ensima superior
-                            width: 100%;
-                            height: 100%;
-                            padding: 30px;
-                            position: absolute;
-                            top: 0;
-                            transition: 0.5s all;
-                            background: $colorAzulTransparente;
-                            .contCuadro_title{
-                                width: 150px;
-                                height: 50px;
-                                margin: auto ;
-                                text-align: center;
-                                text-transform: uppercase;
-                                line-height: 25px;
-                                color: $colorVerde;
-                                line-height: 20px;
-                                font-size:20px;
-                            }
-                            
-                            .contCuadro_parrafo{
-                                text-align: center;
-                                margin-top: 10px;
-                                transform: translateY(0px);
-                                opacity: 1;
-                                color: white;
-                                transition: 0.2s all;
-                                font-size: 16px;
-                                
-                            }   
-            
-                        }
-                    }
-                   
-                }
-        
-            }
-        }
-    }
-}
-
-
-
-
-
-
-
-@media (min-width:481px)  and (max-width:640px){
-    .containerHeaderContServicios{
-        margin-top: 80px;
-        width: 100%;
-        padding: 30px 0px;
-        background: #10182b;
-        //BLOCK BANNER
-        .container_banner{
-            width: 100%;
-            position: relative;
-           
-            .fondo_banner{
-                width: 100%;
-                height: 400px;
-            }
-            
-            .banner_text{
-                width: 100%;
-                height: 400px;
-                background: $colorAzulTransparente;
+                padding: 50px 0px;
                 display: flex;
-                justify-content: center;
-                align-items:center;
-                position: absolute;
-                top:0px;
-                .containerHeaderContServicios_banner_title{
-                    color: white;
-                    font-size: 100px;
+                flex-direction: row-reverse;
+                justify-content: space-around;
+                align-items: center;
+                .containerServices_boxB_image{
+                    width: 50%;
+                    height: initial;
                 }
+
+                .containerServices_boxB_text{
+                    width: 350px;
+                    padding:10px;
+                    .containerServices_boxB_text_title{
+                        color: $colorVerde;
+                        font-size: 30px;
+                        font-weight: 600;
+
+                    }
+
+                    .containerServices_boxB_text_text{
+                        width: 80%;
+                        margin-top: 20px;
+                        color: white;
+                    }
+                }
+
             }
-            
         }
-    
-    
-        //BLOCK INFO
-        .containerHeaderContServicios_info{
+        //BLOCK FIN CONTENEDOR SERVICIOS
+
+
+        //BLOCK PORQUE TENER WEB
+        .containerWeb{
+            margin-top: 100px;
             width: 100%;
-            //background: #10182b;
-            padding-top: 100px;
-            padding-bottom: 0px;
-    
-            .containerHeaderContServicios_info_title{
+            padding: 10px 0px;
+            .containerWeb_title{
+                width: 45%;
+                line-height: 35px;
+                color: $colorVerde;
                 font-size: 35px;
-                text-align: center;
-                color:$colorCelesteOscuro;
-                text-shadow: 0px 1px 0px $colorAzul;
-                line-height: 38px;
-            }
-            .containerHeaderContServicios_info_descrpcion{
-                width: 80%;
                 margin: auto;
-                padding: 10px 0px;
+                text-align: center;
+            }
+
+            .containerWeb_description{
+                width: 70%;
+                margin: 30px auto;
                 text-align: center;
                 color: white;
-                font-size: 16px;
             }
-            .containerHeaderContServicios_info_img{
-                margin: 30px auto;
+
+            .containerWeb_block{
                 width: 100%;
-            }
-        }
-        
-    
-    
-        //BLOCK CONTENEDOR SERVICIOS
-        .containerHeaderContServicios_contCuadros{
-            margin: 0px auto;
-            width: 100%;
-            background-image: url(../image/banner.jpg);
-            background-size: 100% 100%;
-            background-attachment: fixed;
-            #contBase{
-                background: $colorAzulTransparente;
-                //overflow: hidden;
-              
-                .containerBaseCuadros{  
-                    width: 100%;
-                    padding: 50px 0px;
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                    align-items: center;
-                    .contCuadro{
-                        width: 45%;
-                        background: $colorAzul;
-                        border-radius: 5px;
-                        //border: 5px solid $colorBlack;
-                        box-shadow: 0px 0px 10px white;
-                        margin:10px auto;
-                        position: relative;
-                        overflow: hidden;
-                        animation-duration: 3s;
-                        .contCuadro_imagen{
-                            width: 100%;
-                            background-image: url(../image/SERVICIOS/DISEÑO_GRAFICO.png);
-                            background-size: 100% 100%;
-                            transition: 0.5s all;
-                        }
-                        
-                        .contCuadro_descripcion{   //cuadro de ensima superior
-                            width: 100%;
-                            height: 100%;
-                            padding: 15px;
-                            position: absolute;
-                            top: 0;
-                            transition: 0.5s all;
-                            background: $colorAzulTransparente;
-                            .contCuadro_title{
-                                width: 150px;
-                                height: 40px;
-                                margin: auto ;
-                                text-align: center;
-                                text-transform: uppercase;
-                                line-height: 25px;
-                                color: $colorVerde;
-                                line-height: 20px;
-                                font-size:18px;
-                            }
-                            
-                            .contCuadro_parrafo{
-                                text-align: center;
-                                margin-top: 10px;
-                                transform: translateY(0px);
-                                opacity: 1;
-                                color: white;
-                                transition: 0.2s all;
-                                font-size: 16px;
-                                
-                            }   
-            
-                        }
-                    }
-                   
+                margin: 50px auto;
+                height: 700px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                .containerWeb_image{
+                    width: 420px;
+                    height: 330px;
                 }
         
+                .containerWeb_box1{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    position: absolute;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 50px 5px;
+                    top: 30px;
+                    left: calc(50% - 320px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        color:white;
+                        font-size: 25px;
+                        background: $colorAzul;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+        
+                .containerWeb_box2{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 50px 5px;
+                    position: absolute;
+                    top: 480px;
+                    left: calc(50% - 350px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        background: $colorAzul;
+                        color:white;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+
+                .containerWeb_box3{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 5px 50px;
+                    position: absolute;
+                    top: 30px;
+                    right: calc(50% - 320px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        background: $colorAzul;
+                        color:white;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+
+                .containerWeb_box4{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 5px 50px;
+                    position: absolute;
+                    top: 480px;
+                    right: calc(50% - 350px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        color:white;
+                        background: $colorAzul;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+        
+                
+            }
+
+
+            .containerWeb_blockArticle{
+                width: 100%;
+                padding: 10px 0px;
+                .containerWeb_blockArticle_title{
+                    width: 50%;
+                    line-height: 35px;
+                    color: $colorVerde;
+                    font-size: 32px;
+                    text-align: center;
+                    margin: 30px auto;
+                }
+
+                .containerWeb_blockArticle_block{
+                    width: 100%;
+                    padding: 10px 0px;
+                    margin: 20px auto;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                    .containerWeb_blockArticle_box{
+                        width:45%;
+                        padding: 5px;
+                        .containerWeb_blockArticle_box_p{
+                            color: white;
+                            text-align: justify;
+                            font-size: 16px;
+                        }
+                    }
+                    
+
+                }
             }
         }
     }
+
+
+
+
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
 }
 
 
 
 
 
-@media (min-width:320px)  and (max-width:480px){
+
+@media (min-width:641px)  and (max-width:769px){
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+
+
     .containerHeaderContServicios{
-        margin-top: 80px;
+        margin-top: 70px;
         width: 100%;
         padding: 30px 0px;
-        background: #10182b;
+        background:#11182b;
         //BLOCK BANNER
         .container_banner{
             width: 100%;
             position: relative;
-           
+            
             .fondo_banner{
                 width: 100%;
                 height: 400px;
@@ -1029,26 +1700,25 @@
             }
             
         }
-    
-    
+
+
         //BLOCK INFO
         .containerHeaderContServicios_info{
             width: 100%;
             //background: #10182b;
             padding-top: 80px;
             padding-bottom: 0px;
-    
+
             .containerHeaderContServicios_info_title{
-                width: 90%;
-                margin: auto;
-                font-size: 30px;
+                width: 80%;
+                font-size: 40px;
                 text-align: center;
-                color:$colorCelesteOscuro;
-                text-shadow: 0px 1px 0px $colorAzul;
-                line-height: 38px;
+                color:$colorVerde;
+                line-height: 40px;
+                margin: auto;
             }
             .containerHeaderContServicios_info_descrpcion{
-                width: 80%;
+                width: 70%;
                 margin: auto;
                 padding: 10px 0px;
                 text-align: center;
@@ -1056,88 +1726,1185 @@
                 font-size: 18px;
             }
             .containerHeaderContServicios_info_img{
-                margin: 30px auto;
+                margin: 10px auto;
                 width: 100%;
             }
         }
-        
-    
-    
-        //BLOCK CONTENEDOR SERVICIOS
-        .containerHeaderContServicios_contCuadros{
-            margin: 0px auto;
-            width: 100%;
-            background-image: url(../image/banner.jpg);
-            background-size: 100% 100%;
-            background-attachment: fixed;
-            #contBase{
-                background: $colorAzulTransparente;
-                //overflow: hidden;
-              
-                .containerBaseCuadros{  
-                    width: 100%;
-                    padding: 50px 20px;
-                    display: flex;
-                    flex-direction: column;
-                    flex-wrap:initial;
-                    justify-content: space-around;
-                    align-items: center;
-                    .contCuadro{
-                        width: 100%;
-                        background: $colorAzul;
-                        border-radius: 5px;
-                        //border: 5px solid $colorBlack;
-                        box-shadow: 0px 0px 10px white;
-                        margin:10px auto;
-                        position: relative;
-                        overflow: hidden;
-                        animation-duration: 3s;
-                        .contCuadro_imagen{
-                            width: 100%;
-                            background-image: url(../image/SERVICIOS/DISEÑO_GRAFICO.png);
-                            background-size: 100% 100%;
-                            transition: 0.5s all;
-                        }
-                        
-                        .contCuadro_descripcion{   //cuadro de ensima superior
-                            width: 100%;
-                            height: 100%;
-                            padding: 40px;
-                            position: absolute;
-                            top: 0;
-                            transition: 0.5s all;
-                            background:$colorAzulTransparente;
 
-                            .contCuadro_title{
-                                width: 150px;
-                                height: 50px;
-                                margin: auto ;
-                                text-align: center;
-                                text-transform: uppercase;
-                                color: $colorVerde;
-                                line-height: 25px;
-                                font-size:24px;
-                            }
-                            
-                            .contCuadro_parrafo{
-                                text-align: center;
-                                margin-top: 10px;
-                                transform: translateY(0px);
-                                opacity: 1;
-                                color: white;
-                                transition: 0.2s all;
-                                font-size: 18px;
-                                
-                            }   
-            
-                        }
+        
+        //BLOCK REFERENCIAS
+        .containerRef{
+            width: 100%;
+            padding: 10px;
+            background:transparent;
+            margin: 50px auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            .containerRef_box{
+                width: 190px;
+                height: 150px;
+                padding: 10px;
+                border: 1.5px solid $colorVerde;
+                border-radius: 3px;
+                margin-bottom: 10px;
+                transition: 0.1s all;
+                .containerRef_box_image{
+                    width: 80px;
+                    height: 80px;
+                    margin: auto;
+                }
+
+                .containerRef_box_text{
+                    color: white;
+                    text-align: center;
+                }
+            }
+        }
+
+
+        //BLOCK CONTENEDOR SERVICIOS
+        //TIPE BLOCK A
+        .containerServices{
+            width: 100%;
+            padding: 10px 0px;
+            background:#11182b;
+            .containerServices_boxA{
+                width: 100%;
+                margin: auto;
+                padding: 50px 0px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .containerServices_boxA_image{
+                    width: 50%;
+                    height: initial;
+                }
+
+                .containerServices_boxA_text{
+                    width: calc(50% - 20px);
+                    padding:10px;
+                    .containerServices_boxA_text_title{
+                        width: 60%;
+                        color: $colorVerde;
+                        font-size: 30px;
+                        font-weight: 600;
+                        line-height: 30px;
+
                     }
-                   
+
+                    .containerServices_boxA_text_text{
+                        width: 80%;
+                        margin-top: 20px;
+                        color: white;
+                        font-size: 16px;
+                    }
+                }
+
+            }
+        }
+
+        //TIPE BLOCK B
+        .containerServices{
+            width: 100%;
+            padding: 10px 0px;
+            background:#11182b;
+            .containerServices_boxB{
+                width: 100%;
+                margin: auto;
+                padding: 50px 0px;
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-around;
+                align-items: center;
+                .containerServices_boxB_image{
+                    width: 50%;
+                    height: initial;
+                }
+
+                .containerServices_boxB_text{
+                    width: calc(50% - 20px);
+                    padding:10px;
+                    .containerServices_boxB_text_title{
+                        width: 60%;
+                        color: $colorVerde;
+                        font-size: 30px;
+                        font-weight: 600;
+                        line-height: 30px;
+
+                    }
+
+                    .containerServices_boxB_text_text{
+                        width: 80%;
+                        margin-top: 20px;
+                        color: white;
+                        font-size: 16px;
+                    }
+                }
+
+            }
+        }
+        //BLOCK FIN CONTENEDOR SERVICIOS
+
+
+        //BLOCK PORQUE TENER WEB
+        .containerWeb{
+            margin-top: 50px;
+            width: 100%;
+            padding: 10px 0px;
+            .containerWeb_title{
+                width: 60%;
+                line-height: 35px;
+                color: $colorVerde;
+                font-size: 30px;
+                margin: auto;
+                text-align: center;
+            }
+
+            .containerWeb_description{
+                width: 70%;
+                margin: 30px auto;
+                text-align: center;
+                color: white;
+                font-size: 16px;
+            }
+
+            .containerWeb_block{
+                width: 100%;
+                margin: 50px auto;
+                height: 800px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                .containerWeb_image{
+                    width: 420px;
+                    height: 330px;
                 }
         
+                .containerWeb_box1{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    position: absolute;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 50px 5px;
+                    top: 30px;
+                    left: calc(50% - 250px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        color:white;
+                        font-size: 25px;
+                        background: $colorAzul;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+        
+                .containerWeb_box2{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 50px 5px;
+                    position: absolute;
+                    top: 560px;
+                    left: calc(50% - 250px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        background: $colorAzul;
+                        color:white;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+
+                .containerWeb_box3{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 5px 50px;
+                    position: absolute;
+                    top: 30px;
+                    right: calc(50% - 250px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        background: $colorAzul;
+                        color:white;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+
+                .containerWeb_box4{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 5px 50px;
+                    position: absolute;
+                    top: 560px;
+                    right: calc(50% - 250px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        color:white;
+                        background: $colorAzul;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+        
+                
+            }
+
+
+            .containerWeb_blockArticle{
+                width: 100%;
+                padding: 10px 0px;
+                .containerWeb_blockArticle_title{
+                    width: 80%;
+                    line-height: 35px;
+                    color: $colorVerde;
+                    font-size: 30px;
+                    text-align: center;
+                    margin: 30px auto;
+                }
+
+                .containerWeb_blockArticle_block{
+                    width: 100%;
+                    padding: 10px 0px;
+                    margin: 10px auto;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                    .containerWeb_blockArticle_box{
+                        width:45%;
+                        padding: 5px;
+                        .containerWeb_blockArticle_box_p{
+                            color: white;
+                            text-align: justify;
+                            font-size: 16px;
+                        }
+                    }
+                    
+
+                }
             }
         }
     }
+
+
+
+
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+}
+
+
+
+
+
+
+@media (min-width:481px)  and (max-width:640px){
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+
+
+    .containerHeaderContServicios{
+        margin-top: 70px;
+        width: 100%;
+        padding: 30px 0px;
+        background:#11182b;
+        //BLOCK BANNER
+        .container_banner{
+            width: 100%;
+            position: relative;
+            
+            .fondo_banner{
+                width: 100%;
+                height: 450px;
+            }
+            
+            .banner_text{
+                width: 100%;
+                height: 450px;
+                background: $colorAzulTransparente;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                position: absolute;
+                top:0px;
+                .containerHeaderContServicios_banner_title{
+                    color: white;
+                    font-size: 80px;
+                }
+            }
+            
+        }
+
+
+        //BLOCK INFO
+        .containerHeaderContServicios_info{
+            width: 100%;
+            //background: #10182b;
+            padding-top: 80px;
+            padding-bottom: 0px;
+
+            .containerHeaderContServicios_info_title{
+                width: 80%;
+                font-size: 35px;
+                text-align: center;
+                color:$colorVerde;
+                line-height: 40px;
+                margin: auto;
+            }
+            .containerHeaderContServicios_info_descrpcion{
+                width: 70%;
+                margin: auto;
+                padding: 10px 0px;
+                text-align: center;
+                color: white;
+                font-size: 16px;
+            }
+            .containerHeaderContServicios_info_img{
+                margin: 10px auto;
+                width: 100%;
+            }
+        }
+
+        
+        //BLOCK REFERENCIAS
+        .containerRef{
+            width: 100%;
+            padding: 10px;
+            background:transparent;
+            margin: 50px auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            .containerRef_box{
+                width: 190px;
+                height: 150px;
+                padding: 10px;
+                border: 1.5px solid $colorVerde;
+                border-radius: 3px;
+                margin-bottom: 10px;
+                transition: 0.1s all;
+                .containerRef_box_image{
+                    width: 80px;
+                    height: 80px;
+                    margin: auto;
+                }
+
+                .containerRef_box_text{
+                    color: white;
+                    text-align: center;
+                }
+            }
+        }
+
+
+        //BLOCK CONTENEDOR SERVICIOS
+        //TIPE BLOCK A
+        .containerServices{
+            width: 100%;
+            padding: 10px 0px;
+            background:#11182b;
+            .containerServices_boxA{
+                width: 100%;
+                margin: auto;
+                padding: 50px 0px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .containerServices_boxA_image{
+                    width: 50%;
+                    height: initial;
+                }
+
+                .containerServices_boxA_text{
+                    width: calc(50% - 20px);
+                    padding:10px;
+                    .containerServices_boxA_text_title{
+                        width: 100%;
+                        color: $colorVerde;
+                        font-size: 30px;
+                        font-weight: 600;
+                        line-height: 30px;
+
+                    }
+
+                    .containerServices_boxA_text_text{
+                        width: 100%;
+                        margin-top: 20px;
+                        color: white;
+                        font-size: 16px;
+                    }
+                }
+
+            }
+        }
+
+        //TIPE BLOCK B
+        .containerServices{
+            width: 100%;
+            padding: 10px 0px;
+            background:#11182b;
+            .containerServices_boxB{
+                width: 100%;
+                margin: auto;
+                padding: 50px 0px;
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-around;
+                align-items: center;
+                .containerServices_boxB_image{
+                    width: 50%;
+                    height: initial;
+                }
+
+                .containerServices_boxB_text{
+                    width: calc(50% - 20px);
+                    padding:10px;
+                    .containerServices_boxB_text_title{
+                        width: 100%;
+                        color: $colorVerde;
+                        font-size: 30px;
+                        font-weight: 600;
+                        line-height: 30px;
+
+                    }
+
+                    .containerServices_boxB_text_text{
+                        width: 100%;
+                        margin-top: 20px;
+                        color: white;
+                        font-size: 16px;
+                    }
+                }
+
+            }
+        }
+        //BLOCK FIN CONTENEDOR SERVICIOS
+
+
+        //BLOCK PORQUE TENER WEB
+        .containerWeb{
+            margin-top: 50px;
+            width: 100%;
+            padding: 10px 0px;
+            .containerWeb_title{
+                width: 60%;
+                line-height: 35px;
+                color: $colorVerde;
+                font-size: 30px;
+                margin: auto;
+                text-align: center;
+            }
+
+            .containerWeb_description{
+                width: 70%;
+                margin: 30px auto;
+                text-align: center;
+                color: white;
+                font-size: 16px;
+            }
+
+            .containerWeb_block{
+                width: 100%;
+                margin: 50px auto;
+                height: 800px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                .containerWeb_image{
+                    width: 420px;
+                    height: 330px;
+                }
+        
+                .containerWeb_box1{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    position: absolute;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 50px 5px;
+                    top: 30px;
+                    left: calc(50% - 220px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        color:white;
+                        font-size: 25px;
+                        background: $colorAzul;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+        
+                .containerWeb_box2{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 50px 5px;
+                    position: absolute;
+                    top: 580px;
+                    left: calc(50% - 220px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        background: $colorAzul;
+                        color:white;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+
+                .containerWeb_box3{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 5px 50px;
+                    position: absolute;
+                    top: 30px;
+                    right: calc(50% - 220px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        background: $colorAzul;
+                        color:white;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+
+                .containerWeb_box4{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 5px 50px;
+                    position: absolute;
+                    top: 580px;
+                    right: calc(50% - 220px);
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        color:white;
+                        background: $colorAzul;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+        
+                
+            }
+
+
+            .containerWeb_blockArticle{
+                width: 100%;
+                padding: 10px 0px;
+                .containerWeb_blockArticle_title{
+                    width: 80%;
+                    line-height: 35px;
+                    color: $colorVerde;
+                    font-size: 30px;
+                    text-align: center;
+                    margin: 30px auto;
+                }
+
+                .containerWeb_blockArticle_block{
+                    width: 100%;
+                    padding: 10px 0px;
+                    margin: 10px auto;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                    .containerWeb_blockArticle_box{
+                        width:45%;
+                        padding: 5px;
+                        .containerWeb_blockArticle_box_p{
+                            color: white;
+                            text-align: justify;
+                            font-size: 16px;
+                        }
+                    }
+                    
+
+                }
+            }
+        }
+    }
+
+
+
+
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+}
+
+
+
+
+
+
+
+@media (min-width:320px)  and (max-width:480px){
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS HEADER DE INDEX************/
+
+
+    .containerHeaderContServicios{
+        margin-top: 65px;
+        width: 100%;
+        padding: 30px 0px;
+        background:#11182b;
+        //BLOCK BANNER
+        .container_banner{
+            width: 100%;
+            position: relative;
+            
+            .fondo_banner{
+                width: 100%;
+                height: 450px;
+            }
+            
+            .banner_text{
+                width: 100%;
+                height: 450px;
+                background: $colorAzulTransparente;
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                position: absolute;
+                top:0px;
+                .containerHeaderContServicios_banner_title{
+                    color: white;
+                    font-size: 70px;
+                }
+            }
+            
+        }
+
+
+        //BLOCK INFO
+        .containerHeaderContServicios_info{
+            width: 100%;
+            //background: #10182b;
+            padding-top: 50px;
+            padding-bottom: 0px;
+
+            .containerHeaderContServicios_info_title{
+                width: 80%;
+                font-size: 30px;
+                text-align: center;
+                color:$colorVerde;
+                line-height: 38px;
+                margin: auto;
+            }
+            .containerHeaderContServicios_info_descrpcion{
+                width: 90%;
+                margin: auto;
+                padding: 10px 0px;
+                text-align: center;
+                color: white;
+                font-size: 16px;
+            }
+            .containerHeaderContServicios_info_img{
+                margin: 10px auto;
+                width: 100%;
+            }
+        }
+
+        
+        //BLOCK REFERENCIAS
+        .containerRef{
+           display: none;
+        }
+
+
+        //BLOCK CONTENEDOR SERVICIOS
+        //TIPE BLOCK A
+        .containerServices{
+            width: 100%;
+            padding: 10px 0px;
+            background:#11182b;
+            .containerServices_boxA{
+                width: 100%;
+                margin: auto;
+                padding: 50px 0px;
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: space-around;
+                align-items: center;
+                .containerServices_boxA_image{
+                    width: 70%;
+                    height: initial;
+                }
+
+                .containerServices_boxA_text{
+                    width:90%;
+                    padding:10px;
+                    .containerServices_boxA_text_title{
+                        width: 100%;
+                        color: $colorVerde;
+                        font-size: 30px;
+                        font-weight: 600;
+                        line-height: 30px;
+
+                    }
+
+                    .containerServices_boxA_text_text{
+                        width: 100%;
+                        margin-top: 20px;
+                        color: white;
+                        font-size: 16px;
+                    }
+                }
+
+            }
+        }
+
+        //TIPE BLOCK B
+        .containerServices{
+            width: 100%;
+            padding: 10px 0px;
+            background:#11182b;
+            .containerServices_boxB{
+                width: 100%;
+                margin: auto;
+                padding: 50px 0px;
+                display: flex;
+                flex-direction:column-reverse;
+                justify-content: space-around;
+                align-items: center;
+                .containerServices_boxB_image{
+                    width: 70%;
+                    height: initial;
+                }
+
+                .containerServices_boxB_text{
+                    width: 90%;
+                    padding:10px;
+                    .containerServices_boxB_text_title{
+                        width: 100%;
+                        color: $colorVerde;
+                        font-size: 30px;
+                        font-weight: 600;
+                        line-height: 30px;
+
+                    }
+
+                    .containerServices_boxB_text_text{
+                        width: 100%;
+                        margin-top: 20px;
+                        color: white;
+                        font-size: 16px;
+                    }
+                }
+
+            }
+        }
+        //BLOCK FIN CONTENEDOR SERVICIOS
+
+
+        //BLOCK PORQUE TENER WEB
+        .containerWeb{
+            margin-top: 50px;
+            width: 100%;
+            padding: 10px 0px;
+            .containerWeb_title{
+                width: 90%;
+                line-height: 35px;
+                color: $colorVerde;
+                font-size: 30px;
+                margin: auto;
+                text-align: center;
+            }
+
+            .containerWeb_description{
+                width: 90%;
+                margin: 30px auto;
+                text-align: center;
+                color: white;
+                font-size: 16px;
+            }
+
+            .containerWeb_block{
+                width: 100%;
+                margin: 50px auto;
+                height: 1250px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                .containerWeb_image{
+                    width: 90%;
+                    height: 300px;
+                    position: absolute;
+                    bottom: 0;
+                }
+        
+                .containerWeb_box1{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    position: absolute;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 50px 5px;
+                    top: 10px;
+                    left: 20px;
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        color:white;
+                        font-size: 25px;
+                        background: $colorAzul;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+        
+                .containerWeb_box2{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 50px 5px;
+                    position: absolute;
+                    left: initial;
+                    top: 250px;
+                    right: 20px;
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        background: $colorAzul;
+                        color:white;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+
+                .containerWeb_box3{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 5px 50px;
+                    position: absolute;
+                    top: 480px;
+                    left: initial;
+                    bottom:initial;
+                    left:20px;
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        background: $colorAzul;
+                        color:white;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+
+                .containerWeb_box4{
+                    width: 200px;
+                    height: 200px;
+                    padding: 20px;
+                    border:2px solid $colorVerde;
+                    border-radius: 5px 5px 5px 50px;
+                    position: absolute;
+                    top: 700px;
+                    bottom:initial;
+                    right:20px;
+                    background: $colorAzul;
+                    .containerWeb_box_number{
+                        width: 40px;
+                        height: 40px;
+                        color:white;
+                        background: $colorAzul;
+                        font-size: 25px;
+                        border: 2px solid $colorVerde;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        position: absolute;
+                        top: -20px;
+                        right: -20px;
+                    }
+                    .containerWeb_box_text{
+                        color:white;
+                        font-size: 20px;
+        
+                    }
+                    .containerWeb_box_desc{
+                        margin-top: 6px;
+                        color:$colorCelesteOscuro;
+                        font-size: 14px;
+                    }
+                }
+        
+                
+            }
+
+
+            .containerWeb_blockArticle{
+                width: 100%;
+                padding: 10px 0px;
+                .containerWeb_blockArticle_title{
+                    width: 80%;
+                    line-height: 35px;
+                    color: $colorVerde;
+                    font-size: 30px;
+                    text-align: center;
+                    margin: 30px auto;
+                }
+
+                .containerWeb_blockArticle_block{
+                    width: 100%;
+                    padding: 10px;
+                    margin: 10px auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                    .containerWeb_blockArticle_box{
+                        width:100%;
+                        padding: 5px;
+                        .containerWeb_blockArticle_box_p{
+                            color: white;
+                            text-align: justify;
+                            font-size: 16px;
+                        }
+                    }
+                    
+
+                }
+            }
+        }
+    }
+
+
+
+
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+    /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
 }
 
 
@@ -1150,9 +2917,7 @@
 
 
 
-/*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
-/*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
-/*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
+
 
 
 

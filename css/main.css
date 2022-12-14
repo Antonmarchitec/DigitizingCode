@@ -1365,6 +1365,10 @@ body::-webkit-scrollbar-thumb:hover {
   color: white;
   text-align: justify;
 }
+.containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_block .containerWeb_blockArticle_box .containerWeb_blockArticle_box_p .iconP {
+  color: #56fbd3;
+  margin-right: 5px;
+}
 
 /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/
 /*****SE ESTAN COPIANDO LOS ESTILOS FOOTER DE INDEX************/

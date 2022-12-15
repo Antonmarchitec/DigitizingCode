@@ -1116,7 +1116,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_image {
   width: 450px;
-  height: 450px;
+  height: 420px;
 }
 .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text {
   width: 600px;
@@ -1148,7 +1148,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_image {
   width: 450px;
-  height: 450px;
+  height: 420px;
 }
 .containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_text {
   width: 600px;

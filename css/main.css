@@ -1225,11 +1225,12 @@ body::-webkit-scrollbar-thumb:hover {
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_text {
   color: white;
   font-size: 20px;
+  line-height: 20px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_desc {
   margin-top: 6px;
   color: #96aadb;
-  font-size: 14px;
+  font-size: 16px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 {
   width: 200px;
@@ -1260,11 +1261,12 @@ body::-webkit-scrollbar-thumb:hover {
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_text {
   color: white;
   font-size: 20px;
+  line-height: 20px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_desc {
   margin-top: 6px;
   color: #96aadb;
-  font-size: 14px;
+  font-size: 16px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 {
   width: 200px;
@@ -1295,11 +1297,12 @@ body::-webkit-scrollbar-thumb:hover {
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_text {
   color: white;
   font-size: 20px;
+  line-height: 20px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_desc {
   margin-top: 6px;
   color: #96aadb;
-  font-size: 14px;
+  font-size: 16px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 {
   width: 200px;
@@ -1330,11 +1333,12 @@ body::-webkit-scrollbar-thumb:hover {
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_text {
   color: white;
   font-size: 20px;
+  line-height: 20px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_desc {
   margin-top: 6px;
   color: #96aadb;
-  font-size: 14px;
+  font-size: 16px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_blockArticle {
   width: 100%;
@@ -1584,7 +1588,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 {
     width: 200px;
@@ -1619,7 +1622,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 {
     width: 200px;
@@ -1654,7 +1656,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 {
     width: 200px;
@@ -1689,7 +1690,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle {
     width: 100%;
@@ -1936,7 +1936,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 {
     width: 200px;
@@ -1971,7 +1970,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 {
     width: 200px;
@@ -2006,7 +2004,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 {
     width: 200px;
@@ -2041,7 +2038,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle {
     width: 100%;
@@ -2288,7 +2284,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 {
     width: 200px;
@@ -2323,7 +2318,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 {
     width: 200px;
@@ -2358,7 +2352,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 {
     width: 200px;
@@ -2393,7 +2386,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle {
     width: 100%;
@@ -2652,7 +2644,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 {
     width: 200px;
@@ -2687,7 +2678,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 {
     width: 200px;
@@ -2722,7 +2712,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 {
     width: 200px;
@@ -2757,7 +2746,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle {
     width: 100%;
@@ -3016,7 +3004,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 {
     width: 200px;
@@ -3051,7 +3038,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 {
     width: 200px;
@@ -3086,7 +3072,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 {
     width: 200px;
@@ -3121,7 +3106,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle {
     width: 100%;
@@ -3356,7 +3340,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 {
     width: 200px;
@@ -3392,7 +3375,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 {
     width: 200px;
@@ -3429,7 +3411,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 {
     width: 200px;
@@ -3465,7 +3446,6 @@ body::-webkit-scrollbar-thumb:hover {
   .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_desc {
     margin-top: 6px;
     color: #96aadb;
-    font-size: 14px;
   }
   .containerHeaderContServicios .containerWeb .containerWeb_blockArticle {
     width: 100%;

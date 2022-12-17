@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="../image/ico-logo.ico">
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/preloader.css">
+    
+    <!------BTN RESPONSIVE HAMBURGUER CDN------------->
+    <link rel="stylesheet" href="../css/hamburgers.css">
+
+    <!------ANIMATE CDN------------->
+    <link rel="stylesheet" href="./css/animate.min.css">
+
+
+    <!------FONT AWESON CDN------------->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b7fb745aab.js" crossorigin="anonymous"></script>
+
+
+    <!-------GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap" rel="stylesheet">
+
+
+    <title> Bucles en JavaScript </title>
+</head>
+<body>
+    <!--PRELOADER DE LA PAGINA STAR-->
+    <div class="loader" id="loader">
+        <div class="cssload-thecube">
+          <div class="cssload-cube cssload-c1"></div>
+          <div class="cssload-cube cssload-c2"></div>
+          <div class="cssload-cube cssload-c4"></div>
+          <div class="cssload-cube cssload-c3"></div>
+        </div>
+        <p class="text"> Cargando...</p>
+    </div>
+    <!--PRELOADER DE LA PAGINA END-->
+
+
+
+    <main class="container" id="container">
+        <!--BLOCK HEADER (CLONE FORM INDEX)-->
+        <nav class="containerHeader">
+             <div class="containerHeader_logo">
+                 <img src="../image/logo.jpg" alt="logo" style="width: 100%; height:100%;">
+             </div>
+ 
+             <ul class="containerHeader_ul" id="containerHeader_ul">
+                 <li class="containerHeader_ul_li">
+                     <a href="../index.html" class="containerHeader_ul_li_a"> Acerca de </a>
+                 </li>
+                 <li class="containerHeader_ul_li">
+                     <a href="../servicios.html" class="containerHeader_ul_li_a"> Servicios </a>
+                 </li>
+                 
+                 <li class="containerHeader_ul_li">
+                     <a href="../blog.html" class="containerHeader_ul_li_a"> Blog </a>
+                 </li>
+                 <li class="containerHeader_ul_li">
+                     <a href="../contacto.html" class="containerHeader_ul_li_a"> Contacto </a>
+                 </li>
+ 
+                 <li class="containerHeader_ul_li">
+                     <a href="https://antonmarchitec.github.io/project_ap/" class="containerHeader_ul_li_a"> Portafolio </a>
+                 </li>
+             </ul>
+ 
+             <div class="containerHeader_btn" id="containerHeader_btn">
+                 <button class="hamburger hamburger--collapse" type="button">
+                     <span class="hamburger-box">
+                       <span class="hamburger-inner"></span>
+                     </span>
+                 </button>
+             </div>
+        </nav> 
+
+        <!--BLOCK CONTAINER-->
+        <div class="container__base">
+            <h1 class="title__article"> ¿Tienes dudas respecto a como funcionan los bucles while y for? </h1>
+
+            <div class="date">
+                <p class="date__text"> Por Antonio Ponce || 16 diciembre 2022 </p>
+            </div>
+
+            <figure class="image__banner">
+                <img src="../image/desarrollo.jpg" alt="artbucle" style="width: 100%;height:100%;">
+            </figure>
+
+            <!--BLOCK PARRAFO-->
+            <p class="desc__article"> Los bucles en JavaScript, conocidos también como loops, son utilizados
+                para realizar tareas repetitivas basadas en una condición. Las condiciones por 
+                defecto suelen devolver un tipo de dato true (verdadero) o false 
+                (falso) al ser evaluados. El bucle continuará ejecutándose hasta 
+                que la condición nos devuelva un false.
+            </p>
+
+            <!--BLOCK PARRAFO-->
+            <p class="desc__article"> Muchas veces nos preguntamos si debemos utilizar el bucle while o for
+                ya que son bastante parecidas, veamos sus resoluciones de forma puntual.<br><br>
+                Para observar su similitud a continuación podemos ver las siguientes figuras:
+                El problema elegido consiste en desarrollar un algoritmo que muestre los días de la semana en consola con ambos bucles.
+            </p>
+
+            <!--BOCK SUBTITLE-->
+            <h2 class="subtitle__article">Resolución mediante bucle WHILE</h2>
+
+            <!--BLOCK PARRAFO-->
+            <p class="desc__article"> 
+                <i class="iconNum fa-solid fa-1"></i>.- La variable de iteración se debe declarar e inicializar antes de ingresar en el while.
+                <br>
+                <i class="iconNum fa-solid fa-2"></i>.- En el paréntesis () encontraremos la condición de salida de las iteraciones.
+                <br>
+                <i class="iconNum fa-solid fa-3"></i>.- Dentro de las llaves {} la variable de iteración debe ser actualizada en cualquier momento.
+            </p>
+
+            <figure class="image_figure">
+                <a href="../image/image_article/while.png" target="_blank"><img src="../image/image_article/while.png" alt="for" style="width:100%;height:100%;"></a>
+            </figure>
+
+            
+
+            <!--BOCK SUBTITLE-->
+            <h2 class="subtitle__article">Resolución mediante bucle FOR</h2>
+
+            <!--BLOCK PARRAFO-->
+            <p class="desc__article">
+                <i class="iconNum fa-solid fa-1"></i>.- Es caracterizado por ser una estructura envuelta.
+                <br>
+                <i class="iconNum fa-solid fa-2"></i>.- Dentro del paréntesis se empaqueta la declaración de la variable
+                de iteración, la condición de salida y la condición de actualización de la variable.
+            </p>
+
+            <figure class="image_figure">
+                <a href="../image/image_article/for.png" target="_blank"><img src="../image/image_article/for.png" alt="for" style="width:100%;height:100%;"></a>
+            </figure>
+
+            
+
+            <!--BLOCK PARRAFO-->
+            <p class="desc__article">
+                Como se puede observar, las instrucciones de código son prácticamente las mismas para el for y el while. La diferencia está en que se escriben en diferente orden y lugar.
+                🧑‍💻 ¡Que este post te sirva para comprenderlos mejor!✌✌
+            </p>
+            
+        </div>
+
+        <!--BLOCK FOOTER (CLONE FOR INDEX)-->
+        <footer class="cont_descripcion_footer">
+            <figure class="cont_descripcion_logo">
+            <img src="../image/logo para facce y youtube.jpg " alt="logo" style="width:100%;height:100%;">
+            </figure>
+
+            <div class="cont_descripcion_reserved">
+            <p class="cont_descripcion_reserved_text"> ©Reserved 2022 Antonio Ponce 
+                <span class="text"> || DigitizingCode</p> 
+            </div>
+
+            <div class="cont_descripcion_redes">
+            <a href="https://www.facebook.com/digitizingCode/" target="_blank">
+                <div class="cont_descripcion_redes_social">
+                    <i class="conRed fab fa-facebook-square"></i>
+                </div>
+            </a>
+            
+            <a href="https://www.instagram.com/antom_ap/?hl=es-la" target="_blank">
+                <div class="cont_descripcion_redes_social">
+                    <i class="conRed fab fa-instagram-square"></i>
+                </div>
+            </a>
+
+            <a href="https://linkedin.com/in/antonio-dennis-ponce-salazar-255243225" target="_blank">
+                <div class="cont_descripcion_redes_social">
+                    <i class="conRed fab fa-linkedin" target="_blank"></i>
+                </div>
+            </a>
+
+            <a href="https://twitter.com/AntonioDennisP1" target="_blank">
+                <div class="cont_descripcion_redes_social">
+                    <i class="conRed fab fa-twitter-square"></i>
+                </div>
+            </a>
+
+            <a href="https://www.youtube.com/channel/UCElch2zsoBX7PzHxa6I53rQ" target="_blank">
+                <div class="cont_descripcion_redes_social">
+                    <i class="conRed fab fa-youtube"></i>
+                </div>
+            </a>
+            </div>
+        </footer>
+    </main>
+
+    <!--BTN-TOP-->
+    <div class="contBtnTop" >
+        <a href="#container"><i class="iconTop fas fa-caret-square-up" id="iconTop"></i></a>
+    </div>
+
+    <!--SCRIPTS BTN TOP-->
+    <script src="../js/btnTop.js"></script>
+
+    <!--SCRIPTS PERSONALIZADOS-->
+    <script src="../js/templates/templates_services.js"></script>
+
+     <!--SCRIPT DE EFECTO PRELOADER-->
+     <script src="../js/preloader.js"></script>
+
+    <!--SCRIPT DE ANIMATION EL SCROLLING-->
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!--SCRIPT DE BTN HAMBURGUESA-->
+    <script src="../js/hamburguers.js"></script>
+</body>
+</html>

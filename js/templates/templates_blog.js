@@ -56,8 +56,8 @@ const pintarArticleBlog_1_7 = (dataArticle)=>{
 
     document.addEventListener("click", (e) =>{
         if(e.target.dataset.idBlog === "1"){
-            /*window.location.href = "https://www.campusmvp.es/recursos/post/como-son-los-desarrolladores-en-2021-segun-stack-overflow.aspx"*/
-            window.open("https://www.campusmvp.es/recursos/post/como-son-los-desarrolladores-en-2021-segun-stack-overflow.aspx")
+            window.location.href = "../html_articulos/bucles_en_javaScript.html"
+            //window.open("../html_articulos/bucles_en_javaScript.html")
         }else if(e.target.dataset.idBlog === "2"){
             window.open("https://keepcoding.io/blog/7-tecnologias-para-desarrollo-web/")
         }

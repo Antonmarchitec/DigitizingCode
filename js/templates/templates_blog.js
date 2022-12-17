@@ -56,7 +56,7 @@ const pintarArticleBlog_1_7 = (dataArticle)=>{
 
     document.addEventListener("click", (e) =>{
         if(e.target.dataset.idBlog === "1"){
-            window.location.href = "../html_articulos/bucles_en_javaScript.html"
+            window.location.href = "./bucles_en_javaScript.html"
             //window.open("../html_articulos/bucles_en_javaScript.html")
         }else if(e.target.dataset.idBlog === "2"){
             window.open("https://keepcoding.io/blog/7-tecnologias-para-desarrollo-web/")

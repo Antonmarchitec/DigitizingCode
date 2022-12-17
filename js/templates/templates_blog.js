@@ -59,7 +59,7 @@ const pintarArticleBlog_1_7 = (dataArticle)=>{
             window.location.href = "./bucles_en_javaScript.html"
             //window.open("../html_articulos/bucles_en_javaScript.html")
         }else if(e.target.dataset.idBlog === "2"){
-            window.open("https://keepcoding.io/blog/7-tecnologias-para-desarrollo-web/")
+            //window.open("https://keepcoding.io/blog/7-tecnologias-para-desarrollo-web/")
         }
     })
 

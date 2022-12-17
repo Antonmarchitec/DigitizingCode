@@ -9,14 +9,6 @@
         },
         {
             "id":2,
-            "title":"TECNOLOGÍAS EN DESARROLLO WEB",
-            "imagen":"./image/BLOG/blog_img_2.jpg",
-            "descripcion": "Hay numerosas tecnologías para desarrollo web y, a veces, es complicado para las empresas del sector elegir la mejor opción para sus objetivos. Esto se debe a que el desarrollo web tiene diferentes formas, desde páginas web convencionales hasta CRM, paneles de administración y softwares más complejos. En este post, conocerás las mejores tecnologías para desarrollo web en sus distintas vertientes.",
-            "fuente":" -- Fuente: KEEPCODING. --"
-
-        },
-        {
-            "id":3,
             "title":" W3C (Markup Validation Service) ",
             "imagen":"./image/BLOG/blog_img_3.jpg",
             "descripcion": "Lo que hace el W3C validator es revisar tu código HTML o XHTML buscando errores de sintaxis, verifica si existe una estructuración limpia y correcta utilizando etiquetas semánticas, devolviéndote el resultado de la prueba de validación. URL https://validator.w3.org/#validate_by_input ✌✌",

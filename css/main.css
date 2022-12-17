@@ -4286,10 +4286,11 @@ h3 {
   }
   .container__base .desc__article {
     margin: 20px auto;
-    font-size: 20px;
+    font-size: 16px;
   }
   .container__base .desc__article .iconNum {
-    width: 15px;
+    width: 1px;
+    font-size: 16px;
     color: #0c1b32;
     margin-right: 7px;
   }

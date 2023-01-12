@@ -1075,7 +1075,7 @@ body::-webkit-scrollbar-thumb:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px auto;
+  margin: 50px auto;
 }
 .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_icon .fa-angles-down {
   color: #56fbd3;
@@ -4438,6 +4438,98 @@ h3 {
     color: #0c1b32;
     margin-right: 7px;
   }
+}
+/*******HEADER CLONADO****************/
+/*******HEADER CLONADO****************/
+/*******HEADER CLONADO****************/
+/*******HEADER CLONADO****************/
+.contenedor {
+  margin-top: 100px;
+  width: 100%;
+  max-width: 1440px;
+  background: #0c1b32;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.contenedor .contenedor__izq {
+  width: 25%;
+  height: 500px;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.contenedor .contenedor__centro {
+  margin-top: 50px;
+  width: 360px;
+}
+.contenedor .contenedor__centro .contCentro__title {
+  text-align: start;
+  color: white;
+  font-size: 24px;
+  line-height: 26px;
+}
+.contenedor .contenedor__centro .contCentro__figura-movil {
+  display: none;
+}
+.contenedor .contenedor__centro .contenedor__form {
+  margin-top: 20px;
+  width: 100%;
+  padding: 5px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.contenedor .contenedor__centro .contenedor__form .contenedor__name {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.contenedor .contenedor__centro .contenedor__form .contenedor__name .formInput {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #56fbd3;
+  outline: none;
+  padding: 5px;
+  background: rgba(12, 27, 50, 0.6980392157);
+  color: white;
+}
+.contenedor .contenedor__centro .contenedor__form .contTextarea {
+  margin-top: 20px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background: transparent;
+  border: 2px solid #56fbd3;
+  color: white;
+  max-width: 360px;
+  min-width: 330px;
+  min-height: 150px;
+  max-height: 500px;
+}
+.contenedor .contenedor__centro .contenedor__form .contButon {
+  width: 100%;
+  padding: 4px 0px;
+  border: 2px solid #56fbd3;
+  border-radius: 5px;
+  margin-top: 20px;
+  background: #0c1b32;
+  color: white;
+  transition: 0.5s all;
+}
+.contenedor .contenedor__centro .contenedor__form .contButon:hover {
+  background: #060f1d;
+  color: white;
+  cursor: pointer;
+}
+.contenedor .contenedor__der {
+  width: 25%;
+  height: 500px;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 /*# sourceMappingURL=main.css.map */

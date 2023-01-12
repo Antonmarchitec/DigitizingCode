@@ -1,0 +1,106 @@
+@import "../variables";
+
+/*******HEADER CLONADO****************/
+/*******HEADER CLONADO****************/
+/*******HEADER CLONADO****************/
+/*******HEADER CLONADO****************/
+
+
+
+
+.contenedor{
+    margin-top: 100px;
+    width: 100%;
+    max-width:1440px;
+    background: $colorAzul;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    .contenedor__izq{
+        width: 25%;
+        height:500px;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content:start;
+    }
+    
+    .contenedor__centro{
+        margin-top: 50px;
+        width: 360px;
+        .contCentro__title{
+            text-align:start;
+            color: white;
+            font-size: 24px;
+            line-height: 26px;
+        }
+
+        .contCentro__figura-movil{
+            display: none;
+        }
+        
+        .contenedor__form{
+            margin-top: 20px;
+            width: 100%;
+            padding: 5px 0px;
+            display: flex;
+            flex-direction:column;
+            .contenedor__name{
+                margin-bottom: 15px;
+                width: 100%;
+                .formInput{
+                    width: 100%;
+                    border: none;
+                    border-bottom: 2px solid $colorVerde;
+                    outline: none;
+                    padding: 5px;
+                    background: $colorAzulTransparente;
+                    color: white;
+
+                }
+            }
+
+            .contTextarea{
+                margin-top: 20px;
+                padding: 5px;
+                border: none;
+                outline: none;
+                background: transparent;
+                border: 2px solid $colorVerde;
+                color: white;
+                max-width: 360px;
+                min-width: 330px;
+                min-height: 150px;
+                max-height: 500px;
+            }
+
+            .contButon{
+                width: 100%;
+                padding: 4px 0px;
+                border: 2px solid $colorVerde;
+                border-radius: 5px;
+                margin-top: 20px;
+                background:$colorAzul;
+                color: white;
+                transition: 0.5s all;
+            }
+
+            .contButon:hover{
+                background:$colorAzulOscuro;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .contenedor__der{
+        width: 25%;
+        height: 500px;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+    }
+}

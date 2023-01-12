@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+
+
+    <link rel="stylesheet" href="./css/preloader.css">
+
+    <!------BTN RESPONSIVE HAMBURGUER CDN------------->
+    <link rel="stylesheet" href="css/hamburgers.css">
+
+    <!------ANIMATE CDN------------->
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <!------FONT AWESON CDN------------->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b7fb745aab.js" crossorigin="anonymous"></script>
+    
+    <!-------GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap" rel="stylesheet">
+
+    <title> formulario sitio web </title>
+</head>
+<body>
+
+    <main class="container">
+        <!--BLOCK HEADER-->
+        <nav class="containerHeader">
+            <div class="containerHeader_logo">
+                <img src="./image/logo.jpg" alt="logo" style="width: 100%; height:100%;">
+            </div>
+
+            <ul class="containerHeader_ul" id="containerHeader_ul">
+                <li class="containerHeader_ul_li">
+                    <a href="index.html" class="containerHeader_ul_li_a"> Acerca de </a>
+                </li>
+                <li class="containerHeader_ul_li">
+                    <a href="servicios.html" class="containerHeader_ul_li_a"> Servicios </a>
+                </li>
+                <li class="containerHeader_ul_li">
+                    <a href="blog.html" class="containerHeader_ul_li_a"> Blog </a>
+                </li>
+                <li class="containerHeader_ul_li">
+                    <a href="#" class="containerHeader_ul_li_a"> Cursos </a>
+                </li>
+                <li class="containerHeader_ul_li">
+                    <a href="contacto.html" class="containerHeader_ul_li_a"> Contacto </a>
+                </li>
+                <li class="containerHeader_ul_li">
+                    <a href="https://antonmarchitec.github.io/project_ap/"
+                    class="containerHeader_ul_li_a"> Portafolio </a>
+                </li>
+            </ul>
+
+            <div class="containerHeader_btn" id="containerHeader_btn">
+                <button class="hamburger hamburger--collapse" type="button">
+                    <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+            </div>
+        </nav> 
+
+        <div class="contenedor">
+            <figure class="contenedor__izq">
+                <img src="./image/web.jpg" alt="mockup1" style="width: 100%;height:50%;">
+            </figure>
+
+            <div class="contenedor__centro">
+                <p class="contCentro__title"> Cotiza tu sitio web y cuéntame cuáles son tus requerimientos. </p>
+
+                <figure class="contCentro__figura-movil">
+                    <img src="./image/web.jpg" alt="mockup2" style="width: 100%;height:50%;">
+                </figure>
+
+                <form class="contenedor__form">
+                    <div class="contenedor__name">
+                        <input type="text" placeholder="Nombre completo" class="formInput">
+                    </div>
+        
+                    <div class="contenedor__name">
+                        <input type="text" placeholder="Correo electronico" class="formInput">
+                    </div>
+        
+                    <textarea class="contTextarea" placeholder="Cuales son tus requerimientos?"></textarea>
+                    
+                    <input type="submit" value="Enviar cotizacion" class="contButon">
+                </form>
+            </div>
+            
+
+            <figure class="contenedor__der">
+                <img src="./image/web.jpg" alt="mockup2" style="width: 100%;height:50%;">
+            </figure>
+        </div>
+    </main>
+
+
+     <!--SCRIPTS BTN TOP-->
+     <script src="mis_scripts/btnTop.js"></script>
+
+
+     <!--SCRIPT DE EFECTO PRELOADER-->
+     <script src="./js/preloader.js"></script>
+
+     <!--SCRIPT DE BTN HAMBURGUESA-->
+    <script src="js/hamburguers.js"></script>
+
+    <!--SCRIPT DE ANIMATION EL SCROLLING-->
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    
+</body>
+</html>

@@ -4450,7 +4450,22 @@ h3 {
   background: #0c1b32;
   padding: 80px 0px;
 }
+.contenedor .contenedor__title {
+  width: 80%;
+  padding: 5px 0px;
+  text-align: start;
+  margin: auto;
+}
+.contenedor .contenedor__title .title__sitio {
+  color: #96aadb;
+  font-size: 48px;
+}
+.contenedor .contenedor__title .descripcion__sitio {
+  color: white;
+  font-size: 20px;
+}
 .contenedor .contenedor__detalle__section {
+  margin-top: 50px;
   width: 100%;
   padding: 10px 0px;
   display: flex;
@@ -4465,6 +4480,7 @@ h3 {
 .contenedor .contenedor__detalle__section .contenedor__detalle .detalle__block {
   margin: 5px 0px;
   color: white;
+  font-size: 18px;
 }
 .contenedor .contenedor__detalle__section .contenedor__detalle .detalle__block .fa-circle {
   width: 25px;
@@ -4477,7 +4493,7 @@ h3 {
 }
 .contenedor .contenedor__centro {
   margin: 50px auto;
-  width: 70%;
+  width: 80%;
   padding: 20px;
 }
 .contenedor .contenedor__centro .contCentro__title {
@@ -4537,5 +4553,10 @@ h3 {
   color: white;
   cursor: pointer;
 }
+
+/*******FOOTER CLONADO****************/
+/*******FOOTER CLONADO****************/
+/*******FOOTER CLONADO****************/
+/*******FOOTER CLONADO****************/
 
 /*# sourceMappingURL=main.css.map */

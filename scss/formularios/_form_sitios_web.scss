@@ -13,27 +13,44 @@
     width: 100%;
     max-width:1440px;
     background: $colorAzul;
-    padding: 10px 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    .contenedor__izq{
-        width: 25%;
-        height:500px;
+    padding: 80px 0px;
+    
+    .contenedor__detalle__section{
+        width: 100%;
         padding: 10px 0px;
         display: flex;
-        flex-direction: column;
-        justify-content:start;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .contenedor__detalle{
+            width: 380px;
+            padding: 5px 10px;
+            .detalle__block{
+                margin: 5px 0px;
+                color: white;
+                .fa-circle{
+                    width: 25px;
+                    color: $colorVerde;
+                    font-size: 12px;
+                }
+            }
+            
+        }
+
+        .contenedor__der{
+            width: 50%;
+            padding: 10px 0px;
+        }
     }
-    
+
     .contenedor__centro{
-        margin-top: 50px;
-        width: 360px;
+        margin: 50px auto;
+        width:70%;
+        padding: 20px;
         .contCentro__title{
             text-align:start;
             color: white;
-            font-size: 24px;
+            font-size: 20px;
             line-height: 26px;
         }
 
@@ -70,10 +87,10 @@
                 background: transparent;
                 border: 2px solid $colorVerde;
                 color: white;
-                max-width: 360px;
+                max-width: 100%;
                 min-width: 330px;
                 min-height: 150px;
-                max-height: 500px;
+                max-height: 300px;
             }
 
             .contButon{
@@ -95,12 +112,5 @@
         }
     }
 
-    .contenedor__der{
-        width: 25%;
-        height: 500px;
-        padding: 10px 0px;
-        display: flex;
-        flex-direction: column;
-        justify-content:flex-end;
-    }
+    
 }

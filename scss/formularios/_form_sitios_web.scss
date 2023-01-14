@@ -23,16 +23,18 @@
         .title__sitio{
             color: $colorCelesteOscuro;
             font-size: 50px;
+            line-height: 52px;
         }
         .descripcion__sitio{
+            margin-top: 30px;
             color: white;
             font-size: 20px;
         }
     }
     
     .contenedor__detalle__section{
-        margin-top: 50px;
-        width: 100%;
+        margin: 50px auto;
+        width: 80%;
         padding: 10px 0px;
         display: flex;
         flex-direction: row;
@@ -156,3 +158,432 @@
 /*******FOOTER CLONADO****************/
 /*******FOOTER CLONADO****************/
 /*******FOOTER CLONADO****************/
+
+
+
+
+
+@media (min-width:320px)  and (max-width:480px){
+    .contenedor{
+        margin-top: 80px;
+        width: 100%;
+        padding: 70px 0px;
+        .contenedor__title{
+            width: 100%;
+            padding: 5px 20px;
+            text-align: start;
+            margin: auto;
+            .title__sitio{
+                color: $colorCelesteOscuro;
+                font-size: 42px;
+                line-height: 48px;
+            }
+            .descripcion__sitio{
+                margin-top: 40px;
+                color: white;
+                font-size: 20px;
+            }
+        }
+        
+        .contenedor__detalle__section{
+            margin-top: 50px;
+            width: 100%;
+            padding: 5px 20px;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+            align-items: center;
+            .contenedor__detalle{
+                margin-top: 30px;
+                width: 100%;
+                padding: 0px;
+                .detalle__block{
+                    margin: 5px 0px;
+                    color: white;
+                    font-size: 18px;
+                    .fa-circle{
+                        width: 25px;
+                        color: $colorVerde;
+                        font-size: 14px;
+                    }
+                }
+                
+            }
+    
+            .contenedor__der{
+                width: 100%;
+                height: 350px;
+            }
+        }
+    
+        .contCentro__textEntrega{
+            margin: 50px auto;
+            width: 85%;
+            padding: 20px;
+            border: 1px solid $colorVerde;
+            color: white;
+            .textEntrega{
+                text-transform: uppercase;
+                text-align: start;
+                color: $colorCelesteOscuro;
+            }
+        }
+    
+        .contenedor__centro{
+            margin: 50px auto;
+            width:100%;
+            padding: 20px;
+            .contCentro__title{
+                text-align:start;
+                color: white;
+                font-size: 20px;
+                line-height: 26px;
+            }
+    
+            .contCentro__figura-movil{
+                display: none;
+            }
+            
+            .contenedor__form{
+                margin-top: 20px;
+                width: 100%;
+                padding: 5px 0px;
+                display: flex;
+                flex-direction:column;
+                .contenedor__name{
+                    margin-bottom: 15px;
+                    width: 100%;
+                    .formInput{
+                        width: 100%;
+                        border: none;
+                        border-bottom: 2px solid $colorVerde;
+                        outline: none;
+                        padding: 10px;
+                        background: $colorAzulTransparente;
+                        color: white;
+    
+                    }
+                }
+    
+                .contTextarea{
+                    margin-top: 20px;
+                    padding: 10px;
+                    border: none;
+                    outline: none;
+                    background: transparent;
+                    border: 2px solid $colorVerde;
+                    color: white;
+                    max-width: 100%;
+                    min-width: 100%;
+                    min-height: 150px;
+                    max-height: 300px;
+                }
+    
+                .contButon{
+                    width: 100%;
+                    padding: 4px 0px;
+                    border: 2px solid $colorVerde;
+                    border-radius: 5px;
+                    margin-top: 20px;
+                    background:$colorAzul;
+                    color: white;
+                    transition: 0.5s all;
+                }
+    
+            }
+        }
+    
+        
+    }
+
+}
+
+
+
+@media (min-width:481px)  and (max-width:769px){
+    .contenedor{
+        margin-top: 80px;
+        width: 100%;
+        padding: 70px 0px;
+        .contenedor__title{
+            width: 85%;
+            padding: 5px 20px;
+            text-align: start;
+            margin: auto;
+            .title__sitio{
+                color: $colorCelesteOscuro;
+                font-size: 42px;
+                line-height: 42px;
+
+            }
+            .descripcion__sitio{
+                margin-top: 35px;
+                color: white;
+                font-size: 20px;
+            }
+        }
+        
+        .contenedor__detalle__section{
+            margin-top: 50px;
+            width: 85%;
+            margin: auto;
+            padding: 5px 20px;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+            align-items: center;
+            .contenedor__detalle{
+                margin-top: 30px;
+                width: 90%;
+                padding: 0px;
+                .detalle__block{
+                    margin: 5px 0px;
+                    color: white;
+                    font-size: 18px;
+                    .fa-circle{
+                        width: 25px;
+                        color: $colorVerde;
+                        font-size: 14px;
+                    }
+                }
+                
+            }
+    
+            .contenedor__der{
+                width: 100%;
+                height: 350px;
+            }
+        }
+    
+        .contCentro__textEntrega{
+            margin: 50px auto;
+            width: 85%;
+            padding: 20px;
+            border: 1px solid $colorVerde;
+            color: white;
+            .textEntrega{
+                text-transform: uppercase;
+                text-align: start;
+                color: $colorCelesteOscuro;
+            }
+        }
+    
+        .contenedor__centro{
+            margin: 50px auto;
+            width:90%;
+            padding: 20px;
+            .contCentro__title{
+                text-align:start;
+                color: white;
+                font-size: 20px;
+                line-height: 26px;
+            }
+    
+            .contCentro__figura-movil{
+                display: none;
+            }
+            
+            .contenedor__form{
+                margin-top: 20px;
+                width: 100%;
+                padding: 5px 0px;
+                display: flex;
+                flex-direction:column;
+                .contenedor__name{
+                    margin-bottom: 15px;
+                    width: 100%;
+                    .formInput{
+                        width: 100%;
+                        border: none;
+                        border-bottom: 2px solid $colorVerde;
+                        outline: none;
+                        padding: 10px;
+                        background: $colorAzulTransparente;
+                        color: white;
+    
+                    }
+                }
+    
+                .contTextarea{
+                    margin-top: 20px;
+                    padding: 10px;
+                    border: none;
+                    outline: none;
+                    background: transparent;
+                    border: 2px solid $colorVerde;
+                    color: white;
+                    max-width: 100%;
+                    min-width: 100%;
+                    min-height: 150px;
+                    max-height: 300px;
+                }
+    
+                .contButon{
+                    width: 100%;
+                    padding: 4px 0px;
+                    border: 2px solid $colorVerde;
+                    border-radius: 5px;
+                    margin-top: 20px;
+                    background:$colorAzul;
+                    color: white;
+                    transition: 0.5s all;
+                }
+    
+            }
+        }
+    
+        
+    }
+
+}
+
+
+
+@media (min-width:770px)  and (max-width:1024px){
+    .contenedor{
+        margin-top: 80px;
+        width: 100%;
+        padding: 100px 0px;
+        .contenedor__title{
+            width: 90%;
+            padding: 5px 20px;
+            text-align: start;
+            margin: auto;
+            .title__sitio{
+                color: $colorCelesteOscuro;
+                font-size: 48px;
+                line-height: 50px;
+
+            }
+            .descripcion__sitio{
+                margin-top: 35px;
+                color: white;
+                font-size: 20px;
+            }
+        }
+        
+        .contenedor__detalle__section{
+            margin: 50px auto;
+            width: 90%;
+            padding: 5px 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            .contenedor__detalle{
+                margin-top: 30px;
+                width: 480px;
+                padding: 0px;
+                
+                .detalle__block{
+                    margin: 5px 0px;
+                    color: white;
+                    font-size: 18px;
+                    .fa-circle{
+                        width: 25px;
+                        color: $colorVerde;
+                        font-size: 14px;
+                    }
+                }
+                
+            }
+    
+            .contenedor__der{
+                width: 100%;
+                height: 350px;
+            }
+        }
+    
+        .contCentro__textEntrega{
+            margin: 50px auto;
+            width: 80%;
+            padding: 20px;
+            border: 1px solid $colorVerde;
+            color: white;
+            .textEntrega{
+                text-transform: uppercase;
+                text-align: start;
+                color: $colorCelesteOscuro;
+            }
+        }
+    
+        .contenedor__centro{
+            margin: 50px auto;
+            width:70%;
+            padding: 20px;
+            .contCentro__title{
+                text-align:start;
+                color: white;
+                font-size: 20px;
+                line-height: 26px;
+            }
+    
+            .contCentro__figura-movil{
+                display: none;
+            }
+            
+            .contenedor__form{
+                margin-top: 20px;
+                width: 100%;
+                padding: 5px 0px;
+                display: flex;
+                flex-direction:column;
+                .contenedor__name{
+                    margin-bottom: 15px;
+                    width: 100%;
+                    .formInput{
+                        width: 100%;
+                        border: none;
+                        border-bottom: 2px solid $colorVerde;
+                        outline: none;
+                        padding: 10px;
+                        background: $colorAzulTransparente;
+                        color: white;
+    
+                    }
+                }
+    
+                .contTextarea{
+                    margin-top: 20px;
+                    padding: 10px;
+                    border: none;
+                    outline: none;
+                    background: transparent;
+                    border: 2px solid $colorVerde;
+                    color: white;
+                    max-width: 100%;
+                    min-width: 100%;
+                    min-height: 150px;
+                    max-height: 300px;
+                }
+    
+                .contButon{
+                    width: 100%;
+                    padding: 4px 0px;
+                    border: 2px solid $colorVerde;
+                    border-radius: 5px;
+                    margin-top: 20px;
+                    background:$colorAzul;
+                    color: white;
+                    transition: 0.5s all;
+                }
+    
+            }
+        }
+    
+        
+    }
+
+}
+
+
+
+/*
+RESPONSIVE DESING OFICIAL NUEVO
+@media (min-width:1025px) and (max-width:1200px){}     175px
+@media (min-width:900px)  and (max-width:1024px){}     124px
+@media (min-width:770px)  and (max-width:899px){}      129px
+@media (min-width:641px)  and (max-width:769px){}      128px
+@media (min-width:481px)  and (max-width:640px){}      159px
+@media (min-width:320px)  and (max-width:480px){}      160px
+*/

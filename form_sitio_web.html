@@ -149,18 +149,21 @@
                     <img src="./image/web.jpg" alt="mockup2" style="width: 100%;height:50%;">
                 </figure>
 
-                <form class="contenedor__form">
+                <form class="contenedor__form" action="enviar.php" method="Post" onsubmit="return validarFormularioDetalle();"> 
                     <div class="contenedor__name">
-                        <input type="text" placeholder="Nombre completo" class="formInput">
+                        <input type="text" placeholder="Nombre completo" class="formInput"
+                        name="nombre" id="nameDetalle">
                     </div>
         
                     <div class="contenedor__name">
-                        <input type="text" placeholder="Correo electronico" class="formInput">
+                        <input type="text" placeholder="Correo electronico" class="formInput"
+                        name="email" id="mailDetalle">
                     </div>
         
-                    <textarea class="contTextarea" placeholder="Cuales son tus requerimientos?"></textarea>
+                    <textarea class="contTextarea" placeholder="Cuales son tus requerimientos?"
+                    id="textareaDetalle"></textarea>
                     
-                    <input type="submit" value="Enviar cotizacion" class="contButon">
+                    <button type="submit" class="contButon" onclick="validarFormularioDetalle()"> Enviar cotizacion </button>
                 </form>
             </div>
         </div>
@@ -224,6 +227,11 @@
      <!--SCRIPTS BTN TOP-->
      <script src="./js/btnTop.js"></script>
 
+     <!--SCRIPT DE SWITCH ALERT -->
+     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+     <!--VALIDAR FORMULARIO-->
+     <script src="./js/validacionForm.js"></script>
 
      <!--SCRIPT DE EFECTO PRELOADER-->
      <script src="./js/preloader.js"></script>

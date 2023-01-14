@@ -22,7 +22,7 @@
         margin: auto;
         .title__sitio{
             color: $colorCelesteOscuro;
-            font-size: 48px;
+            font-size: 50px;
         }
         .descripcion__sitio{
             color: white;
@@ -56,13 +56,26 @@
 
         .contenedor__der{
             width: 50%;
-            padding: 10px 0px;
+            height: 350px;
+        }
+    }
+
+    .contCentro__textEntrega{
+        margin: 30px auto;
+        width: 60%;
+        padding: 20px;
+        border: 1px solid $colorVerde;
+        color: white;
+        .textEntrega{
+            text-transform: uppercase;
+            text-align: start;
+            color: $colorCelesteOscuro;
         }
     }
 
     .contenedor__centro{
         margin: 50px auto;
-        width:80%;
+        width:60%;
         padding: 20px;
         .contCentro__title{
             text-align:start;
@@ -89,7 +102,7 @@
                     border: none;
                     border-bottom: 2px solid $colorVerde;
                     outline: none;
-                    padding: 5px;
+                    padding: 10px;
                     background: $colorAzulTransparente;
                     color: white;
 
@@ -98,7 +111,7 @@
 
             .contTextarea{
                 margin-top: 20px;
-                padding: 5px;
+                padding: 10px;
                 border: none;
                 outline: none;
                 background: transparent;

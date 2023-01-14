@@ -4458,7 +4458,7 @@ h3 {
 }
 .contenedor .contenedor__title .title__sitio {
   color: #96aadb;
-  font-size: 48px;
+  font-size: 50px;
 }
 .contenedor .contenedor__title .descripcion__sitio {
   color: white;
@@ -4489,11 +4489,23 @@ h3 {
 }
 .contenedor .contenedor__detalle__section .contenedor__der {
   width: 50%;
-  padding: 10px 0px;
+  height: 350px;
+}
+.contenedor .contCentro__textEntrega {
+  margin: 30px auto;
+  width: 60%;
+  padding: 20px;
+  border: 1px solid #56fbd3;
+  color: white;
+}
+.contenedor .contCentro__textEntrega .textEntrega {
+  text-transform: uppercase;
+  text-align: start;
+  color: #96aadb;
 }
 .contenedor .contenedor__centro {
   margin: 50px auto;
-  width: 80%;
+  width: 60%;
   padding: 20px;
 }
 .contenedor .contenedor__centro .contCentro__title {
@@ -4521,13 +4533,13 @@ h3 {
   border: none;
   border-bottom: 2px solid #56fbd3;
   outline: none;
-  padding: 5px;
+  padding: 10px;
   background: rgba(12, 27, 50, 0.6980392157);
   color: white;
 }
 .contenedor .contenedor__centro .contenedor__form .contTextarea {
   margin-top: 20px;
-  padding: 5px;
+  padding: 10px;
   border: none;
   outline: none;
   background: transparent;

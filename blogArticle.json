@@ -2,7 +2,7 @@
     "blog_1_7":[
         {
             "id":1,
-            "title":"¿Tienes dudas respecto a como funcionan los bucles while y for?",
+            "title":" Bucles while y for... ¿Cómo funcionan?",
             "imagen":"./image/BLOG/blog_img_1.jpg",
             "descripcion": " Alguna vez te preguntaste cuando debemos utilizar while o for?. Mira este post para aclararte mejor algunas de tus dudas.",
             "fuente":" -- Fuente: DigitizingCode. --"

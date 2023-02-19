@@ -4343,34 +4343,14 @@ h3 {
   background: white;
 }
 .contBtnWatts .iconWatt {
-  font-size: 40px;
+  font-size: 30px;
   color: rgba(78, 242, 89, 0.66);
 }
 .contBtnWatts .contBtnWatts_text {
   color: #0c1b32;
+  font-weight: 600;
 }
 
-@media (min-width: 320px) and (max-width: 423px) {
-  .contBtnWatts {
-    width: 140px;
-    padding: 5px 10px;
-    position: fixed;
-    bottom: 80px;
-    left: 20px;
-    z-index: 100;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background: white;
-  }
-  .contBtnWatts .iconWatt {
-    font-size: 40px;
-    color: rgba(78, 242, 89, 0.66);
-  }
-  .contBtnWatts .contBtnWatts_text {
-    color: #0c1b32;
-  }
-}
 .container__base {
   margin: 200px auto;
   width: 80%;

@@ -20,13 +20,15 @@
         margin: auto;
         .title__sitio{
             color: $colorCelesteOscuro;
-            font-size: 50px;
-            line-height: 52px;
+            font-size: 38px;
+            text-align: center;
+            line-height: 50px;
         }
         .descripcion__sitio{
             margin-top: 30px;
             color: white;
             font-size: 20px;
+            text-align: center;
         }
     }
     
@@ -38,13 +40,16 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+
         .contenedor__detalle{
             width: 380px;
             padding: 5px 10px;
+
             .detalle__block{
                 margin: 5px 0px;
                 color: white;
-                font-size: 18px;
+                font-size: 16px;
+
                 .fa-circle{
                     width: 25px;
                     color: $colorVerde;
@@ -55,10 +60,11 @@
         }
 
         .contenedor__der{
-            width: 50%;
-            height: 350px;
+            width: 60%;
+            height: 480px;
             animation-delay: 1s;
             animation-duration:0.8s;
+
         }
     }
 

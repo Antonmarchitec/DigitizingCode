@@ -4449,13 +4449,15 @@ h3 {
 }
 .contenedor .contenedor__title .title__sitio {
   color: #96aadb;
-  font-size: 50px;
-  line-height: 52px;
+  font-size: 38px;
+  text-align: center;
+  line-height: 50px;
 }
 .contenedor .contenedor__title .descripcion__sitio {
   margin-top: 30px;
   color: white;
   font-size: 20px;
+  text-align: center;
 }
 .contenedor .contenedor__detalle__section {
   margin: 50px auto;
@@ -4473,7 +4475,7 @@ h3 {
 .contenedor .contenedor__detalle__section .contenedor__detalle .detalle__block {
   margin: 5px 0px;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
 }
 .contenedor .contenedor__detalle__section .contenedor__detalle .detalle__block .fa-circle {
   width: 25px;
@@ -4481,8 +4483,8 @@ h3 {
   font-size: 12px;
 }
 .contenedor .contenedor__detalle__section .contenedor__der {
-  width: 50%;
-  height: 350px;
+  width: 60%;
+  height: 480px;
   animation-delay: 1s;
   animation-duration: 0.8s;
 }

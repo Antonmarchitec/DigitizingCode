@@ -4298,7 +4298,7 @@ h3 {
 .contBtnTop {
   position: fixed;
   right: 20px;
-  bottom: 140px;
+  bottom: 100px;
   z-index: 40;
 }
 .contBtnTop .iconTop {
@@ -4331,33 +4331,44 @@ h3 {
 }
 
 .contBtnWatts {
-  width: 40px;
-  height: 40px;
+  width: 140px;
+  padding: 5px 10px;
   position: fixed;
-  bottom: 75px;
-  right: 20px;
-  z-index: 50;
+  bottom: 80px;
+  left: 20px;
+  z-index: 100;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  background: white;
 }
 .contBtnWatts .iconWatt {
-  color: white;
   font-size: 40px;
-  color: rgb(78, 242, 89);
+  color: rgba(78, 242, 89, 0.66);
+}
+.contBtnWatts .contBtnWatts_text {
+  color: #0c1b32;
 }
 
 @media (min-width: 320px) and (max-width: 423px) {
   .contBtnWatts {
-    width: 40px;
-    height: 40px;
+    width: 140px;
+    padding: 5px 10px;
     position: fixed;
-    bottom: 75px;
-    right: 20px;
-    z-index: 20;
+    bottom: 80px;
+    left: 20px;
+    z-index: 100;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    background: white;
+  }
+  .contBtnWatts .iconWatt {
+    font-size: 40px;
+    color: rgba(78, 242, 89, 0.66);
+  }
+  .contBtnWatts .contBtnWatts_text {
+    color: #0c1b32;
   }
 }
 .container__base {

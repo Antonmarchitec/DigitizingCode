@@ -4295,6 +4295,52 @@ h3 {
   font-size: 14px;
 }
 
+.main__under {
+  width: 100%;
+  height: 600px;
+  max-width: 1440px;
+  padding: 20px 0px;
+  margin: auto;
+  background: rgb(160, 52, 52);
+}
+.main__under .under__base {
+  width: 100%;
+  height: 100%;
+  padding: 10px 0px;
+  background: rgb(15, 73, 100);
+  position: relative;
+}
+.main__under .under__base .under__description {
+  width: 500px;
+  padding: 10px 0px;
+  margin-left: 100px;
+  margin-top: 100px;
+  position: relative;
+  z-index: 100;
+}
+.main__under .under__base .under__description .under__title {
+  color: white;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 90px;
+}
+.main__under .under__base .under__description .under__text {
+  width: 60%;
+  margin-top: 20px;
+  color: white;
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: 300;
+}
+.main__under .under__base .under__image {
+  width: 650px;
+  height: 550px;
+  padding: 10px 0px;
+  position: absolute;
+  right: 100px;
+  top: 20px;
+}
+
 .contBtnTop {
   position: fixed;
   right: 20px;

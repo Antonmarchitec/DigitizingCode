@@ -6,14 +6,15 @@
     width: 100%;
     height: 600px;
     max-width: 1440px;
-    padding: 20px 0px;
     margin: auto;
-    background: rgb(160, 52, 52);
+    background-image: url(../image/C2.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
     .under__base{
         width: 100%;
         height: 100%;
         padding: 10px 0px;
-        background: rgb(15, 73, 100);
+        background:$colorAzul;
         position: relative;
         .under__description{
             width: 500px;
@@ -23,7 +24,7 @@
             position: relative;
             z-index: 100;
             .under__title{
-                color: white;
+                color: $colorVerde;
                 font-size:90px;
                 font-weight: 600;
                 line-height: 90px;
@@ -45,6 +46,20 @@
             position: absolute;
             right: 100px;
             top: 20px;
+            animation-name: moverImage;
+            animation-duration: 2s;
+            animation-timing-function:linear;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes moverImage {
+            from{
+                transform: translateY(-5px);
+            }to{
+                transform: translateY(5px);
+            }
         }
     }
     

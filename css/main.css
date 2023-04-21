@@ -65,7 +65,7 @@ body::-webkit-scrollbar-thumb:hover {
   align-items: center;
 }
 .container .containerHeader .containerHeader_ul .containerHeader_ul_li {
-  width: 100px;
+  width: 80px;
   padding: 5px 0px;
   list-style: none;
   text-align: center;
@@ -87,6 +87,7 @@ body::-webkit-scrollbar-thumb:hover {
   background-size: 100% 500px;
   background-repeat: no-repeat;
   position: relative;
+  padding: 10px;
 }
 .container #cont_descripcion_foto .contBase {
   width: 100%;
@@ -161,8 +162,8 @@ body::-webkit-scrollbar-thumb:hover {
   width: 400px;
   height: 400px;
   border: 2px solid #0c1b32;
-  border-radius: 50%;
-  box-shadow: 0px 0px 5px #0c1b32;
+  border-radius: 10px;
+  box-shadow: -15px 15px 2px #060f1d;
   transition: 0.1s all linear;
   overflow: hidden;
   background: #56fbd3;
@@ -365,12 +366,15 @@ body::-webkit-scrollbar-thumb:hover {
     width: 350px;
     height: 350px;
     border: 2px solid #0c1b32;
-    border-radius: 50%;
-    box-shadow: 0px 0px 5px #0c1b32;
+    border-radius: 10px;
+    box-shadow: -15px 15px 2px #060f1d;
     transition: 0.1s all linear;
     overflow: hidden;
     background: #56fbd3;
     transition: 1s all;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
+    background: transparent;
   }
   .container .cont_descripcion_footer {
     width: 100%;
@@ -568,8 +572,8 @@ body::-webkit-scrollbar-thumb:hover {
     width: 300px;
     height: 300px;
     border: 2px solid #0c1b32;
-    border-radius: 50%;
-    box-shadow: 0px 0px 5px #0c1b32;
+    border-radius: 10px;
+    box-shadow: -15px 15px 2px #060f1d;
     transition: 0.1s all linear;
     overflow: hidden;
     background: #56fbd3;
@@ -757,8 +761,8 @@ body::-webkit-scrollbar-thumb:hover {
     width: 300px;
     height: 300px;
     border: 2px solid #0c1b32;
-    border-radius: 50%;
-    box-shadow: 0px 0px 5px #0c1b32;
+    border-radius: 10px;
+    box-shadow: -15px 15px 2px #060f1d;
     transition: 0.1s all linear;
     overflow: hidden;
     background: #56fbd3;
@@ -815,6 +819,9 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    background: transparent;
+  }
   .container .containerHeader {
     z-index: 200;
   }
@@ -870,14 +877,13 @@ body::-webkit-scrollbar-thumb:hover {
   .container #cont_descripcion_foto {
     margin-top: 80px;
     width: 100%;
-    background: #0c1b32;
     background-size: 100% 500px;
     background-repeat: no-repeat;
     position: initial;
   }
   .container #cont_descripcion_foto .contBase {
     width: 100%;
-    padding: 0px 0px;
+    padding: 0px;
     display: flex;
     flex-direction: column;
     flex-wrap: initial;
@@ -886,7 +892,7 @@ body::-webkit-scrollbar-thumb:hover {
   .container #cont_descripcion_foto .contBase .contenedor_izq {
     width: 100%;
     height: initial;
-    padding: 20px 10px;
+    padding: 20px 0px;
     margin-left: initial;
     position: initial;
   }
@@ -953,8 +959,8 @@ body::-webkit-scrollbar-thumb:hover {
     width: 280px;
     height: 280px;
     border: 2px solid #0c1b32;
-    border-radius: 50%;
-    box-shadow: 0px 0px 5px #0c1b32;
+    border-radius: 10px;
+    box-shadow: -15px 15px 2px #060f1d;
     transition: 0.1s all linear;
     overflow: hidden;
     background: #56fbd3;

@@ -137,13 +137,12 @@
                 flex-direction: column;    
                 justify-content: center;
                 align-items: center;
-
                 .contenedor_der_image{
                     width: 400px;
                     height: 400px;
                     border:2px solid $colorAzul;
-                    border-radius:10px;
-                    box-shadow: -15px 15px 2px $colorAzulOscuro;
+                    border-radius:90%;
+                    box-shadow: 0px 0px 15px $colorAzulOscuro;
                     transition: 0.1s all linear;
                     overflow: hidden;
                     background:$colorVerde;
@@ -392,8 +391,8 @@
                         width: 350px;
                         height: 350px;
                         border:2px solid $colorAzul;
-                        border-radius:10px;
-                        box-shadow: -15px 15px 2px $colorAzulOscuro;
+                        border:2px solid $colorAzul;
+                        border-radius:90%;
                         transition: 0.1s all linear;
                         overflow: hidden;
                         background:$colorVerde;
@@ -626,8 +625,8 @@
                         width: 300px;
                         height: 300px;
                         border:2px solid $colorAzul;
-                        border-radius:10px;
-                        box-shadow: -15px 15px 2px $colorAzulOscuro;
+                        border:2px solid $colorAzul;
+                        border-radius:90%;
                         transition: 0.1s all linear;
                         overflow: hidden;
                         background:$colorVerde;
@@ -845,8 +844,8 @@
                         width: 300px;
                         height: 300px;
                         border:2px solid $colorAzul;
-                        border-radius:10px;
-                        box-shadow: -15px 15px 2px $colorAzulOscuro;
+                        border:2px solid $colorAzul;
+                        border-radius:90%;
                         transition: 0.1s all linear;
                         overflow: hidden;
                         background:$colorVerde;
@@ -1024,6 +1023,7 @@
                         left: initial;
                         top:initial;
                         .descripcion_acerca{
+                            margin-top: 20px;
                             text-align: justify;
                             color:$colorAzul;
                             font-weight: 300;
@@ -1071,8 +1071,8 @@
                         width: 280px;
                         height: 280px;
                         border:2px solid $colorAzul;
-                        border-radius:10px;
-                        box-shadow: -15px 15px 2px $colorAzulOscuro;
+                        border:2px solid $colorAzul;
+                        border-radius:90%;
                         transition: 0.1s all linear;
                         overflow: hidden;
                         background:$colorVerde;

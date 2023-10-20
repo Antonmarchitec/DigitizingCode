@@ -163,8 +163,8 @@ body::-webkit-scrollbar-thumb:hover {
   width: 400px;
   height: 400px;
   border: 2px solid #0c1b32;
-  border-radius: 10px;
-  box-shadow: -15px 15px 2px #060f1d;
+  border-radius: 90%;
+  box-shadow: 0px 0px 15px #060f1d;
   transition: 0.1s all linear;
   overflow: hidden;
   background: #56fbd3;
@@ -367,8 +367,8 @@ body::-webkit-scrollbar-thumb:hover {
     width: 350px;
     height: 350px;
     border: 2px solid #0c1b32;
-    border-radius: 10px;
-    box-shadow: -15px 15px 2px #060f1d;
+    border: 2px solid #0c1b32;
+    border-radius: 90%;
     transition: 0.1s all linear;
     overflow: hidden;
     background: #56fbd3;
@@ -573,8 +573,8 @@ body::-webkit-scrollbar-thumb:hover {
     width: 300px;
     height: 300px;
     border: 2px solid #0c1b32;
-    border-radius: 10px;
-    box-shadow: -15px 15px 2px #060f1d;
+    border: 2px solid #0c1b32;
+    border-radius: 90%;
     transition: 0.1s all linear;
     overflow: hidden;
     background: #56fbd3;
@@ -762,8 +762,8 @@ body::-webkit-scrollbar-thumb:hover {
     width: 300px;
     height: 300px;
     border: 2px solid #0c1b32;
-    border-radius: 10px;
-    box-shadow: -15px 15px 2px #060f1d;
+    border: 2px solid #0c1b32;
+    border-radius: 90%;
     transition: 0.1s all linear;
     overflow: hidden;
     background: #56fbd3;
@@ -919,6 +919,7 @@ body::-webkit-scrollbar-thumb:hover {
     top: initial;
   }
   .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
+    margin-top: 20px;
     text-align: justify;
     color: #0c1b32;
     font-weight: 300;
@@ -960,8 +961,8 @@ body::-webkit-scrollbar-thumb:hover {
     width: 280px;
     height: 280px;
     border: 2px solid #0c1b32;
-    border-radius: 10px;
-    box-shadow: -15px 15px 2px #060f1d;
+    border: 2px solid #0c1b32;
+    border-radius: 90%;
     transition: 0.1s all linear;
     overflow: hidden;
     background: #56fbd3;

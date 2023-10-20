@@ -128,8 +128,9 @@ body::-webkit-scrollbar-thumb:hover {
   font-weight: 300;
   font-size: 18px;
 }
-.container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
-  color: #060f1d;
+.container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .unete {
+  font-style: italic;
+  font-weight: 600;
 }
 .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
   width: 200px;

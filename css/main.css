@@ -3,9 +3,23 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
-  font-size: 18px;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 16px;
 }
 
+/*   200    700
+font-family: "Oswald", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+*/
+/*100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900
+font-family: "Poppins", sans-serif;
+font-weight: 100;
+font-style: normal;
+*/
 a {
   text-decoration: none;
 }
@@ -57,7 +71,7 @@ body::-webkit-scrollbar-thumb:hover {
   margin-left: 20px;
 }
 .container .containerHeader .containerHeader_ul {
-  width: 500px;
+  width: auto;
   padding: 10px 0px;
   display: flex;
   flex-direction: row;
@@ -65,14 +79,16 @@ body::-webkit-scrollbar-thumb:hover {
   align-items: center;
 }
 .container .containerHeader .containerHeader_ul .containerHeader_ul_li {
-  width: 80px;
-  padding: 5px 0px;
+  width: auto;
+  padding: 5px 18px;
   list-style: none;
   text-align: center;
 }
 .container .containerHeader .containerHeader_ul .containerHeader_ul_li .containerHeader_ul_li_a {
   text-decoration: none;
   color: white;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
 }
 .container .containerHeader .containerHeader_ul .containerHeader_ul_li .containerHeader_ul_li_a:hover {
   text-decoration: none;
@@ -106,7 +122,6 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .container #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
   width: 500px;
-  height: 300px;
   margin-top: 30px;
   font-size: 70px;
   color: #060f1d;
@@ -123,34 +138,47 @@ body::-webkit-scrollbar-thumb:hover {
   bottom: 0px;
 }
 .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
-  text-align: justify;
   color: #0c1b32;
   font-weight: 300;
-  font-size: 18px;
+  font-family: "Poppins", sans-serif;
 }
 .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .unete {
   font-style: italic;
-  font-weight: 600;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
 }
 .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
   width: 200px;
+  border: none;
+  border: 2px solid transparent;
   padding: 5px;
   background: #0c1b32;
   color: white;
-  font-size: 18px;
   font-weight: 300;
-  margin-top: 30px;
-  margin-left: 10px;
+  margin-top: 50px;
+  margin-left: 20px;
   float: right;
-  border-radius: 10px;
-  transition-duration: 0.1s;
+  transition-duration: 0.3s;
   transition-timing-function: ease;
   cursor: pointer;
+  font-family: "Poppins", sans-serif;
 }
 .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca .iconAB {
-  margin-left: 5px;
+  margin-left: 10px;
   font-size: 25px;
   color: #56fbd3;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+.container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca:hover {
+  border: 2px solid #0c1b32;
+  background: transparent;
+  color: #0c1b32;
+}
+.container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca:hover .iconAB {
+  margin-left: 10px;
+  font-size: 25px;
+  color: #0c1b32;
 }
 .container #cont_descripcion_foto .contBase .contenedor_der {
   width: 40%;
@@ -169,6 +197,9 @@ body::-webkit-scrollbar-thumb:hover {
   overflow: hidden;
   background: #56fbd3;
   transition: 1s all;
+}
+.container #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
+  background: transparent;
 }
 .container .cont_descripcion_footer {
   width: 100%;
@@ -189,8 +220,14 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .container .cont_descripcion_footer .cont_descripcion_reserved .cont_descripcion_reserved_text {
   color: white;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
 }
 .container .cont_descripcion_footer .cont_descripcion_reserved .cont_descripcion_reserved_text .text {
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
   color: #56fbd3;
 }
 .container .cont_descripcion_footer .cont_descripcion_redes {

@@ -26,21 +26,24 @@
             margin-left: 20px;
         }
         .containerHeader_ul{
-            width: 500px;
+            width: auto;
             padding: 10px 0px;
             display: flex;
             flex-direction: row;
             justify-content: space-around;
             align-items: center;
             .containerHeader_ul_li{
-                width: 80px;
-                padding: 5px 0px;
+                width: auto;
+                padding: 5px 18px;
                 list-style: none;
                 text-align: center;
 
                 .containerHeader_ul_li_a{
                     text-decoration: none;
                     color: white;
+                    font-weight: 300;
+                    font-family: "Poppins", sans-serif;
+
 
                 }
                 .containerHeader_ul_li_a:hover{
@@ -80,7 +83,6 @@
                 position: relative;
                 .titulo_acerca{
                     width: 500px;
-                    height: 300px;
                     margin-top: 30px    ;
                     font-size: 70px;
                     color:$colorAzulOscuro; 
@@ -97,33 +99,48 @@
                     left: 100px;
                     bottom:0px;
                     .descripcion_acerca{
-                        text-align: justify;
                         color:$colorAzul;
                         font-weight: 300;
-                        font-size: 18px;
+                        font-family: "Poppins", sans-serif;
                         .unete{
                             font-style: italic;
-                            font-weight: 600;
+                            font-weight: 700;
+                            font-family: "Poppins", sans-serif;
+
                         }
                     }
                     .btnAcerca{
                         width: 200px;
+                        border:none ;
+                        border: 2px solid transparent;
                         padding: 5px;
                         background: $colorAzul;
                         color: white;
-                        font-size: 18px;
                         font-weight: 300;
-                        margin-top: 30px;
-                        margin-left: 10px;
+                        margin-top: 50px;
+                        margin-left: 20px;
                         float: right;
-                        border-radius: 10px;
-                        transition-duration: 0.1s;
+                        transition-duration: 0.3s;
                         transition-timing-function: ease;
                         cursor: pointer;
+                        font-family: "Poppins", sans-serif;
                         .iconAB{
-                            margin-left: 5px;
+                            margin-left: 10px;
                             font-size: 25px;
                             color: $colorVerde;
+                            transition-duration: 0.3s;
+                            transition-timing-function: ease;
+                        }
+                    }
+
+                    .btnAcerca:hover{
+                        border: 2px solid $colorAzul;
+                        background: transparent;
+                        color: $colorAzul;
+                        .iconAB{
+                            margin-left: 10px;
+                            font-size: 25px;
+                            color: $colorAzul;
                         }
                     }
                     
@@ -148,6 +165,7 @@
                     background:$colorVerde;
                     transition: 1s all;
                     .foto{
+                        background: transparent;
                         //mix-blend-mode:multiply;    
                     }    
                 }
@@ -175,7 +193,14 @@
             padding: 5px;
             .cont_descripcion_reserved_text{
                 color: white;
+                font-weight: 300;
+                font-size: 14px;
+                font-family: "Poppins", sans-serif;
+
                 .text{
+                    font-weight: 300;
+                    font-size: 14px;
+                    font-family: "Poppins", sans-serif;
                     color: $colorVerde;
                 }
             }

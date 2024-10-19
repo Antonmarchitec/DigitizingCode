@@ -267,145 +267,92 @@ body::-webkit-scrollbar-thumb:hover {
     background-size: 100% 500px;
     background-repeat: no-repeat;
     position: relative;
+    padding: initial;
   }
   .container #cont_descripcion_foto .contBase {
     width: 100%;
     padding: 150px 0px;
     background: white;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: initial;
+    justify-content: flex-start;
+    align-items: center;
   }
   .container #cont_descripcion_foto .contBase .contenedor_izq {
-    margin-left: 20px;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
-    width: 500px;
-    height: 480px;
-    position: absolute;
-    left: 20px;
-    bottom: 0px;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
-    text-align: justify;
-    color: #0c1b32;
-    font-weight: 300;
-    font-size: 18px;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
-    color: #060f1d;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
-    width: 200px;
-    padding: 5px;
-    background: #0c1b32;
-    color: white;
-    font-size: 18px;
-    font-weight: 300;
-    margin-top: 30px;
-    margin-left: 10px;
-    float: right;
-    border-radius: 10px;
-    transition-duration: 0.1s;
-    transition-timing-function: ease;
-    cursor: pointer;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca .iconAB {
-    margin-left: 5px;
-    font-size: 25px;
-    color: #56fbd3;
-  }
-}
-@media (min-width: 900px) and (max-width: 1024px) {
-  .container {
     width: 100%;
-    max-width: 1440px;
-    margin: auto;
-  }
-  .container #cont_descripcion_foto {
-    width: 100%;
-    background-size: 100% 500px;
-    background-repeat: no-repeat;
-    position: relative;
-  }
-  .container #cont_descripcion_foto .contBase {
-    width: 100%;
-    padding: 150px 0px;
-    background: white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq {
-    width: 50%;
-    height: 800px;
-    margin-left: 20px;
+    height: 650px;
+    margin-left: 0;
     position: relative;
   }
   .container #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
-    width: 450px;
-    height: 300px;
+    width: 50%;
     margin-top: 30px;
-    font-size: 60px;
+    margin-left: 30px;
+    font-size: 68px;
     color: #060f1d;
     line-height: 70px;
     letter-spacing: -3px;
-    position: absolute;
-    top: 0;
+    position: initial;
+    top: initial;
   }
   .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
-    width: 450px;
-    height: initial;
-    padding: 10px 0px;
+    width: 90%;
+    height: auto;
     position: absolute;
-    left: 0px;
-    top: 200px;
+    left: 48px;
+    bottom: 0px;
   }
   .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
-    text-align: justify;
     color: #0c1b32;
     font-weight: 300;
-    font-size: 18px;
+    font-family: "Poppins", sans-serif;
   }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
-    color: #060f1d;
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .unete {
+    font-style: italic;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
   }
   .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
     width: 200px;
+    border: none;
+    border: 2px solid transparent;
     padding: 5px;
     background: #0c1b32;
     color: white;
-    font-size: 18px;
     font-weight: 300;
-    margin-top: 20px;
-    margin-left: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
     float: right;
-    border-radius: 10px;
-    transition-duration: 0.1s;
+    transition-duration: 0.3s;
     transition-timing-function: ease;
     cursor: pointer;
+    font-family: "Poppins", sans-serif;
   }
   .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca .iconAB {
-    margin-left: 5px;
+    margin-left: 10px;
     font-size: 25px;
     color: #56fbd3;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
   }
   .container #cont_descripcion_foto .contBase .contenedor_der {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
+    width: auto;
+    position: absolute;
+    top: 80px;
+    right: 150px;
+    display: initial;
+    flex-direction: initial;
+    justify-content: initial;
+    align-items: initial;
   }
   .container #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
-    width: 350px;
-    height: 350px;
-    border: 2px solid #0c1b32;
+    margin-top: 80px;
+    width: 230px;
+    height: 230px;
     border: 2px solid #0c1b32;
     border-radius: 90%;
+    box-shadow: 0px 0px 15px #060f1d;
     transition: 0.1s all linear;
     overflow: hidden;
     background: #56fbd3;
@@ -413,6 +360,13 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .container #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
     background: transparent;
+  }
+}
+@media (min-width: 900px) and (max-width: 1024px) {
+  .container {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
   }
   .container .cont_descripcion_footer {
     width: 100%;
@@ -471,19 +425,9 @@ body::-webkit-scrollbar-thumb:hover {
   }
   .container .containerHeader {
     z-index: 200;
-    /*width: 100%;
-    padding: 15px 0px;
-    background:$colorAzulOscuro;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    z-index: 10;
-    background: teal;*/
+  }
+  .container .containerHeader .containerHeader_logo {
+    background: transparent;
   }
   .container .containerHeader .containerHeader_ul {
     width: 100%;
@@ -528,94 +472,6 @@ body::-webkit-scrollbar-thumb:hover {
   .container .containerHeader .containerHeader_btn {
     margin-right: 10px;
     display: block;
-  }
-  .container #cont_descripcion_foto {
-    width: 100%;
-    background-size: 100% 500px;
-    background-repeat: no-repeat;
-    position: relative;
-  }
-  .container #cont_descripcion_foto .contBase {
-    width: 100%;
-    padding: 150px 0px;
-    background: white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq {
-    width: 50%;
-    height: 1000px;
-    margin-left: 20px;
-    position: relative;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
-    width: 500px;
-    height: 300px;
-    margin-top: 30px;
-    font-size: 50px;
-    color: #060f1d;
-    line-height: 60px;
-    letter-spacing: -3px;
-    position: absolute;
-    top: 0;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
-    width: 400px;
-    height: initial;
-    padding: 10px 0px;
-    position: absolute;
-    left: 0px;
-    top: 180px;
-    bottom: initial;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
-    text-align: justify;
-    color: #0c1b32;
-    font-weight: 300;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
-    color: #060f1d;
-    font-size: 16px;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
-    width: 150px;
-    padding: 5px;
-    background: #0c1b32;
-    color: white;
-    font-size: 18px;
-    font-weight: 300;
-    margin-top: 20px;
-    margin-left: 10px;
-    float: right;
-    border-radius: 10px;
-    transition-duration: 0.1s;
-    transition-timing-function: ease;
-    cursor: pointer;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca .iconAB {
-    margin-left: 5px;
-    font-size: 25px;
-    color: #56fbd3;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_der {
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
-    width: 300px;
-    height: 300px;
-    border: 2px solid #0c1b32;
-    border: 2px solid #0c1b32;
-    border-radius: 90%;
-    transition: 0.1s all linear;
-    overflow: hidden;
-    background: #56fbd3;
-    transition: 1s all;
   }
   .container .cont_descripcion_footer {
     width: 100%;
@@ -718,93 +574,6 @@ body::-webkit-scrollbar-thumb:hover {
   .container .containerHeader .containerHeader_btn {
     margin-right: 10px;
     display: block;
-  }
-  .container #cont_descripcion_foto {
-    margin-top: 80px;
-    width: 100%;
-    padding: 10px 0px;
-    background-size: 100% 500px;
-    background-repeat: no-repeat;
-    position: initial;
-  }
-  .container #cont_descripcion_foto .contBase {
-    width: 100%;
-    padding: 20px 0px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: initial;
-    justify-content: center;
-    align-items: center;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq {
-    width: 100%;
-    height: initial;
-    padding: 20px;
-    margin-left: initial;
-    position: initial;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
-    width: 300px;
-    height: initial;
-    padding: 10px 0px;
-    margin-top: initial;
-    font-size: 45px;
-    color: #060f1d;
-    line-height: 55px;
-    letter-spacing: -3px;
-    position: initial;
-    top: initial;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
-    width: 100%;
-    padding: 20px 0px;
-    height: initial;
-    position: initial;
-    left: initial;
-    bottom: initial;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
-    text-align: justify;
-    color: #0c1b32;
-    font-weight: 300;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
-    color: #060f1d;
-    font-size: 16px;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
-    width: 150px;
-    padding: 5px;
-    background: #0c1b32;
-    color: white;
-    font-size: 18px;
-    font-weight: 300;
-    margin-top: 20px;
-    margin-right: 10px;
-    border-radius: 10px;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca .iconAB {
-    margin-left: 5px;
-    font-size: 25px;
-    color: #56fbd3;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_der {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
-    width: 300px;
-    height: 300px;
-    border: 2px solid #0c1b32;
-    border: 2px solid #0c1b32;
-    border-radius: 90%;
-    transition: 0.1s all linear;
-    overflow: hidden;
-    background: #56fbd3;
-    transition: 1s all;
   }
   .container .cont_descripcion_footer {
     width: 100%;
@@ -911,99 +680,6 @@ body::-webkit-scrollbar-thumb:hover {
   .container .containerHeader .containerHeader_btn {
     margin-right: 10px;
     display: block;
-  }
-  .container #cont_descripcion_foto {
-    margin-top: 80px;
-    width: 100%;
-    background-size: 100% 500px;
-    background-repeat: no-repeat;
-    position: initial;
-  }
-  .container #cont_descripcion_foto .contBase {
-    width: 100%;
-    padding: 0px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: initial;
-    justify-content: space-between;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq {
-    width: 100%;
-    height: initial;
-    padding: 20px 0px;
-    margin-left: initial;
-    position: initial;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
-    width: 100%;
-    height: initial;
-    padding: 0px 10px;
-    margin-top: 30px;
-    font-size: 42px;
-    color: #060f1d;
-    line-height: 52px;
-    letter-spacing: -3px;
-    position: initial;
-    top: initial;
-    left: initial;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
-    width: 100%;
-    padding: 10px;
-    height: initial;
-    position: initial;
-    left: initial;
-    top: initial;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
-    margin-top: 20px;
-    text-align: justify;
-    color: #0c1b32;
-    font-weight: 300;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .formms {
-    color: #060f1d;
-    font-size: 16px;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
-    width: 100%;
-    margin: auto;
-    padding: 3px;
-    background: #0c1b32;
-    color: white;
-    font-size: 16px;
-    font-weight: 300;
-    margin-top: 10px;
-    margin-left: initial;
-    float: initial;
-    border-radius: 10px;
-    transition-duration: 0.1s;
-    transition-timing-function: ease;
-    cursor: pointer;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca .iconAB {
-    margin-left: 5px;
-    font-size: 25px;
-    color: #56fbd3;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_der {
-    width: 100%;
-    margin-top: 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .container #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
-    width: 280px;
-    height: 280px;
-    border: 2px solid #0c1b32;
-    border: 2px solid #0c1b32;
-    border-radius: 90%;
-    transition: 0.1s all linear;
-    overflow: hidden;
-    background: #56fbd3;
-    transition: 1s all;
   }
   .container .cont_descripcion_footer {
     margin-top: 50px;

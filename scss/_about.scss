@@ -245,7 +245,6 @@
         margin: auto;
         //BLOCK HEADER
         
-    
         //BLOCK ABOUT AS
         #cont_descripcion_foto{
             width: 100%;
@@ -253,62 +252,120 @@
             background-size:100% 500px;
             background-repeat:no-repeat ;
             position: relative;
+            padding:initial;
             .contBase{
                 width: 100%;
                 padding: 150px 0px;
                 background:white;
                 display: flex;
-                flex-direction:row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                //align-items: center;
+                flex-direction:column;
+                flex-wrap: initial;
+                justify-content: flex-start;
+                align-items: center;
                 .contenedor_izq{
-                    margin-left: 20px;
+                    width:100%;
+                    height: 650px;
+                    margin-left: 0;
+                    position: relative;
+
+                    .titulo_acerca{
+                        width:50%;
+                        margin-top:30px;
+                        margin-left:30px;
+                        font-size: 68px;
+                        color:$colorAzulOscuro; 
+                        line-height: 70px;
+                        letter-spacing: $letterSpacing; 
+                        position: initial;
+                        top:initial;
+
+                    }
+                    
                     .contenedorIzq_parrBtn{
-                        width: 500px;
-                        height: 480px;
+                        width: 90%;
+                        height:auto;
                         position: absolute;
-                        left: 20px;
+                        left: 48px;
                         bottom:0px;
+
                         .descripcion_acerca{
-                            text-align: justify;
                             color:$colorAzul;
                             font-weight: 300;
-                            font-size: 18px;
-                            .formms{
-                                color: $colorAzulOscuro;
-                            }    
+                            font-family: "Poppins", sans-serif;
+                            .unete{
+                                font-style: italic;
+                                font-weight: 700;
+                                font-family: "Poppins", sans-serif;
+
+                            }
                         }
                         .btnAcerca{
                             width: 200px;
+                            border:none ;
+                            border: 2px solid transparent;
                             padding: 5px;
                             background: $colorAzul;
                             color: white;
-                            font-size: 18px;
                             font-weight: 300;
-                            margin-top: 30px;
-                            margin-left: 10px;
+                            margin-top: 50px;
+                            margin-left: 20px;
                             float: right;
-                            border-radius: 10px;
-                            transition-duration: 0.1s;
+                            transition-duration: 0.3s;
                             transition-timing-function: ease;
                             cursor: pointer;
+                            font-family: "Poppins", sans-serif;
                             .iconAB{
-                                margin-left: 5px;
+                                margin-left: 10px;
                                 font-size: 25px;
                                 color: $colorVerde;
+                                transition-duration: 0.3s;
+                                transition-timing-function: ease;
                             }
                         }
+
+                       
                         
                     }
         
                 }
-               
+
+                .contenedor_der{
+                    width: auto;
+                    //margin-right: 50px;
+                    position: absolute;
+                    top: 80px;
+                    right:150px;
+
+
+
+                    display: initial;
+                    flex-direction: initial;    
+                    justify-content: initial;
+                    align-items: initial;
+                    
+                    .contenedor_der_image{
+                        margin-top: 80px;
+                        width: 230px;
+                        height: 230px;
+                        border:2px solid $colorAzul;
+                        border-radius:90%;
+                        box-shadow: 0px 0px 15px $colorAzulOscuro;
+                        transition: 0.1s all linear;
+                        overflow: hidden;
+                        background:$colorVerde;
+                        transition: 1s all;
+
+                        .foto{
+                            background: transparent;
+                            //mix-blend-mode:multiply;    
+                        }    
+                    }
+                } 
             }
-    
-           
+
+        
         }
-    
+        
         //BLOCK FOOTER
         
     }
@@ -324,113 +381,11 @@
         width: 100%;
         max-width: 1440px;
         margin: auto;
-        
-        //padding: 10px 0px;
+    
     
         //BLOCK HEADER  
     
-        //BLOCK ABOUT AS
-        #cont_descripcion_foto{
-            width: 100%;
-            //background:$colorAzul;
-            background-size:100% 500px;
-            background-repeat:no-repeat ;
-            position: relative;
-
-            .contBase{
-                width: 100%;
-                padding: 150px 0px;
-                background:white;
-                display: flex;
-                flex-direction:row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                //align-items: center;
-                .contenedor_izq{
-                    width:50%;
-                    height: 800px;
-                    margin-left: 20px;
-                    position: relative;
-                    .titulo_acerca{
-                        width: 450px;
-                        height: 300px;
-                        margin-top: 30px    ;
-                        font-size: 60px;
-                        color:$colorAzulOscuro; 
-                        line-height: 70px;
-                        letter-spacing: $letterSpacing; 
-                        position: absolute;
-                        top: 0;
-                        
-                    }
-                    
-                    .contenedorIzq_parrBtn{
-                        width: 450px;
-                        height: initial;
-                        padding: 10px 0px;
-                        position: absolute;
-                        left: 0px;
-                        top:200px;
-                        .descripcion_acerca{
-                            text-align: justify;
-                            color:$colorAzul;
-                            font-weight: 300;
-                            font-size: 18px;
-                            .formms{
-                                color: $colorAzulOscuro;
-                            }    
-                        }
-                        .btnAcerca{
-                            width: 200px;
-                            padding: 5px;
-                            background: $colorAzul;
-                            color: white;
-                            font-size: 18px;
-                            font-weight: 300;
-                            margin-top: 20px;
-                            margin-left: 10px;
-                            float: right;
-                            border-radius: 10px;
-                            transition-duration: 0.1s;
-                            transition-timing-function: ease;
-                            cursor: pointer;
-                            .iconAB{
-                                margin-left: 5px;
-                                font-size: 25px;
-                                color: $colorVerde;
-                            }
-                        }
-                        
-                    }
-        
-                }
-                .contenedor_der{
-                    width: 40%;
-                    //margin-right: 50px;
-                    display: flex;
-                    flex-direction: column;    
-                    justify-content: center;
-                    align-items: center;
-                    margin-right: 10px;
-                    .contenedor_der_image{
-                        width: 350px;
-                        height: 350px;
-                        border:2px solid $colorAzul;
-                        border:2px solid $colorAzul;
-                        border-radius:90%;
-                        transition: 0.1s all linear;
-                        overflow: hidden;
-                        background:$colorVerde;
-                        transition: 1s all;
-                        .foto{
-                            background: transparent;  
-                        }    
-                    }
-                } 
-            }
-    
-           
-        }
+      
     
         //BLOCK FOOTER
         .cont_descripcion_footer{
@@ -497,22 +452,8 @@
         //BLOCK HEADER
         .containerHeader{
             z-index:200;
-            /*width: 100%;
-            padding: 15px 0px;
-            background:$colorAzulOscuro;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            position: fixed;
-            left: 0;
-            top: 0;
-            right: 0;
-            z-index: 10;
-            background: teal;*/
-
             .containerHeader_logo{
-                
+                background: transparent;
             }
             .containerHeader_ul{
                 width: 100%;
@@ -564,107 +505,7 @@
         }
     
         //BLOCK ABOUT AS
-        #cont_descripcion_foto{
-            width: 100%;
-            //background:$colorAzul;
-            background-size:100% 500px;
-            background-repeat:no-repeat ;
-            position: relative;
-            .contBase{
-                width: 100%;
-                padding: 150px 0px;
-                background:white;
-                display: flex;
-                flex-direction:row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                //align-items: center;
-                .contenedor_izq{
-                    width:50%;
-                    height: 1000px;
-                    margin-left: 20px;
-                    position: relative;
-                    .titulo_acerca{
-                        width: 500px;
-                        height: 300px;
-                        margin-top: 30px;
-                        font-size: 50px;
-                        color:$colorAzulOscuro; 
-                        line-height: 60px;
-                        letter-spacing: $letterSpacing; 
-                        position: absolute;
-                        top: 0;
-                        
-                    }
-                    
-                    .contenedorIzq_parrBtn{
-                        width: 400px;
-                        height:initial;
-                        padding: 10px 0px;
-                        position: absolute;
-                        left: 0px;
-                        top:180px;
-                        bottom: initial;
-                        .descripcion_acerca{
-                            text-align: justify;
-                            color:$colorAzul;
-                            font-weight: 300;
-                            .formms{
-                                color: $colorAzulOscuro;
-                                font-size: 16px;
-
-                            }    
-                        }
-                        .btnAcerca{
-                            width: 150px;
-                            padding: 5px;
-                            background: $colorAzul;
-                            color: white;
-                            font-size: 18px;
-                            font-weight: 300;
-                            margin-top: 20px;
-                            margin-left: 10px;
-                            float: right;
-                            border-radius: 10px;
-                            transition-duration: 0.1s;
-                            transition-timing-function: ease;
-                            cursor: pointer;
-                            .iconAB{
-                                margin-left: 5px;
-                                font-size: 25px;
-                                color: $colorVerde;
-                            }
-                        }
-                        
-                    }
         
-                }
-                .contenedor_der{
-                    width: 40%;
-                    //margin-right: 50px;
-                    display: flex;
-                    flex-direction: column;    
-                    justify-content: center;
-                    align-items: center;
-                    .contenedor_der_image{
-                        width: 300px;
-                        height: 300px;
-                        border:2px solid $colorAzul;
-                        border:2px solid $colorAzul;
-                        border-radius:90%;
-                        transition: 0.1s all linear;
-                        overflow: hidden;
-                        background:$colorVerde;
-                        transition: 1s all;
-                        .foto{
-                            //mix-blend-mode:multiply;    
-                        }    
-                    }
-                } 
-            }
-    
-           
-        }
     
         //BLOCK FOOTER
         .cont_descripcion_footer{
@@ -785,103 +626,7 @@
         }
     
         //BLOCK ABOUT AS
-        #cont_descripcion_foto{
-            margin-top: 80px;
-            width: 100%;
-            padding: 10px 0px;
-            //background:$colorAzul;
-            background-size:100% 500px;
-            background-repeat:no-repeat ;
-            position: initial;
-            .contBase{
-                width: 100%;
-                padding: 20px 0px;
-                display: flex;
-                flex-direction:column;
-                flex-wrap: initial;
-                justify-content:center;
-                align-items: center;
-                .contenedor_izq{
-                    width:100%;
-                    height:initial;
-                    padding: 20px;
-                    margin-left:initial;
-                    position: initial;
-                    .titulo_acerca{
-                        width: 300px;
-                        height: initial;
-                        padding: 10px 0px;
-                        margin-top: initial;
-                        font-size: 45px;
-                        color:$colorAzulOscuro; 
-                        line-height: 55px;
-                        letter-spacing: $letterSpacing; 
-                        position:initial;
-                        top:initial;
-                        
-                    }
-                    
-                    .contenedorIzq_parrBtn{
-                        width: 100%;
-                        padding: 20px 0px;
-                        height: initial;
-                        position: initial;
-                        left: initial;
-                        bottom:initial;
-                        .descripcion_acerca{
-                            text-align: justify;
-                            color:$colorAzul;
-                            font-weight: 300;
-                            .formms{
-                                color: $colorAzulOscuro;
-                                font-size: 16px;
-
-                            }    
-                        }
-                        .btnAcerca{
-                            width: 150px;
-                            padding: 5px;
-                            background: $colorAzul;
-                            color: white;
-                            font-size: 18px;
-                            font-weight: 300;
-                            margin-top: 20px;
-                            margin-right: 10px;
-                            border-radius: 10px;
-                            .iconAB{
-                                margin-left: 5px;
-                                font-size: 25px;
-                                color: $colorVerde;
-                            }
-                        }
-                        
-                    }
-        
-                }
-                .contenedor_der{
-                    width: 100%;
-                    //margin-right: 50px;
-                    display: flex;
-                    flex-direction: column;    
-                    justify-content: center;
-                    align-items: center;
-                    .contenedor_der_image{
-                        width: 300px;
-                        height: 300px;
-                        border:2px solid $colorAzul;
-                        border:2px solid $colorAzul;
-                        border-radius:90%;
-                        transition: 0.1s all linear;
-                        overflow: hidden;
-                        background:$colorVerde;
-                        transition: 1s all;
-    
-                    }
-                } 
-            }
-    
-           
-        }
+       
     
         //BLOCK FOOTER
         .cont_descripcion_footer{
@@ -1005,110 +750,7 @@
         }
     
         //BLOCK ABOUT AS
-        #cont_descripcion_foto{
-            margin-top: 80px;
-            width: 100%;
-            background-size:100% 500px;
-            background-repeat:no-repeat ;
-            position: initial;
-            .contBase{
-                width: 100%;
-                padding:0px; 
-                display: flex;
-                flex-direction:column;
-                flex-wrap:initial;
-                justify-content: space-between;
-                //align-items: center;
-                .contenedor_izq{
-                    width:100%;
-                    height:initial;
-                    padding: 20px 0px;
-                    margin-left:initial;
-                    position: initial;
-                    .titulo_acerca{
-                        width: 100%;
-                        height:initial;
-                        padding: 0px 10px;
-                        margin-top: 30px    ;
-                        font-size: 42px;
-                        color:$colorAzulOscuro; 
-                        line-height: 52px;
-                        letter-spacing: $letterSpacing; 
-                        position: initial;
-                        top: initial;
-                        left: initial;
-                        
-                    }
-                    
-                    .contenedorIzq_parrBtn{
-                        width: 100%;
-                        padding: 10px;
-                        height: initial;
-                        position: initial;
-                        left: initial;
-                        top:initial;
-                        .descripcion_acerca{
-                            margin-top: 20px;
-                            text-align: justify;
-                            color:$colorAzul;
-                            font-weight: 300;
-                            .formms{
-                                color: $colorAzulOscuro;
-                                font-size: 16px;
-
-                            }    
-                        }
-                        .btnAcerca{
-                            width: 100%;
-                            margin: auto;
-                            padding: 3px;
-                            background: $colorAzul;
-                            color: white;
-                            font-size: 16px;
-                            font-weight: 300;
-                            margin-top: 10px;
-                            margin-left:initial;
-                            float:initial;
-                            border-radius: 10px;
-                            transition-duration: 0.1s;
-                            transition-timing-function: ease;
-                            cursor: pointer;
-                            .iconAB{
-                                margin-left: 5px;
-                                font-size: 25px;
-                                color: $colorVerde;
-                            }
-                        }
-                        
-                    }
         
-                }
-
-                
-                .contenedor_der{
-                    width: 100%;
-                    margin-top: 0px;
-                    display: flex;
-                    flex-direction: column;    
-                    justify-content: center;
-                    align-items: center;
-                    .contenedor_der_image{
-                        width: 280px;
-                        height: 280px;
-                        border:2px solid $colorAzul;
-                        border:2px solid $colorAzul;
-                        border-radius:90%;
-                        transition: 0.1s all linear;
-                        overflow: hidden;
-                        background:$colorVerde;
-                        transition: 1s all;
-                        .foto{
-                            //mix-blend-mode:multiply;    
-                        }    
-                    }
-                } 
-            }       
-        }
     
         //BLOCK FOOTER
         .cont_descripcion_footer{

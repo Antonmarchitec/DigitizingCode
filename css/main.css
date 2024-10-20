@@ -368,6 +368,105 @@ body::-webkit-scrollbar-thumb:hover {
     max-width: 1440px;
     margin: auto;
   }
+  .container #cont_descripcion_foto {
+    width: 100%;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: initial;
+  }
+  .container #cont_descripcion_foto .contBase {
+    width: 100%;
+    padding: 150px 0px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: initial;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq {
+    width: 100%;
+    height: 650px;
+    margin-left: 0;
+    position: relative;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
+    width: 45%;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 60px;
+    color: #060f1d;
+    line-height: 70px;
+    letter-spacing: -3px;
+    position: initial;
+    top: initial;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
+    width: 90%;
+    height: auto;
+    position: absolute;
+    left: 48px;
+    bottom: 0px;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
+    color: #0c1b32;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .unete {
+    font-style: italic;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
+    width: 200px;
+    border: none;
+    border: 2px solid transparent;
+    padding: 5px;
+    background: #0c1b32;
+    color: white;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-left: 20px;
+    float: right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca .iconAB {
+    margin-left: 10px;
+    font-size: 25px;
+    color: #56fbd3;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_der {
+    width: auto;
+    position: absolute;
+    top: 80px;
+    right: 150px;
+    display: initial;
+    flex-direction: initial;
+    justify-content: initial;
+    align-items: initial;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
+    margin-top: 80px;
+    width: 230px;
+    height: 230px;
+    border: 2px solid #0c1b32;
+    border-radius: 90%;
+    box-shadow: 0px 0px 15px #060f1d;
+    transition: 0.1s all linear;
+    overflow: hidden;
+    background: #56fbd3;
+    transition: 1s all;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
+    background: transparent;
+  }
   .container .cont_descripcion_footer {
     width: 100%;
     padding: 20px 0px;
@@ -473,6 +572,106 @@ body::-webkit-scrollbar-thumb:hover {
     margin-right: 10px;
     display: block;
   }
+  .container #cont_descripcion_foto {
+    width: 100%;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: initial;
+  }
+  .container #cont_descripcion_foto .contBase {
+    width: 100%;
+    padding: 150px 0px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: initial;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq {
+    width: 100%;
+    height: 700px;
+    margin-left: 0;
+    position: relative;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
+    width: 45%;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 52px;
+    color: #060f1d;
+    line-height: 60px;
+    letter-spacing: -3px;
+    position: initial;
+    top: initial;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    left: calc(20% - 80px);
+    bottom: initial;
+    top: 230px;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
+    color: #0c1b32;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .unete {
+    font-style: italic;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
+    width: 200px;
+    border: none;
+    border: 2px solid transparent;
+    padding: 5px;
+    background: #0c1b32;
+    color: white;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-left: 20px;
+    float: right;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca .iconAB {
+    margin-left: 10px;
+    font-size: 25px;
+    color: #56fbd3;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_der {
+    width: auto;
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    display: initial;
+    flex-direction: initial;
+    justify-content: initial;
+    align-items: initial;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
+    margin-top: 80px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #0c1b32;
+    border-radius: 90%;
+    box-shadow: 0px 0px 15px #060f1d;
+    transition: 0.1s all linear;
+    overflow: hidden;
+    background: #56fbd3;
+    transition: 1s all;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
+    background: transparent;
+  }
   .container .cont_descripcion_footer {
     width: 100%;
     padding: 20px 0px;
@@ -575,6 +774,110 @@ body::-webkit-scrollbar-thumb:hover {
     margin-right: 10px;
     display: block;
   }
+  .container #cont_descripcion_foto {
+    width: 100%;
+    background: #0c1b32;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    position: initial;
+    padding: initial;
+  }
+  .container #cont_descripcion_foto .contBase {
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: initial;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    padding: 20px;
+    position: relative;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
+    width: 90%;
+    margin-top: 30px;
+    margin-left: initial;
+    font-size: 50px;
+    color: #060f1d;
+    line-height: 60px;
+    letter-spacing: -3px;
+    position: initial;
+    top: initial;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding: initial;
+    position: initial;
+    left: initial;
+    bottom: initial;
+    top: initial;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
+    color: #0c1b32;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .unete {
+    font-style: italic;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
+    width: 200px;
+    border: none;
+    border: 2px solid transparent;
+    padding: 5px;
+    background: #0c1b32;
+    color: white;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 10px;
+    float: initial;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca .iconAB {
+    margin-left: 10px;
+    font-size: 25px;
+    color: #56fbd3;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_der {
+    width: auto;
+    position: relative;
+    top: initial;
+    right: initial;
+    display: initial;
+    flex-direction: initial;
+    justify-content: initial;
+    align-items: initial;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #0c1b32;
+    border-radius: 90%;
+    box-shadow: 0px 0px 15px #060f1d;
+    transition: 0.1s all linear;
+    overflow: hidden;
+    background: #56fbd3;
+    transition: 1s all;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
+    background: transparent;
+  }
   .container .cont_descripcion_footer {
     width: 100%;
     padding: 20px 0px;
@@ -625,7 +928,7 @@ body::-webkit-scrollbar-thumb:hover {
     cursor: pointer;
   }
 }
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 400px) and (max-width: 480px) {
   .container {
     background: transparent;
   }
@@ -680,6 +983,110 @@ body::-webkit-scrollbar-thumb:hover {
   .container .containerHeader .containerHeader_btn {
     margin-right: 10px;
     display: block;
+  }
+  .container #cont_descripcion_foto {
+    width: 100%;
+    background: #0c1b32;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    position: initial;
+    padding: initial;
+  }
+  .container #cont_descripcion_foto .contBase {
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: initial;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    padding: 20px;
+    position: relative;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .titulo_acerca {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: initial;
+    font-size: 45px;
+    color: #060f1d;
+    line-height: 50px;
+    letter-spacing: -3px;
+    position: initial;
+    top: initial;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding: initial;
+    position: initial;
+    left: initial;
+    bottom: initial;
+    top: initial;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca {
+    color: #0c1b32;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .descripcion_acerca .unete {
+    font-style: italic;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca {
+    width: 70%;
+    border: none;
+    border: 2px solid transparent;
+    padding: 5px;
+    background: #0c1b32;
+    color: white;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 10px;
+    float: initial;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_izq .contenedorIzq_parrBtn .btnAcerca .iconAB {
+    margin-left: 10px;
+    font-size: 25px;
+    color: #56fbd3;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_der {
+    width: auto;
+    position: relative;
+    top: initial;
+    right: initial;
+    display: initial;
+    flex-direction: initial;
+    justify-content: initial;
+    align-items: initial;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image {
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #0c1b32;
+    border-radius: 90%;
+    box-shadow: 0px 0px 15px #060f1d;
+    transition: 0.1s all linear;
+    overflow: hidden;
+    background: #56fbd3;
+    transition: 1s all;
+  }
+  .container #cont_descripcion_foto .contBase .contenedor_der .contenedor_der_image .foto {
+    background: transparent;
   }
   .container .cont_descripcion_footer {
     margin-top: 50px;

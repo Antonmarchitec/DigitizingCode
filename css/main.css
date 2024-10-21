@@ -1189,12 +1189,14 @@ body::-webkit-scrollbar-thumb:hover {
   text-shadow: 0px 1px 0px #0c1b32;
 }
 .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_descrpcion {
-  width: 80%;
+  width: 60%;
   margin: auto;
   padding: 10px 0px;
   text-align: center;
   color: white;
   font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 .containerHeaderContServicios .containerHeaderContServicios_info .containerHeaderContServicios_info_icon {
   width: 50px;
@@ -1227,7 +1229,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 80%;
 }
 .containerHeaderContServicios .containerRef {
-  width: 700px;
+  width: 60%;
   padding: 10px;
   background: transparent;
   margin: 50px auto;
@@ -1238,7 +1240,7 @@ body::-webkit-scrollbar-thumb:hover {
   align-items: center;
 }
 .containerHeaderContServicios .containerRef .containerRef_box {
-  width: 200px;
+  width: 230px;
   padding: 15px;
   border: 1.5px solid #56fbd3;
   border-radius: 3px;
@@ -1253,6 +1255,8 @@ body::-webkit-scrollbar-thumb:hover {
 .containerHeaderContServicios .containerRef .containerRef_box .containerRef_box_text {
   color: white;
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 .containerHeaderContServicios .containerRef .containerRef_box:hover {
   transform: scale(1.02);
@@ -1289,6 +1293,8 @@ body::-webkit-scrollbar-thumb:hover {
   width: 80%;
   margin-top: 20px;
   color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text .containerServices_boxB_text_buton {
   margin-top: 30px;
@@ -1304,6 +1310,8 @@ body::-webkit-scrollbar-thumb:hover {
 .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text .containerServices_boxB_text_buton .textButton {
   transform: translateX(60px);
   transition: 0.3s all;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 .containerHeaderContServicios .containerServices .containerServices_boxA .containerServices_boxA_text .containerServices_boxB_text_buton .fa-right-long {
   transform: translateX(-30px);
@@ -1356,6 +1364,8 @@ body::-webkit-scrollbar-thumb:hover {
   width: 80%;
   margin-top: 20px;
   color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 .containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_text .containerServices_boxB_text_buton {
   margin-top: 30px;
@@ -1371,6 +1381,8 @@ body::-webkit-scrollbar-thumb:hover {
 .containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_text .containerServices_boxB_text_buton .textButton {
   transform: translateX(60px);
   transition: 0.3s all;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 .containerHeaderContServicios .containerServices .containerServices_boxB .containerServices_boxB_text .containerServices_boxB_text_buton .fa-right-long {
   transform: translateX(-30px);

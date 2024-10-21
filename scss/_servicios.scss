@@ -58,12 +58,14 @@
 
         /*BLOCK DESCRIPCION*/
         .containerHeaderContServicios_info_descrpcion{
-            width: 80%;
+            width: 60%;
             margin: auto;
             padding: 10px 0px;
             text-align: center;
             color: white;
             font-size: 25px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
         }
 
         /*BLOCK ICON*/
@@ -106,7 +108,7 @@
     
     //BLOCK REFERENCIAS
     .containerRef{
-        width: 700px;
+        width: 60%;
         padding: 10px;
         background:transparent;
         margin: 50px auto;
@@ -116,7 +118,7 @@
         justify-content: space-around;
         align-items: center;
         .containerRef_box{
-            width: 200px;
+            width: 230px;
             padding: 15px;
             border: 1.5px solid $colorVerde;
             border-radius: 3px;
@@ -131,6 +133,8 @@
             .containerRef_box_text{
                 color: white;
                 text-align: center;
+                font-family: "Poppins", sans-serif;
+                font-weight: 300;
             }
         }
 
@@ -149,6 +153,7 @@
         width: 100%;
         padding: 10px 0px;
         background:#11182b;
+
         .containerServices_boxA{
             width: 90%;
             margin: auto;
@@ -157,6 +162,7 @@
             flex-direction: row;
             justify-content: space-around;
             align-items: center;
+
             .containerServices_boxA_image{
                 width: 450px;
                 height: 420px;
@@ -176,6 +182,8 @@
                     width: 80%;
                     margin-top: 20px;
                     color: white;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 300;
                 }
 
                 .containerServices_boxB_text_buton{
@@ -191,6 +199,8 @@
                     .textButton{
                         transform: translateX(60px);
                         transition: 0.3s all;
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 300;
 
                     }
                     .fa-right-long{
@@ -227,6 +237,7 @@
         width: 100%;
         padding: 10px 0px;
         background:#11182b;
+
         .containerServices_boxB{
             width: 90%;
             margin: auto;
@@ -235,6 +246,7 @@
             flex-direction: row-reverse;
             justify-content: space-around;
             align-items: center;
+
             .containerServices_boxB_image{
                 width: 450px;
                 height: 420px;
@@ -243,6 +255,7 @@
             .containerServices_boxB_text{
                 width: 600px;
                 padding:10px;
+
                 .containerServices_boxB_text_title{
                     color: $colorVerde;
                     font-size: 35px;
@@ -254,6 +267,8 @@
                     width: 80%;
                     margin-top: 20px;
                     color: white;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 300;
                 }
 
                 .containerServices_boxB_text_buton{
@@ -269,7 +284,8 @@
                     .textButton{
                         transform: translateX(60px);
                         transition: 0.3s all;
-
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 300;
                     }
                     .fa-right-long{
                         transform: translateX(-30px);

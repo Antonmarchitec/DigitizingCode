@@ -1229,7 +1229,7 @@ body::-webkit-scrollbar-thumb:hover {
   width: 80%;
 }
 .containerHeaderContServicios .containerRef {
-  width: 60%;
+  width: 65%;
   padding: 10px;
   background: transparent;
   margin: 50px auto;
@@ -1410,8 +1410,8 @@ body::-webkit-scrollbar-thumb:hover {
   padding: 10px 0px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_title {
-  width: 45%;
-  line-height: 40px;
+  width: 40%;
+  line-height: 45px;
   color: #56fbd3;
   font-size: 40px;
   margin: auto;
@@ -1422,6 +1422,8 @@ body::-webkit-scrollbar-thumb:hover {
   margin: 30px auto;
   text-align: center;
   color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block {
   width: 90%;
@@ -1468,9 +1470,12 @@ body::-webkit-scrollbar-thumb:hover {
   line-height: 20px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box1 .containerWeb_box_desc {
-  margin-top: 6px;
+  margin-top: 10px;
   color: #96aadb;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 {
   width: 200px;
@@ -1504,9 +1509,12 @@ body::-webkit-scrollbar-thumb:hover {
   line-height: 20px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box2 .containerWeb_box_desc {
-  margin-top: 6px;
+  margin-top: 10px;
   color: #96aadb;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 {
   width: 200px;
@@ -1540,9 +1548,12 @@ body::-webkit-scrollbar-thumb:hover {
   line-height: 20px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box3 .containerWeb_box_desc {
-  margin-top: 6px;
+  margin-top: 10px;
   color: #96aadb;
-  font-size: 16px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 15px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 {
   width: 200px;
@@ -1576,16 +1587,19 @@ body::-webkit-scrollbar-thumb:hover {
   line-height: 20px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_block .containerWeb_box4 .containerWeb_box_desc {
-  margin-top: 6px;
+  margin-top: 10px;
   color: #96aadb;
-  font-size: 16px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 15px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_blockArticle {
   width: 100%;
   padding: 10px 0px;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_title {
-  width: 50%;
+  width: 40%;
   line-height: 40px;
   color: #56fbd3;
   font-size: 35px;
@@ -1607,7 +1621,9 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_block .containerWeb_blockArticle_box .containerWeb_blockArticle_box_p {
   color: white;
-  text-align: justify;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 .containerHeaderContServicios .containerWeb .containerWeb_blockArticle .containerWeb_blockArticle_block .containerWeb_blockArticle_box .containerWeb_blockArticle_box_p .iconP {
   color: #56fbd3;

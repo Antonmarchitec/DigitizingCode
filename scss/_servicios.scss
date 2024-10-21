@@ -108,7 +108,7 @@
     
     //BLOCK REFERENCIAS
     .containerRef{
-        width: 60%;
+        width: 65%;
         padding: 10px;
         background:transparent;
         margin: 50px auto;
@@ -322,8 +322,8 @@
         width: 100%;
         padding: 10px 0px;
         .containerWeb_title{
-            width: 45%;
-            line-height: 40px;
+            width: 40%;
+            line-height: 45px;
             color: $colorVerde;
             font-size: 40px;
             margin: auto;
@@ -335,6 +335,8 @@
             margin: 30px auto;
             text-align: center;
             color: white;
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
         }
 
         .containerWeb_block{
@@ -382,9 +384,12 @@
     
                 }
                 .containerWeb_box_desc{
-                    margin-top: 6px;
+                    margin-top: 10px;
                     color:$colorCelesteOscuro;
-                    font-size: 16px;
+                    font-size: 14px;
+                    line-height: 15px;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 300;
                 }
             }
     
@@ -420,9 +425,12 @@
     
                 }
                 .containerWeb_box_desc{
-                    margin-top: 6px;
+                    margin-top: 10px;
                     color:$colorCelesteOscuro;
-                    font-size: 16px;
+                    font-size: 14px;
+                    line-height: 15px;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 300;
                 }
             }
 
@@ -458,9 +466,12 @@
     
                 }
                 .containerWeb_box_desc{
-                    margin-top: 6px;
+                    margin-top: 10px;
                     color:$colorCelesteOscuro;
-                    font-size: 16px;
+                    font-size: 14px;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 300;
+                    line-height: 15px;
                 }
             }
 
@@ -495,9 +506,12 @@
                     line-height: 20px;
                 }
                 .containerWeb_box_desc{
-                    margin-top: 6px;
+                    margin-top: 10px;
                     color:$colorCelesteOscuro;
-                    font-size: 16px;
+                    font-size: 14px;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 300;
+                    line-height: 15px;
                 }
             }
     
@@ -508,7 +522,7 @@
             width: 100%;
             padding: 10px 0px;
             .containerWeb_blockArticle_title{
-                width: 50%;
+                width: 40%;
                 line-height: 40px;
                 color: $colorVerde;
                 font-size: 35px;
@@ -530,10 +544,14 @@
                     
                     .containerWeb_blockArticle_box_p{
                         color: white;
-                        text-align: justify;
+                        font-size: 14px;
+                        font-family: "Poppins", sans-serif;
+                        font-weight: 300;
                         .iconP{
+                            
                             color: $colorVerde;
                             margin-right: 5px;
+                            
                         }
                     }
                 }
